@@ -39,7 +39,6 @@
 }
 
 .intro-socials {
-	/* background-color: ; */
 	display: flex;
 	justify-content: space-between;
 	max-width: 10em;

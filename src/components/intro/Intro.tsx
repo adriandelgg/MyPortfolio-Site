@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 
 import { Button } from '@material-ui/core';
-import Socials from '../Socials';
+import Socials from '../../helper/Socials';
 import ChatIcon from '@material-ui/icons/Chat';
 
 const Intro = () => {

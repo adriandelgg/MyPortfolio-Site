@@ -7,7 +7,6 @@
 :root {
 	--dark-background: #292d3e;
 	--contrast-background: #202331;
-	--animate-delay: 0.5s;
 }
 
 body {
@@ -20,6 +19,10 @@ section {
 	max-width: 1000px;
 	width: 93%;
 	margin: 0 auto;
+}
+
+li {
+	list-style: none;
 }
 
 /* Heading for Sections h3 */

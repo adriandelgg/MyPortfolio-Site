@@ -1,7 +1,9 @@
-@import 'animate.css';
+#about-me {
+	margin-bottom: 7em;
+}
 .about-me-section {
 	display: flex;
-	/* flex-direction: column; */
+	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
 	/* background-color: violet; */
@@ -13,11 +15,14 @@
 	height: 200px;
 	width: 200px;
 	background-color: khaki;
-	margin: 0 auto;
+	margin: 3em auto 0;
 }
 
-.about-me {
+.about-me-text {
 	line-height: 1.5;
 	margin-bottom: 1em;
 	max-width: 500px;
+}
+
+@media (min-width: 450px) {
 }
