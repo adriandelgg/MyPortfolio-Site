@@ -1,14 +1,17 @@
 import React from 'react';
 import './intro.css';
-import 'animate.css';
 
 import { Button } from '@material-ui/core';
-// import SendIcon from '@material-ui/icons/Send';
 import Socials from '../Socials';
 import ChatIcon from '@material-ui/icons/Chat';
 
 const Intro = () => {
 	const intro = 'animate__animated animate__fadeInDown';
+	const socialDelays = [
+		'animate__delay-2s',
+		'animate__delay-3s',
+		'animate__delay-4s'
+	];
 	return (
 		<section className="intro-section">
 			<h1 className="intro-greeting animate__animated animate__fadeIn">
@@ -26,7 +29,7 @@ const Intro = () => {
 				deserunt molestias ex esse vero sunt facere dolores, sit odit.
 			</p>
 			<div className="intro-socials">
-				<Socials intro={intro} />
+				<Socials intro={intro} delays={socialDelays} />
 			</div>
 			<Button
 				className="intro-btn"
@@ -35,7 +38,7 @@ const Intro = () => {
 				color="primary"
 				endIcon={<ChatIcon />}
 			>
-				Get in Touch
+				Let's chat!
 			</Button>
 		</section>
 	);

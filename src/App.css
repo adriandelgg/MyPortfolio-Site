@@ -7,6 +7,7 @@
 :root {
 	--dark-background: #292d3e;
 	--contrast-background: #202331;
+	--animate-delay: 0.5s;
 }
 
 body {

@@ -1,3 +1,7 @@
+:root {
+	--animate-delay: 0.8s;
+}
+
 .intro-section {
 	display: flex;
 	flex-direction: column;

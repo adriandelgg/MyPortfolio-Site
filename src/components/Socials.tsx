@@ -7,9 +7,10 @@ import instagram from '../img/instagram.svg';
 
 interface SocialsProps {
 	intro: string;
+	delays: string[];
 }
 
-const Socials = ({ intro }: SocialsProps) => {
+const Socials = ({ intro, delays: [delay1, delay2, delay3] }: SocialsProps) => {
 	return (
 		<>
 			<a
@@ -24,21 +25,33 @@ const Socials = ({ intro }: SocialsProps) => {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<img className={intro} src={linkedIn} alt="LinkedIn" />
+				<img
+					className={`${intro} ${delay1} animate__faster`}
+					src={linkedIn}
+					alt="LinkedIn"
+				/>
 			</a>
 			<a
 				href="https://www.instagram.com/cloudcoding/"
 				target="_blank"
 				rel="noreferrer"
 			>
-				<img className={intro} src={instagram} alt="Instagram" />
+				<img
+					className={`${intro} ${delay2} animate__faster`}
+					src={instagram}
+					alt="Instagram"
+				/>
 			</a>
 			<a
 				href="https://twitter.com/cloudcoding_"
 				target="_blank"
 				rel="noreferrer"
 			>
-				<img className={intro} src={twitter} alt="Twitter" />
+				<img
+					className={`${intro} ${delay3} animate__faster`}
+					src={twitter}
+					alt="Twitter"
+				/>
 			</a>
 		</>
 	);
