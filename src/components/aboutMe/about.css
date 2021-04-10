@@ -1,0 +1,12 @@
+@import 'animate.css';
+.myphoto {
+	height: 200px;
+	width: 200px;
+	background-color: khaki;
+	margin: 0 auto;
+}
+
+.about-me {
+	line-height: 1.5;
+	margin-bottom: 1em;
+}

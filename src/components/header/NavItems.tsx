@@ -1,29 +1,29 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
+import { Button, makeStyles } from '@material-ui/core';
 
-const mobileSize = () => {};
+const useStyles = makeStyles({});
 
 const NavItems = () => {
 	return (
 		<ul className="nav-links">
 			<li>
 				<a className="nav-link" href="#about-me">
-					About
+					.about( )
 				</a>
 			</li>
 			<li>
 				<a className="nav-link" href="#skills">
-					Skills
+					.skills( )
 				</a>
 			</li>
 			<li>
 				<a className="nav-link" href="#projects">
-					Projects
+					.projects( )
 				</a>
 			</li>
 			<li>
 				<a className="nav-link" href="#contact">
-					Contact
+					.contact( )
 				</a>
 			</li>
 			<li>

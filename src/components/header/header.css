@@ -3,7 +3,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: 95%;
-	margin: 0 auto;
+	margin: 0.7em auto 0;
 }
 
 .logo {
@@ -33,6 +33,7 @@ nav {
 	text-decoration: none;
 	padding: 1em;
 	font-size: 0.7rem;
+	color: var(--light-slate);
 }
 
 @media (max-width: 550px) {
@@ -40,7 +41,7 @@ nav {
 	}
 
 	.hamburger-react {
-		z-index: 3;
+		z-index: 4;
 		visibility: visible;
 	}
 
@@ -48,10 +49,17 @@ nav {
 		flex-direction: column;
 		justify-content: space-evenly;
 		width: min(75vw, 400px);
+		padding: 3em 0;
 		height: 100vh;
 		position: fixed;
 		right: 0;
 		top: 0;
-		background-color: var(--light-navy);
+		background-color: #1d233d;
+		box-shadow: -10px 0px 30px -15px black;
+		z-index: 3;
+	}
+
+	.nav-link {
+		font-size: 1rem;
 	}
 }

@@ -9,6 +9,7 @@ const MenuMobile = () => {
 	return (
 		<>
 			<Hamburger
+				color="#89ddff"
 				label="Navigation Menu"
 				onToggle={toggle => setOpen(toggle)}
 			/>

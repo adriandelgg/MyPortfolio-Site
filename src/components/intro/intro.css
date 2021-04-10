@@ -1,0 +1,52 @@
+@import 'animate.css';
+
+.intro-section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	/* background-color: violet; */
+	width: 93%;
+	max-width: 800px;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+.intro-greeting {
+	font-size: clamp(13px, 5vw, 16px);
+	color: #61dafb;
+}
+
+.intro-name {
+	font-size: clamp(40px, 8vw, 60px);
+	font-weight: 600;
+	padding: 0.4em 0;
+}
+
+.intro-web-dev {
+	font-size: clamp(20px, 8vw, 40px);
+	padding-bottom: 0.6em;
+}
+
+.intro-paragraph {
+	line-height: 1.4;
+	font-size: 1rem;
+	color: #a6accd;
+	max-width: 20em;
+}
+
+.intro-btn {
+	margin: 2em auto 0;
+}
+
+.intro-socials {
+	/* background-color: ; */
+	display: flex;
+	justify-content: space-between;
+	max-width: 10em;
+	margin: 2em auto;
+}
+
+.intro-socials img {
+	color: white;
+}

@@ -2,18 +2,19 @@ import React from 'react';
 import './App.css';
 
 import Header from './components/header/Header';
-import Intro from './components/Intro';
-import { Button, Grid } from '@material-ui/core';
+import Intro from './components/intro/Intro';
+import AboutMe from './components/aboutMe/AboutMe';
+import Projects from './components/projects/Projects';
 
 const App = () => {
 	return (
 		<>
 			<Header />
-			<Grid container>
-				<Grid item component="main" className="intro">
-					<Intro />
-				</Grid>
-			</Grid>
+			<main>
+				<Intro />
+				<AboutMe />
+				<Projects />
+			</main>
 		</>
 	);
 };
