@@ -1,8 +1,6 @@
 import React from 'react';
 import './about.css';
 
-import { Grid, Container } from '@material-ui/core';
-
 const AboutMe = () => {
 	return (
 		<section>

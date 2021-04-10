@@ -27,6 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "rules": {
+    "no-unused-vars": "off"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
