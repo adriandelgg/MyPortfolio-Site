@@ -1,5 +1,6 @@
 import React from 'react';
 import './intro.css';
+import 'animate.css';
 
 import { Button } from '@material-ui/core';
 // import SendIcon from '@material-ui/icons/Send';
