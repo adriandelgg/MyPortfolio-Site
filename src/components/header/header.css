@@ -3,7 +3,13 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: 95%;
-	margin: 0.7em auto 0;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo {
@@ -12,12 +18,8 @@ header {
 	background-color: royalblue;
 }
 
-nav {
-	color: var(--lightest-slate);
-}
-
 .hamburger-react {
-	visibility: hidden;
+	display: none;
 }
 
 .nav-links {
@@ -37,12 +39,9 @@ nav {
 }
 
 @media (max-width: 550px) {
-	nav {
-	}
-
 	.hamburger-react {
 		z-index: 4;
-		visibility: visible;
+		display: initial;
 	}
 
 	.nav-links {

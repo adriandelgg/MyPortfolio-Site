@@ -1,15 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import MenuMobile from './MenuMobile';
 import NavItems from './NavItems';
 
 const Navbar = () => {
-	// Once a certain width, toggle from mobile to normal
+	const [isMobile, setIsMobile] = useState(true);
+
+	// Checks if screen size is mobile on load.
+	useEffect(() => {
+		window.innerWidth <= 550 ? setIsMobile(true) : setIsMobile(false);
+	}, []);
+
+	// Checks for mobile size.
+	useEffect(() => {
+		window.addEventListener('resize', () => {
+			if (window.innerWidth <= 550) setIsMobile(true);
+			else setIsMobile(false);
+		});
+		return () => {
+			window.removeEventListener('resize', () => {});
+		};
+	});
 
 	return (
 		<nav>
-			{/* <NavItems /> */}
-			<MenuMobile />
+			{!isMobile && <NavItems />}
+			{isMobile && <MenuMobile />}
 		</nav>
 	);
 };

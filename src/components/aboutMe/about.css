@@ -1,4 +1,14 @@
 @import 'animate.css';
+.about-me-section {
+	display: flex;
+	/* flex-direction: column; */
+	align-items: flex-start;
+	justify-content: center;
+	/* background-color: violet; */
+	/* width: 93%;
+	margin: 0 auto; */
+}
+
 .myphoto {
 	height: 200px;
 	width: 200px;
@@ -9,4 +19,5 @@
 .about-me {
 	line-height: 1.5;
 	margin-bottom: 1em;
+	max-width: 500px;
 }

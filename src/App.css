@@ -15,6 +15,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+section {
+	max-width: 1000px;
+	width: 93%;
+	margin: 0 auto;
+}
+
 /* Heading for Sections h3 */
 .section-heading {
 	font-size: clamp(26px, 5vw, 32px);

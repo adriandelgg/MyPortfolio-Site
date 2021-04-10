@@ -6,10 +6,7 @@
 	align-items: flex-start;
 	justify-content: center;
 	/* background-color: violet; */
-	width: 93%;
-	max-width: 800px;
 	min-height: 100vh;
-	margin: 0 auto;
 }
 
 .intro-greeting {

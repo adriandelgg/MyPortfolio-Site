@@ -4,7 +4,7 @@ import Project from './Project';
 const Projects = () => {
 	return (
 		<section>
-			<h3 className="section-heading">Projects</h3>
+			<h3 className="section-heading">Projects I've Created</h3>
 			<Project />
 		</section>
 	);
