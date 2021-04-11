@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 :root {
 	--dark-background: #292d3e;
 	--contrast-background: #202331;
@@ -30,5 +34,5 @@ li {
 	font-size: clamp(26px, 5vw, 32px);
 	margin-bottom: 1.5em;
 	font-family: 'Space Mono';
-	/* text-align: center; */
+	text-align: center;
 }

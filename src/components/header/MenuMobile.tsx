@@ -1,19 +1,25 @@
 import React, { useState } from 'react';
 
-import NavItems from './NavItems';
+import NavItemsMobile from './NavItemsMobile';
 import Hamburger from 'hamburger-react';
 
 const MenuMobile = () => {
 	const [isOpen, setOpen] = useState(false);
+
+	const handleToggle = (toggle: boolean) => {
+		setOpen(toggle);
+		document.body.style.overflow = toggle ? 'hidden' : 'visible';
+		//Find out how to access <main>
+	};
 
 	return (
 		<>
 			<Hamburger
 				color="#89ddff"
 				label="Navigation Menu"
-				onToggle={toggle => setOpen(toggle)}
+				onToggle={handleToggle}
 			/>
-			{isOpen && <NavItems />}
+			{isOpen && <NavItemsMobile />}
 		</>
 	);
 };

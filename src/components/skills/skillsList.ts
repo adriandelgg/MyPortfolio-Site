@@ -8,6 +8,8 @@ import html5 from '../../img/html.svg';
 import npm from '../../img/npm.svg';
 import git from '../../img/git.svg';
 import linux from '../../img/ubuntu.png';
+import bash from '../../img/bash.svg';
+import api from '../../img/api.png';
 
 const skills = [
 	{
@@ -37,6 +39,10 @@ const skills = [
 		alt: 'CSS3'
 	},
 	{
+		name: "REST API's",
+		img: api
+	},
+	{
 		name: 'Material UI',
 		img: materialui
 	},
@@ -51,6 +57,10 @@ const skills = [
 	{
 		name: 'npm',
 		img: npm
+	},
+	{
+		name: 'Bash',
+		img: bash
 	}
 ];
 

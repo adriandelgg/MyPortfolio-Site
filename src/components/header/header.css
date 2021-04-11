@@ -1,5 +1,5 @@
 header {
-	position: fixed;
+	/* position: fixed; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -42,7 +42,7 @@ nav {
 	color: var(--light-slate);
 }
 
-@media (max-width: 550px) {
+@media (max-width: 620px) {
 	.hamburger-react {
 		z-index: 4;
 		display: initial;

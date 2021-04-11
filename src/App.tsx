@@ -12,11 +12,11 @@ const App = () => {
 	return (
 		<>
 			<Header />
-			<main>
+			<main id="main">
 				<Intro />
 				<AboutMe />
-				<Projects />
 				<Skills />
+				<Projects />
 			</main>
 		</>
 	);
