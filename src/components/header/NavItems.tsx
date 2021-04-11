@@ -6,26 +6,26 @@ const NavItems = () => {
 		<ul className="nav-links">
 			<li>
 				<a className="nav-link" href="#about-me">
-					.about( )
+					.about()
 				</a>
 			</li>
 			<li>
 				<a className="nav-link" href="#skills">
-					.skills( )
+					.skills()
 				</a>
 			</li>
 			<li>
 				<a className="nav-link" href="#projects">
-					.projects( )
+					.projects()
 				</a>
 			</li>
 			<li>
 				<a className="nav-link" href="#contact">
-					.contact( )
+					.contact()
 				</a>
 			</li>
 			<li>
-				<Button href="resume.pdf" variant="outlined">
+				<Button className="nav-link" href="resume.pdf" variant="outlined">
 					Resume
 				</Button>
 			</li>

@@ -29,5 +29,6 @@ li {
 .section-heading {
 	font-size: clamp(26px, 5vw, 32px);
 	margin-bottom: 1.5em;
+	font-family: 'Space Mono';
 	/* text-align: center; */
 }

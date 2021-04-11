@@ -1,11 +1,7 @@
 import React from 'react';
 
-import gitHub from '../img/github.svg';
-import linkedIn from '../img/linkedin.svg';
-import twitter from '../img/twitter.svg';
-import instagram from '../img/instagram.svg';
-
 import { Animated } from 'react-animated-css';
+import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from 'react-icons/fi';
 
 const Socials = () => {
 	return (
@@ -23,7 +19,7 @@ const Socials = () => {
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<img src={gitHub} alt="GitHub" />
+					<FiGithub />
 				</Animated>
 			</a>
 			<a
@@ -39,7 +35,7 @@ const Socials = () => {
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<img src={linkedIn} alt="LinkedIn" />
+					<FiLinkedin />
 				</Animated>
 			</a>
 			<a
@@ -55,7 +51,7 @@ const Socials = () => {
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<img src={instagram} alt="Instagram" />
+					<FiInstagram />
 				</Animated>
 			</a>
 			<a
@@ -71,7 +67,7 @@ const Socials = () => {
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<img src={twitter} alt="Twitter" />
+					<FiTwitter />
 				</Animated>
 			</a>
 		</>

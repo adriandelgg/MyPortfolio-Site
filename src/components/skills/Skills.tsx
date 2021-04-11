@@ -10,10 +10,10 @@ const Skills = () => {
 				{skills.map(skill => {
 					const { name, img, alt } = skill;
 					return (
-						<div className="skill">
+						<figure className="skill">
 							<img className="skill-img" src={img} alt={alt || name} />
-							<h4 className="skill-name">{name}</h4>
-						</div>
+							<figcaption className="skill-name">{name}</figcaption>
+						</figure>
 					);
 				})}
 			</div>

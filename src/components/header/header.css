@@ -1,9 +1,12 @@
 header {
+	position: fixed;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 95%;
 	margin: 0 auto;
+	width: 95%;
+	/* background-color: khaki; */
+	height: 4em;
 }
 
 nav {
@@ -27,13 +30,15 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: rgba(100, 255, 218, 0.1);
+	/* background: rgba(100, 255, 218, 0.1); */
 }
 
 .nav-link {
 	text-decoration: none;
 	padding: 1em;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
+	font-weight: 600;
+	font-family: 'Space Mono';
 	color: var(--light-slate);
 }
 
