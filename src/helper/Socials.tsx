@@ -16,10 +16,11 @@ const Socials = () => {
 				rel="noreferrer"
 			>
 				<Animated
-					animationIn="rollIn"
-					animationOut="rollOut"
-					animationInDuration={800}
-					animationOutDuration={800}
+					animationInDelay={1000}
+					animationIn="fadeInDown"
+					animationOut="fadeOutUp"
+					animationInDuration={1000}
+					animationOutDuration={1000}
 					isVisible={true}
 				>
 					<img src={gitHub} alt="GitHub" />
@@ -30,21 +31,48 @@ const Socials = () => {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<img src={linkedIn} alt="LinkedIn" />
+				<Animated
+					animationInDelay={1200}
+					animationIn="fadeInDown"
+					animationOut="fadeOutUp"
+					animationInDuration={1000}
+					animationOutDuration={1000}
+					isVisible={true}
+				>
+					<img src={linkedIn} alt="LinkedIn" />
+				</Animated>
 			</a>
 			<a
 				href="https://www.instagram.com/cloudcoding/"
 				target="_blank"
 				rel="noreferrer"
 			>
-				<img src={instagram} alt="Instagram" />
+				<Animated
+					animationInDelay={1400}
+					animationIn="fadeInDown"
+					animationOut="fadeOutUp"
+					animationInDuration={1000}
+					animationOutDuration={1000}
+					isVisible={true}
+				>
+					<img src={instagram} alt="Instagram" />
+				</Animated>
 			</a>
 			<a
 				href="https://twitter.com/cloudcoding_"
 				target="_blank"
 				rel="noreferrer"
 			>
-				<img src={twitter} alt="Twitter" />
+				<Animated
+					animationInDelay={1600}
+					animationIn="fadeInDown"
+					animationOut="fadeOutUp"
+					animationInDuration={1000}
+					animationOutDuration={1000}
+					isVisible={true}
+				>
+					<img src={twitter} alt="Twitter" />
+				</Animated>
 			</a>
 		</>
 	);

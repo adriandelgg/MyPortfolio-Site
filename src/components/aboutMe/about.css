@@ -24,5 +24,13 @@
 	max-width: 500px;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 830px) {
+	.about-me-section {
+		flex-direction: initial;
+		align-items: center;
+	}
+
+	.myphoto {
+		margin-top: 0;
+	}
 }

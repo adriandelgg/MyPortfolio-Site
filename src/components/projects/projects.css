@@ -1,3 +1,40 @@
+.project-card {
+	margin-bottom: 3em;
+}
+
+/* .MuiPaper-root {
+	background-color: black;
+} */
+
+.project-name {
+}
+
+.project-description {
+}
+
 .project-photo {
 	width: 100%;
+}
+
+.tech-tools {
+	display: flex;
+	justify-content: flex-start;
+	/* flex-wrap: wrap; */
+}
+
+.tech-tool {
+	margin-right: 1em;
+}
+
+@media (min-width: 820px) {
+	.projects-list {
+		/* display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: space-between; */
+	}
+
+	.project-card {
+		/* width: 500px; */
+	}
 }

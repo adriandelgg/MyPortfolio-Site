@@ -1,0 +1,12 @@
+.skills-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}

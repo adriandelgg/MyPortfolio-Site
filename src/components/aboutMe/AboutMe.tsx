@@ -20,7 +20,7 @@ const AboutMe = () => {
 						voluptatem sit at, velit molestias minus aspernatur! Et.
 					</p>
 				</div>
-				<div className="animate__animated animate__rotateInUpLeft myphoto"></div>
+				<div className="myphoto"></div>
 			</div>
 		</section>
 	);

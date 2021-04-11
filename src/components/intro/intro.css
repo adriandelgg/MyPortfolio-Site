@@ -25,6 +25,7 @@
 .intro-web-dev {
 	font-size: clamp(20px, 8vw, 40px);
 	padding-bottom: 0.6em;
+	animation: fadeInUp 1.5s;
 }
 
 .intro-paragraph {
@@ -32,6 +33,9 @@
 	font-size: 1rem;
 	color: #a6accd;
 	max-width: 20em;
+	animation: fadeInUp 1.5s;
+	animation-delay: 2s;
+	/* visibility: hidden; */
 }
 
 .intro-btn {
@@ -47,4 +51,14 @@
 
 .intro-socials img {
 	color: white;
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100% {
+		/* visibility: visible; */
+	}
 }
