@@ -4,22 +4,23 @@ import './intro.css';
 import { Button } from '@material-ui/core';
 import Socials from '../../helper/Socials';
 import ChatIcon from '@material-ui/icons/Chat';
+import { Animated } from 'react-animated-css';
 
 const Intro = () => {
-	const intro = 'animate__animated animate__fadeInDown';
-	const socialDelays = [
-		'animate__delay-2s',
-		'animate__delay-3s',
-		'animate__delay-4s'
-	];
 	return (
 		<section className="intro-section">
 			<h1 className="intro-greeting animate__animated animate__fadeIn">
 				Hello, my name is
 			</h1>
-			<h2 className="intro-name animate__animated animate__rollIn">
-				Adrian Delgado.
-			</h2>
+			<Animated
+				animationIn="rollIn"
+				animationOut="rollOut"
+				animationInDuration={800}
+				animationOutDuration={800}
+				isVisible={true}
+			>
+				<h2 className="intro-name">Adrian Delgado.</h2>
+			</Animated>
 			<h3 className="intro-web-dev animate__animated animate__fadeInUp">
 				I'm a &lt; Web Developer /&gt;.
 			</h3>
@@ -29,7 +30,7 @@ const Intro = () => {
 				deserunt molestias ex esse vero sunt facere dolores, sit odit.
 			</p>
 			<div className="intro-socials">
-				<Socials intro={intro} delays={socialDelays} />
+				<Socials />
 			</div>
 			<Button
 				className="intro-btn"
