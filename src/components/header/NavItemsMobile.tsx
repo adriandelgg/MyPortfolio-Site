@@ -29,7 +29,7 @@ const NavItemMobile = ({ setOpen }: Props) => {
 				</a>
 			</li>
 
-			<li>
+			{/* <li>
 				<a onClick={handleClick} className="nav-link" href="#contact">
 					.contact()
 				</a>
@@ -44,7 +44,7 @@ const NavItemMobile = ({ setOpen }: Props) => {
 				>
 					Resume
 				</Button>
-			</li>
+			</li> */}
 		</ul>
 	);
 };

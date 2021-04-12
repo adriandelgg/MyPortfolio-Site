@@ -1,43 +1,40 @@
-:root {
-	--animate-delay: 0.8s;
-}
-
 .intro-section {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	/* background-color: violet; */
 	min-height: 100vh;
 }
 
 .intro-greeting {
-	font-size: clamp(13px, 5vw, 16px);
+	font-size: clamp(13px, 5vw, 19px);
 	color: #61dafb;
+	opacity: 0;
+	animation: greetingFade 2s forwards;
 }
 
 .intro-name {
-	font-size: clamp(40px, 8vw, 60px);
+	font-size: clamp(40px, 8vw, 70px);
 	font-weight: 600;
-	padding: 0.4em 0;
+	padding: 0.2em 0;
+	animation: nameFade 1s 1s linear forwards;
+	opacity: 0;
 }
 
 .intro-web-dev {
-	font-size: clamp(20px, 8vw, 40px);
+	font-size: clamp(20px, 8vw, 50px);
 	padding-bottom: 0.6em;
-	animation: fadeInUp 1.5s;
+	opacity: 0;
+	animation: nameFade 1s 2s linear forwards;
 }
 
 .intro-paragraph {
 	line-height: 1.4;
 	font-size: 1rem;
 	color: #a6accd;
-	max-width: 20em;
-	animation: fadeInUp 1.5s;
-	animation-delay: 2s;
-	animation-fill-mode: forwards;
+	max-width: 25em;
+	animation: nameFade 1s 2s linear forwards;
 	opacity: 0;
-	/* visibility: hidden; */
 }
 
 .intro-btn {
@@ -53,6 +50,24 @@
 
 .intro-socials img {
 	color: white;
+}
+
+@keyframes greetingFade {
+	0% {
+		transform: translateY(50px);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes nameFade {
+	0% {
+		transform: translateX(80px);
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes fadeInUp {

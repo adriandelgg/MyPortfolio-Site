@@ -6,6 +6,7 @@ const NavItems = () => {
 	return (
 		<ul className="nav-links">
 			<Animated
+				animationInDelay={2200}
 				animationIn="fadeInDown"
 				animationOut="fadeOutUp"
 				animationInDuration={1000}
@@ -19,7 +20,7 @@ const NavItems = () => {
 				</li>
 			</Animated>
 			<Animated
-				animationInDelay={100}
+				animationInDelay={2400}
 				animationIn="fadeInDown"
 				animationOut="fadeOutUp"
 				animationInDuration={1000}
@@ -33,7 +34,7 @@ const NavItems = () => {
 				</li>
 			</Animated>
 			<Animated
-				animationInDelay={200}
+				animationInDelay={2600}
 				animationIn="fadeInDown"
 				animationOut="fadeOutUp"
 				animationInDuration={1000}
@@ -46,8 +47,8 @@ const NavItems = () => {
 					</a>
 				</li>
 			</Animated>
-			<Animated
-				animationInDelay={300}
+			{/* <Animated
+				animationInDelay={2800}
 				animationIn="fadeInDown"
 				animationOut="fadeOutUp"
 				animationInDuration={1000}
@@ -59,9 +60,9 @@ const NavItems = () => {
 						.contact()
 					</a>
 				</li>
-			</Animated>
-			<Animated
-				animationInDelay={400}
+			</Animated> */}
+			{/* <Animated
+				animationInDelay={3000}
 				animationIn="fadeInDown"
 				animationOut="fadeOutUp"
 				animationInDuration={1000}
@@ -77,7 +78,7 @@ const NavItems = () => {
 						Resume
 					</Button>
 				</li>
-			</Animated>
+			</Animated> */}
 		</ul>
 	);
 };
