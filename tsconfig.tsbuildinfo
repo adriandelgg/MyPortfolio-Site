@@ -2011,9 +2011,9 @@
         "signature": "c5b05c78d6a07b91e727ca7e11e7dc1d54fc0fa118276eccd67d1d355226c68c",
         "affectsGlobalScope": false
       },
-      "./src/components/header/NavItems.tsx": {
-        "version": "94a1da05a8993fe9670503a2301ae7a671f6e5e5c32d44515453436f992863aa",
-        "signature": "a118d11af34c6306d4f978dbfd65e90ecd59b55f06a25f93e75b16d2d7b191ee",
+      "./src/components/header/NavItemsMobile.tsx": {
+        "version": "ac8aa8c7e3fe797fe097044b299670ebd2be633c0ef80f56c31e1042a227de62",
+        "signature": "7b5399b1ac76bb0b06596a8f620cd4132c39f4073ed59fe12fbfafefa7ea0aae",
         "affectsGlobalScope": false
       },
       "./node_modules/hamburger-react/dist-types/Tilt.d.ts": {
@@ -2092,13 +2092,23 @@
         "affectsGlobalScope": false
       },
       "./src/components/header/MenuMobile.tsx": {
-        "version": "9c6d458ee225d95b8d32a3eaa3c36cfe9dcc4932d54033a9551aa6589dbc5e69",
+        "version": "938c05c0855933618a9bf1a72146ee78681d979e495c11e6971bdac997ccbedb",
         "signature": "41d67a37db7600c898cb5bfae313df2bebd148c1d287febd35613d19bb3b5824",
         "affectsGlobalScope": false
       },
       "./src/helper/IsMobile.tsx": {
-        "version": "bd3372d3684b75939e923feb0bcf8e28e0e22ac6afc01099a91fb41c68fb75c6",
+        "version": "9a15d391f21ddfab102856d3668a1ce6f434749648a6d99fcd7a95e87a6fd5dc",
         "signature": "f39c110a471718ece8e27f622eb8c4eba7eb84a388322491cf813b6c95a52b42",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-css/lib/index.d.ts": {
+        "version": "246d8cff75877457f5cd8d7366b755ab51ca0f421a3b299d702cbf8b228b674a",
+        "signature": "246d8cff75877457f5cd8d7366b755ab51ca0f421a3b299d702cbf8b228b674a",
+        "affectsGlobalScope": false
+      },
+      "./src/components/header/NavItems.tsx": {
+        "version": "57c3795b16fea36dc0775ff30e27956295d822b7a2c83258ee928ae186fcb8fb",
+        "signature": "a118d11af34c6306d4f978dbfd65e90ecd59b55f06a25f93e75b16d2d7b191ee",
         "affectsGlobalScope": false
       },
       "./src/components/header/Navbar.tsx": {
@@ -2109,11 +2119,6 @@
       "./src/components/header/Header.tsx": {
         "version": "cb7588e719e5c206a3779754833fa6ee48ee5306080ec7a6d92168618bdd2230",
         "signature": "c83d4223af1de68bf31c4f05bb18fa177e79054693ad765eb42846b4d50719e1",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-animated-css/lib/index.d.ts": {
-        "version": "246d8cff75877457f5cd8d7366b755ab51ca0f421a3b299d702cbf8b228b674a",
-        "signature": "246d8cff75877457f5cd8d7366b755ab51ca0f421a3b299d702cbf8b228b674a",
         "affectsGlobalScope": false
       },
       "./node_modules/react-icons/lib/cjs/iconsManifest.d.ts": {
@@ -2142,7 +2147,7 @@
         "affectsGlobalScope": false
       },
       "./src/helper/Socials.tsx": {
-        "version": "7605d12cc0f8f0ec63cb435e7b8c03ef911e0299fb606b1dedd39a1d57e819be",
+        "version": "6db9be0274082466ace5d18b3f36d29946526f714abb7d75c9e0243ea10a4f7c",
         "signature": "9a57da5095950e5b4e94a5116f8b211c95e39daf1ea110fefd07c75fa06d0364",
         "affectsGlobalScope": false
       },
@@ -2162,12 +2167,17 @@
         "affectsGlobalScope": false
       },
       "./src/components/projects/projectsObj.ts": {
-        "version": "242c236475231e4e9f9d1715455b283e0f411a22af27c3b0ff397abef46dd511",
+        "version": "897fbf3d6ad6f31c71bdc1670ad889848bd46e9f65c03eb481ec69c33f1745bf",
         "signature": "30e46dec54b77b8b445cce0a88ef88a0e2b71856e1a65979941a3a37bb20b250",
         "affectsGlobalScope": false
       },
+      "./src/components/projects/CardStyles.ts": {
+        "version": "3d8b761c3e4dc1c93e01d0b3e755a397e395f563ee0e0d0a360d2d77284bda2b",
+        "signature": "e0a754d833a1c080ac9fc5f60f29c464c8011f6bd1c48b781016124654ca4784",
+        "affectsGlobalScope": false
+      },
       "./src/components/projects/Project.tsx": {
-        "version": "085b0a41770c58393f5845d9639ae7dd81cfe39e8112df27bb797569ea9e9fb3",
+        "version": "0ae1520e66d8c946afd0abdf52037b6e71040b89c110a0c10a38498ab71b3dc5",
         "signature": "81e38fff3ed7b8b85be86b1f954ca31243b569c9319a901a1f4c525cb7434e18",
         "affectsGlobalScope": false
       },
@@ -2177,17 +2187,27 @@
         "affectsGlobalScope": false
       },
       "./src/components/skills/skillsList.ts": {
-        "version": "3e8c11d3f89dc36885a8d2d1e1725500da077a6cf99f180bef5672661949a265",
+        "version": "d9310ce295c2afb26a55eb4a9808d4600c83355aa7ea73e945a81f3360e2bb05",
         "signature": "83f548158c27ab8737734849d8b29f70d92b84d2f793756f3a2f4496474fa151",
         "affectsGlobalScope": false
       },
       "./src/components/skills/Skills.tsx": {
-        "version": "2e81dab366aef200127f4d9b165271a16fac3314e6fd54d381abaa436b07ca88",
+        "version": "440d431a7095dbcc05b77cffe182eae16b0df590ffea0e55bdc9de998abacc2e",
         "signature": "6c1b90d4d789823e4d8d9402e89c8f24cbfdf72b2e1af5a56f5c466af722ebd8",
         "affectsGlobalScope": false
       },
+      "./node_modules/react-icons/hi/index.d.ts": {
+        "version": "edaa8a1fd88f2db1d49c1ead1377d9d26bc55da2ac329983af694e0b4fda4a7a",
+        "signature": "edaa8a1fd88f2db1d49c1ead1377d9d26bc55da2ac329983af694e0b4fda4a7a",
+        "affectsGlobalScope": false
+      },
+      "./src/components/footer/Footer.tsx": {
+        "version": "870567f2481598337a6d0eb2a887dc9dbf4c83b1cf4d1f8ce60dedb6505d036b",
+        "signature": "77297f25ebefbbc10ff750a6a0f3d5ff91b92b879884863e794982cbba88b929",
+        "affectsGlobalScope": false
+      },
       "./src/App.tsx": {
-        "version": "7c4b5ed77164865dddb04f3c7371c0e226443c267eeb4b5c6fccc8e386c212f3",
+        "version": "96a60fe502e780a3966378d56d4e802b25c9047d0d3714688d60a8b8afb03edc",
         "signature": "1ffe81d995a0bdb0a2a188fdbdc4caebc21527b089bf8acda5237425e38ea4cb",
         "affectsGlobalScope": false
       },
@@ -2436,14 +2456,9 @@
         "signature": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
         "affectsGlobalScope": false
       },
-      "./src/components/Contact.tsx": {
-        "version": "ce085a34415d69d3f29c77a7137ba4ba167d6a04125fe36679843f69f7d5b3c2",
+      "./src/components/contact/Contact.tsx": {
+        "version": "4c5b8a0919a26d6797cadf8e122f86be7e94955911f582aca294582b0f510436",
         "signature": "79f4ec6ce8e9bd2e9eced80780a893414d477d73b3299999a3043c12021b7997",
-        "affectsGlobalScope": false
-      },
-      "./src/components/footer/Footer.tsx": {
-        "version": "c0a1794732182ebafe21899e427be21dd0062ea8aca2de78a30dff4648f07161",
-        "signature": "89748ef1f0a880425c749e6a2648ab5af1d1cbdeecb94eb7626a127bf1e541a9",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/anymatch/index.d.ts": {
@@ -2792,6 +2807,7 @@
       "noUnusedParameters": false,
       "incremental": true,
       "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": false,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -4847,6 +4863,9 @@
       "./node_modules/react-icons/fi/index.d.ts": [
         "./node_modules/react-icons/lib/cjs/index.d.ts"
       ],
+      "./node_modules/react-icons/hi/index.d.ts": [
+        "./node_modules/react-icons/lib/cjs/index.d.ts"
+      ],
       "./node_modules/react-icons/lib/cjs/iconBase.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -4867,22 +4886,25 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/components/aboutMe/AboutMe.tsx",
+        "./src/components/footer/Footer.tsx",
         "./src/components/header/Header.tsx",
         "./src/components/intro/Intro.tsx",
         "./src/components/projects/Projects.tsx",
         "./src/components/skills/Skills.tsx"
       ],
-      "./src/components/Contact.tsx": [
+      "./src/components/aboutMe/AboutMe.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
-      "./src/components/aboutMe/AboutMe.tsx": [
+      "./src/components/contact/Contact.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
       "./src/components/footer/Footer.tsx": [
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts"
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/react-icons/hi/index.d.ts",
+        "./src/helper/Socials.tsx"
       ],
       "./src/components/header/Header.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -4894,9 +4916,15 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/hamburger-react/dist-types/index.d.ts",
-        "./src/components/header/NavItems.tsx"
+        "./src/components/header/NavItemsMobile.tsx"
       ],
       "./src/components/header/NavItems.tsx": [
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/react-animated-css/lib/index.d.ts"
+      ],
+      "./src/components/header/NavItemsMobile.tsx": [
         "./node_modules/@material-ui/core/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts"
@@ -4915,11 +4943,16 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/helper/Socials.tsx"
       ],
+      "./src/components/projects/CardStyles.ts": [
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts"
+      ],
       "./src/components/projects/Project.tsx": [
         "./node_modules/@material-ui/core/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/react-icons/fi/index.d.ts",
+        "./src/components/projects/CardStyles.ts",
         "./src/components/projects/projectsObj.ts"
       ],
       "./src/components/projects/Projects.tsx": [
@@ -7013,6 +7046,9 @@
       "./node_modules/react-icons/fi/index.d.ts": [
         "./node_modules/react-icons/lib/cjs/index.d.ts"
       ],
+      "./node_modules/react-icons/hi/index.d.ts": [
+        "./node_modules/react-icons/lib/cjs/index.d.ts"
+      ],
       "./node_modules/react-icons/lib/cjs/iconBase.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -7028,6 +7064,9 @@
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/projects/CardStyles.ts": [
+        "./node_modules/@material-ui/styles/index.d.ts"
       ],
       "./src/react-app-env.d.ts": [
         "./node_modules/react-scripts/lib/react-app.d.ts"
@@ -7520,20 +7559,23 @@
       "./node_modules/pretty-format/build/types.d.ts",
       "./node_modules/react-animated-css/lib/index.d.ts",
       "./node_modules/react-icons/fi/index.d.ts",
+      "./node_modules/react-icons/hi/index.d.ts",
       "./node_modules/react-icons/lib/cjs/iconBase.d.ts",
       "./node_modules/react-icons/lib/cjs/iconContext.d.ts",
       "./node_modules/react-icons/lib/cjs/iconsManifest.d.ts",
       "./node_modules/react-icons/lib/cjs/index.d.ts",
       "./node_modules/react-scripts/lib/react-app.d.ts",
       "./src/App.tsx",
-      "./src/components/Contact.tsx",
       "./src/components/aboutMe/AboutMe.tsx",
+      "./src/components/contact/Contact.tsx",
       "./src/components/footer/Footer.tsx",
       "./src/components/header/Header.tsx",
       "./src/components/header/MenuMobile.tsx",
       "./src/components/header/NavItems.tsx",
+      "./src/components/header/NavItemsMobile.tsx",
       "./src/components/header/Navbar.tsx",
       "./src/components/intro/Intro.tsx",
+      "./src/components/projects/CardStyles.ts",
       "./src/components/projects/Project.tsx",
       "./src/components/projects/Projects.tsx",
       "./src/components/projects/projectsObj.ts",
@@ -9534,6 +9576,10 @@
         1
       ],
       [
+        "./node_modules/react-icons/hi/index.d.ts",
+        1
+      ],
+      [
         "./node_modules/react-icons/lib/cjs/iconBase.d.ts",
         1
       ],
@@ -9586,6 +9632,10 @@
         1
       ],
       [
+        "./src/components/contact/Contact.tsx",
+        1
+      ],
+      [
         "./src/components/footer/Footer.tsx",
         1
       ],
@@ -9602,11 +9652,19 @@
         1
       ],
       [
+        "./src/components/header/NavItemsMobile.tsx",
+        1
+      ],
+      [
         "./src/components/header/Navbar.tsx",
         1
       ],
       [
         "./src/components/intro/Intro.tsx",
+        1
+      ],
+      [
+        "./src/components/projects/CardStyles.ts",
         1
       ],
       [

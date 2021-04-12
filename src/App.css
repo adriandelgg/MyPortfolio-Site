@@ -8,29 +8,22 @@ html {
 	scroll-behavior: smooth;
 }
 
-:root {
-	--dark-background: #292d3e;
-	--contrast-background: #202331;
-}
-
 body {
 	background-color: #11142e;
 	color: #c8d3f0;
-	font-family: sans-serif;
+	font-family: 'Roboto';
 }
 
 h1,
+h3,
 h4,
 h5,
 h6 {
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto Mono', monospace;
 }
 
 h2 {
-	font-family: 'Poppins';
-}
-
-p {
+	font-family: 'Roboto';
 }
 
 section {

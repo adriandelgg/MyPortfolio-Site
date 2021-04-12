@@ -23,7 +23,8 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "incremental": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false
   },
   "include": [
     "src/**/*"

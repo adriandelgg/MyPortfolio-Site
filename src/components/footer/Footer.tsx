@@ -4,8 +4,6 @@ import './footer.css';
 import { HiArrowUp } from 'react-icons/hi';
 
 const Footer = () => {
-	const handleClick = () => {};
-
 	return (
 		<footer>
 			<div className="socials-footer">

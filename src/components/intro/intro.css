@@ -26,6 +26,11 @@
 	padding-bottom: 0.6em;
 	opacity: 0;
 	animation: nameFade 1s 2s linear forwards;
+	font-family: 'Roboto';
+}
+
+.web-dev {
+	font-family: 'Roboto Mono';
 }
 
 .intro-paragraph {
@@ -38,7 +43,9 @@
 }
 
 .intro-btn {
-	margin: 2em auto 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .intro-socials {

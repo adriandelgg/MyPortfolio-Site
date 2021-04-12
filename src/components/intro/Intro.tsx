@@ -10,7 +10,9 @@ const Intro = () => {
 		<section className="intro-section">
 			<h1 className="intro-greeting">Hello, my name is</h1>
 			<h2 className="intro-name">Adrian Delgado.</h2>
-			<h3 className="intro-web-dev">I'm a &lt; Web Developer /&gt;.</h3>
+			<h3 className="intro-web-dev">
+				I'm a <span className="web-dev">&lt;Web Developer/&gt;</span>.
+			</h3>
 			<p className="intro-paragraph">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
 				veniam et autem architecto quis facilis nam animi culpa fugit nulla
@@ -19,7 +21,7 @@ const Intro = () => {
 			<div className="intro-socials">
 				<Socials />
 			</div>
-			<Button
+			{/* <Button
 				className="intro-btn"
 				href="mailto:adriandelgado.tech@gmail.com"
 				variant="outlined"
@@ -27,7 +29,8 @@ const Intro = () => {
 				endIcon={<ChatIcon />}
 			>
 				Let's chat!
-			</Button>
+			</Button> */}
+			{/* <button className="intro-btn">Let's chat! {<ChatIcon />}</button> */}
 		</section>
 	);
 };

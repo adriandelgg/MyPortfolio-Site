@@ -9,10 +9,27 @@ const MenuMobile = () => {
 	useEffect(() => {
 		if (isOpen) {
 			document.body.style.overflow = 'hidden';
+			document.getElementById('main')!.style.filter =
+				'blur(5px) brightness(0.7)';
 		} else {
 			document.body.style.overflow = 'visible';
+			document.getElementById('main')!.style.filter = 'none';
 		}
 	});
+
+	// To let you click away from mobile menu
+	// const handleClick = e => {
+	// 	if (!e.target.classList.contains('hamburger-react')) {
+	// 		console.log(e.target);
+	// 	}
+	// };
+
+	// useEffect(() => {
+	// 	document.addEventListener('mousedown', handleClick);
+	// 	return () => {
+	// 		document.removeEventListener('mousedown', handleClick);
+	// 	};
+	// });
 
 	return (
 		<>

@@ -2,12 +2,12 @@ import React from 'react';
 import './header.css';
 
 import Navbar from './Navbar';
-import logo from '../../img/terminal.svg';
+import { RiCodeSSlashFill } from 'react-icons/ri';
 
 const Header = () => {
 	return (
 		<header>
-			<img src={logo} alt="Logo" height="35" />
+			<RiCodeSSlashFill className="logo" size="2em" color="#f7bb50" />
 			<Navbar />
 		</header>
 	);
