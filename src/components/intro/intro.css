@@ -48,8 +48,8 @@
 	margin: 2em auto;
 }
 
-.intro-socials img {
-	color: white;
+.social-img {
+	margin: 1em;
 }
 
 @keyframes greetingFade {

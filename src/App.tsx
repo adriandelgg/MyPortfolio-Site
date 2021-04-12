@@ -7,6 +7,7 @@ import Intro from './components/intro/Intro';
 import AboutMe from './components/aboutMe/AboutMe';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
+import Footer from './components/footer/Footer';
 
 const App = () => {
 	return (
@@ -18,6 +19,7 @@ const App = () => {
 				<Skills />
 				<Projects />
 			</main>
+			<Footer />
 		</>
 	);
 };

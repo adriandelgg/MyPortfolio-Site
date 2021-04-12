@@ -19,7 +19,7 @@ const Socials = () => {
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<FiGithub size="1.5em" color="white" />
+					<FiGithub className="social-img" size="1.5em" color="white" />
 				</Animated>
 			</a>
 			<a
@@ -35,7 +35,7 @@ const Socials = () => {
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<FiLinkedin size="1.5em" color="white" />
+					<FiLinkedin className="social-img" size="1.5em" color="white" />
 				</Animated>
 			</a>
 			<a
@@ -51,7 +51,7 @@ const Socials = () => {
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<FiInstagram size="1.5em" color="white" />
+					<FiInstagram className="social-img" size="1.5em" color="white" />
 				</Animated>
 			</a>
 			<a
@@ -67,7 +67,7 @@ const Socials = () => {
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<FiTwitter size="1.5em" color="white" />
+					<FiTwitter className="social-img" size="1.5em" color="white" />
 				</Animated>
 			</a>
 		</>

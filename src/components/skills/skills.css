@@ -14,11 +14,14 @@
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
-	padding: 0.7em;
+	margin-top: 3em;
 }
 
 .skill-name {
-	/* font-family:  */
+	/* font-family: ; */
+	margin-top: 1em;
+	font-size: 1.3rem;
+	padding: 0 1em;
 }
 
 .skill-img {
@@ -50,10 +53,6 @@
 }
 
 @media (min-width: 850px) {
-	.skills-section {
-		/* max-width: 900px; */
-	}
-
 	.skill {
 		width: 33%;
 	}

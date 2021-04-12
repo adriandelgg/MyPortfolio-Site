@@ -54,14 +54,14 @@ const Project = () => {
 							<CardActions>
 								<a href={demo} target="_blank" rel="noreferrer">
 									<FiExternalLink
-										className="social-padding"
+										className="external-link"
 										size="1.5em"
 										color="white"
 									/>
 								</a>
 								<a href={github} target="_blank" rel="noreferrer">
 									<FiGithub
-										className="social-padding"
+										className="github-link"
 										size="1.5em"
 										color="white"
 									/>
