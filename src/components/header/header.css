@@ -5,7 +5,6 @@ header {
 	align-items: center;
 	margin: 0 auto;
 	width: 95%;
-	/* background-color: khaki; */
 	height: 4em;
 }
 
@@ -18,7 +17,6 @@ nav {
 .logo {
 	width: 50px;
 	height: 50px;
-	background-color: royalblue;
 }
 
 .hamburger-react {
@@ -30,7 +28,6 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* background: rgba(100, 255, 218, 0.1); */
 }
 
 .nav-link {
@@ -38,7 +35,6 @@ nav {
 	padding: 1em;
 	font-size: 0.8rem;
 	font-weight: 600;
-	font-family: 'Space Mono';
 	color: var(--light-slate);
 }
 
@@ -57,7 +53,7 @@ nav {
 		position: fixed;
 		right: 0;
 		top: 0;
-		background-color: #1d233d;
+		background-color: #181c3a;
 		box-shadow: -10px 0px 30px -15px black;
 		z-index: 3;
 	}

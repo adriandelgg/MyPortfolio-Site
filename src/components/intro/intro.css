@@ -8,7 +8,7 @@
 
 .intro-greeting {
 	font-size: clamp(13px, 5vw, 19px);
-	color: #61dafb;
+	color: #f7bb50;
 	opacity: 0;
 	animation: greetingFade 2s forwards;
 }

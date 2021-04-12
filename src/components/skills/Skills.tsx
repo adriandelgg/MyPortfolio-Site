@@ -7,10 +7,10 @@ const Skills = () => {
 		<section id="skills" className="skills-section">
 			<h3 className="section-heading">My Skills</h3>
 			<div className="skills-container">
-				{skills.map(skill => {
+				{skills.map((skill, index) => {
 					const { name, img, alt } = skill;
 					return (
-						<figure className="skill">
+						<figure className="skill" key={index}>
 							<img
 								className="animation skill-img"
 								src={img}

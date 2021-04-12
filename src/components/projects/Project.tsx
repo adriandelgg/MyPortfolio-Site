@@ -16,7 +16,7 @@ const Project = () => {
 	const styles = useStyles();
 	return (
 		<ul className="projects-list">
-			{Projects.map(project => {
+			{Projects.map((project, index) => {
 				const {
 					name,
 					img,
@@ -28,8 +28,8 @@ const Project = () => {
 				} = project;
 
 				return (
-					<Card classes={{ root: styles.root }} raised>
-						<li key={Math.random()}>
+					<li key={index}>
+						<Card classes={{ root: styles.root }} raised>
 							<CardHeader component="h4" title={name} />
 							<CardMedia>
 								<a href={demo} target="_blank" rel="noreferrer">
@@ -52,15 +52,23 @@ const Project = () => {
 								</ul>
 							</CardContent>
 							<CardActions>
-								<a href={github} target="_blank" rel="noreferrer">
-									<FiGithub color="white" />
-								</a>
 								<a href={demo} target="_blank" rel="noreferrer">
-									<FiExternalLink />
+									<FiExternalLink
+										className="social-padding"
+										size="1.5em"
+										color="white"
+									/>
+								</a>
+								<a href={github} target="_blank" rel="noreferrer">
+									<FiGithub
+										className="social-padding"
+										size="1.5em"
+										color="white"
+									/>
 								</a>
 							</CardActions>
-						</li>
-					</Card>
+						</Card>
+					</li>
 				);
 			})}
 		</ul>

@@ -14,9 +14,23 @@ html {
 }
 
 body {
-	background-color: #171c33;
+	background-color: #11142e;
 	color: #c8d3f0;
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
+}
+
+h1,
+h4,
+h5,
+h6 {
+	font-family: 'Source Code Pro';
+}
+
+h2 {
+	font-family: 'Poppins';
+}
+
+p {
 }
 
 section {
@@ -33,6 +47,5 @@ li {
 .section-heading {
 	font-size: clamp(26px, 5vw, 32px);
 	margin-bottom: 1.5em;
-	font-family: 'Space Mono';
 	text-align: center;
 }

@@ -13,19 +13,19 @@ const NavItemMobile = ({ setOpen }: Props) => {
 		<ul className="nav-links">
 			<li>
 				<a onClick={handleClick} className="nav-link" href="#about-me">
-					.about()
+					About
 				</a>
 			</li>
 
 			<li>
 				<a onClick={handleClick} className="nav-link" href="#skills">
-					.skills()
+					Skills
 				</a>
 			</li>
 
 			<li>
 				<a onClick={handleClick} className="nav-link" href="#projects">
-					.projects()
+					Projects
 				</a>
 			</li>
 

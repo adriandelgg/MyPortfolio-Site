@@ -15,7 +15,7 @@ const NavItems = () => {
 			>
 				<li>
 					<a className="nav-link" href="#about-me">
-						.about()
+						About
 					</a>
 				</li>
 			</Animated>
@@ -29,7 +29,7 @@ const NavItems = () => {
 			>
 				<li>
 					<a className="nav-link" href="#skills">
-						.skills()
+						Skills
 					</a>
 				</li>
 			</Animated>
@@ -43,7 +43,7 @@ const NavItems = () => {
 			>
 				<li>
 					<a className="nav-link" href="#projects">
-						.projects()
+						Projects
 					</a>
 				</li>
 			</Animated>

@@ -17,7 +17,7 @@ const MenuMobile = () => {
 	return (
 		<>
 			<Hamburger
-				color="#89ddff"
+				color="#f7bb50"
 				label="Navigation Menu"
 				toggled={isOpen}
 				toggle={setOpen}

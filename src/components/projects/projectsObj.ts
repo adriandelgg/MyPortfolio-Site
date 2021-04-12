@@ -15,6 +15,16 @@ const Projects = [
 		demo: 'https://www.xvscalculator.com'
 	},
 	{
+		name: 'Vanilla Calculator',
+		description:
+			'A colorful calculator built from scratch that computes basic arithmetic.',
+		tools: ['JavaScript', 'CSS3', 'HTML5'],
+		img: calculator,
+		imgAlt: 'Vanilla Calculator',
+		github: 'https://github.com/adriandelgg/Calculator',
+		demo: 'https://adriandelgg.github.io/Calculator/'
+	},
+	{
 		name: 'Matebook X Pro Landing Page',
 		description:
 			"A mock landing page created for Huawei's flagship laptop. Non-responsive, built for the design & simplicity.",
@@ -33,16 +43,6 @@ const Projects = [
 		imgAlt: 'Trivia Game',
 		github: 'https://github.com/adriandelgg/React-API-Quiz-App',
 		demo: 'https://reactquizapi.netlify.app/'
-	},
-	{
-		name: 'Vanilla Calculator',
-		description:
-			'A colorful calculator built from scratch that computes basic arithmetic.',
-		tools: ['JavaScript', 'CSS3', 'HTML5'],
-		img: calculator,
-		imgAlt: 'Vanilla Calculator',
-		github: 'https://github.com/adriandelgg/Calculator',
-		demo: 'https://adriandelgg.github.io/Calculator/'
 	}
 ];
 
