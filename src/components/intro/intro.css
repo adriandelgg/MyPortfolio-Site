@@ -15,6 +15,7 @@
 
 .intro-name {
 	font-size: clamp(40px, 8vw, 70px);
+	color: #e4ebff;
 	font-weight: 600;
 	padding: 0.2em 0;
 	animation: nameFade 1s 1s linear forwards;
@@ -42,21 +43,15 @@
 	opacity: 0;
 }
 
-.intro-btn {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
 .intro-socials {
 	display: flex;
-	justify-content: space-between;
-	max-width: 10em;
-	margin: 2em auto;
+	justify-content: flex-start;
+	margin: 2em 0;
 }
 
 .social-img {
-	margin: 1em;
+	margin-right: 2em;
+	margin-left: 0.1em;
 }
 
 @keyframes greetingFade {

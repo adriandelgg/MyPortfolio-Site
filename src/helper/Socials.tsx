@@ -12,14 +12,14 @@ const Socials = () => {
 				rel="noreferrer"
 			>
 				<Animated
-					animationInDelay={1000}
+					animationInDelay={3000}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<FiGithub className="social-img" size="1.5em" color="white" />
+					<FiGithub className="social-img" size="1.5em" color="#c8d3f0" />
 				</Animated>
 			</a>
 			<a
@@ -28,14 +28,18 @@ const Socials = () => {
 				rel="noreferrer"
 			>
 				<Animated
-					animationInDelay={1200}
+					animationInDelay={3200}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<FiLinkedin className="social-img" size="1.5em" color="white" />
+					<FiLinkedin
+						className="social-img"
+						size="1.5em"
+						color="#c8d3f0"
+					/>
 				</Animated>
 			</a>
 			<a
@@ -44,14 +48,18 @@ const Socials = () => {
 				rel="noreferrer"
 			>
 				<Animated
-					animationInDelay={1400}
+					animationInDelay={3400}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<FiInstagram className="social-img" size="1.5em" color="white" />
+					<FiInstagram
+						className="social-img"
+						size="1.5em"
+						color="#c8d3f0"
+					/>
 				</Animated>
 			</a>
 			<a
@@ -60,14 +68,14 @@ const Socials = () => {
 				rel="noreferrer"
 			>
 				<Animated
-					animationInDelay={1600}
+					animationInDelay={3600}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}
 					animationOutDuration={1000}
 					isVisible={true}
 				>
-					<FiTwitter className="social-img" size="1.5em" color="white" />
+					<FiTwitter className="social-img" size="1.5em" color="#c8d3f0" />
 				</Animated>
 			</a>
 		</>

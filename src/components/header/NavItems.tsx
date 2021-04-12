@@ -15,7 +15,7 @@ const NavItems = () => {
 			>
 				<li>
 					<a className="nav-link" href="#about-me">
-						About
+						<span className="number">1.</span> About
 					</a>
 				</li>
 			</Animated>
@@ -29,7 +29,7 @@ const NavItems = () => {
 			>
 				<li>
 					<a className="nav-link" href="#skills">
-						Skills
+						<span className="number">2.</span> Skills
 					</a>
 				</li>
 			</Animated>
@@ -43,7 +43,7 @@ const NavItems = () => {
 			>
 				<li>
 					<a className="nav-link" href="#projects">
-						Projects
+						<span className="number">3.</span> Projects
 					</a>
 				</li>
 			</Animated>
