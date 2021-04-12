@@ -10,7 +10,7 @@ const Footer = () => {
 				<SocialsMobile />
 			</div>
 			<h5 className="footer-text">Created by Adrian Delgado 2021</h5>
-			<div className="backup-arrow">
+			<div className="backup-arrow animation">
 				<a href="#">
 					<HiArrowUp size="3em" color="#fdfdfd" />
 				</a>

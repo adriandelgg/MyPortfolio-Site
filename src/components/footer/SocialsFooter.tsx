@@ -10,28 +10,44 @@ const Socials = () => {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<FiGithub className="social-footer" size="1.5em" color="white" />
+				<FiGithub
+					className="social-footer animation"
+					size="1.5em"
+					color="white"
+				/>
 			</a>
 			<a
 				href="https://www.linkedin.com/in/adriandelgado1/"
 				target="_blank"
 				rel="noreferrer"
 			>
-				<FiLinkedin className="social-footer" size="1.5em" color="white" />
+				<FiLinkedin
+					className="social-footer animation"
+					size="1.5em"
+					color="white"
+				/>
 			</a>
 			<a
 				href="https://www.instagram.com/cloudcoding/"
 				target="_blank"
 				rel="noreferrer"
 			>
-				<FiInstagram className="social-footer" size="1.5em" color="white" />
+				<FiInstagram
+					className="social-footer animation"
+					size="1.5em"
+					color="white"
+				/>
 			</a>
 			<a
 				href="https://twitter.com/cloudcoding_"
 				target="_blank"
 				rel="noreferrer"
 			>
-				<FiTwitter className="social-footer" size="1.5em" color="white" />
+				<FiTwitter
+					className="social-footer animation"
+					size="1.5em"
+					color="white"
+				/>
 			</a>
 		</>
 	);

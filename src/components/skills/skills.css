@@ -30,28 +30,17 @@
 	width: 4em;
 }
 
-.animation:hover {
-	animation: onHover 0.5s forwards;
-}
 .animation {
-	animation: onNoHover 0.5s forwards;
+	transform: translateZ(0);
+	transition-duration: 0.3s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
 }
 
-@keyframes onHover {
-	0% {
-		transform: translateY(0px);
-	}
-	100% {
-		transform: translateY(-8px);
-	}
-}
-@keyframes onNoHover {
-	0% {
-		transform: translateY(-6px);
-	}
-	100% {
-		transform: translateY(0px);
-	}
+.animation:hover,
+.animation:focus,
+.animation:active {
+	transform: translateY(-8px);
 }
 
 @media (min-width: 850px) {
