@@ -18,7 +18,7 @@
 	color: #e4ebff;
 	font-weight: 700;
 	padding: 0.2em 0;
-	animation: nameFade 1s 1s linear forwards;
+	animation: nameFade 0.8s 1s ease-out forwards;
 	opacity: 0;
 }
 
@@ -26,7 +26,7 @@
 	font-size: clamp(20px, 8vw, 50px);
 	padding-bottom: 0.6em;
 	opacity: 0;
-	animation: nameFade 1s 2s linear forwards;
+	animation: nameFade 0.7s 1.75s ease-out forwards;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -39,7 +39,7 @@
 	font-size: 1rem;
 	color: #a6accd;
 	max-width: 25em;
-	animation: nameFade 1s 2s linear forwards;
+	animation: nameFade 0.7s 1.75s ease-out forwards;
 	opacity: 0;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .social-img {
-	margin-right: 2em;
+	margin-right: 1.2em;
 	margin-left: 0.1em;
 }
 
@@ -65,7 +65,7 @@
 
 @keyframes nameFade {
 	0% {
-		transform: translateX(80px);
+		transform: translateX(40px);
 	}
 	100% {
 		opacity: 1;
@@ -79,6 +79,5 @@
 	}
 	100% {
 		opacity: 1;
-		/* visibility: visible; */
 	}
 }

@@ -1,6 +1,12 @@
 footer {
 	height: 10em;
 }
+
+.contact-me {
+	text-align: center;
+	margin: 2em 0 1em;
+}
+
 .socials-footer {
 	display: flex;
 	justify-content: center;

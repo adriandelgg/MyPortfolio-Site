@@ -11,11 +11,11 @@ const NavItemMobile = ({ setOpen }: Props) => {
 
 	return (
 		<ul id="mobile-nav" className="nav-links animate-mobile animate-back-in">
-			<li className="nav-link-li">
+			{/* <li className="nav-link-li">
 				<a onClick={handleClick} className="nav-link" href="#about-me">
 					About
 				</a>
-			</li>
+			</li> */}
 
 			<li>
 				<a onClick={handleClick} className="nav-link" href="#skills">
@@ -29,20 +29,20 @@ const NavItemMobile = ({ setOpen }: Props) => {
 				</a>
 			</li>
 
-			{/* <li>
+			<li>
 				<a onClick={handleClick} className="nav-link" href="#contact">
-					.contact()
+					Contact
 				</a>
 			</li>
 
-			<li>
+			{/*<li>
 				<Button
 					onClick={handleClick}
 					className="nav-link"
 					href="resume.pdf"
 					variant="outlined"
 				>
-					Resume
+					Résumé
 				</Button>
 			</li> */}
 		</ul>

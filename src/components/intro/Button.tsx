@@ -18,7 +18,7 @@ const ButtonMail = () => {
 	return (
 		<>
 			<Animated
-				animationInDelay={4000}
+				animationInDelay={3200}
 				animationIn="fadeInUp"
 				animationOut="fadeOut"
 				animationInDuration={1000}

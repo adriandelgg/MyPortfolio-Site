@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import 'animate.css';
 
@@ -8,6 +8,7 @@ import AboutMe from './components/aboutMe/AboutMe';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
 import Footer from './components/footer/Footer';
+import Contact from './components/contact/Contact';
 
 const App = () => {
 	return (
@@ -18,6 +19,7 @@ const App = () => {
 				{/* <AboutMe /> */}
 				<Skills />
 				<Projects />
+				<Contact />
 			</main>
 			<Footer />
 		</>

@@ -1,6 +1,12 @@
 import React from 'react';
 
-import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from 'react-icons/fi';
+import {
+	FiGithub,
+	FiLinkedin,
+	FiInstagram,
+	FiTwitter,
+	FiMail
+} from 'react-icons/fi';
 
 const Socials = () => {
 	return (
@@ -24,6 +30,13 @@ const Socials = () => {
 				<FiLinkedin
 					className="social-footer animation"
 					size="1.5em"
+					color="white"
+				/>
+			</a>
+			<a href="mailto:adriandelgado.tech@gmail.com">
+				<FiMail
+					className="social-footer animation"
+					size="1.6em"
 					color="white"
 				/>
 			</a>

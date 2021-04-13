@@ -1,5 +1,4 @@
 header {
-	/* position: fixed; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -12,6 +11,11 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.logo {
+	cursor: pointer;
+	animation: logo 1s ease-out forwards;
 }
 
 .nav-links {
@@ -28,6 +32,11 @@ nav {
 	font-weight: 600;
 	font-family: 'Roboto Mono', monospace;
 	color: var(--light-slate);
+}
+
+.nav-link:hover {
+	color: #f7bb50;
+	transition: color 0.3s;
 }
 
 @media (max-width: 620px) {
@@ -74,8 +83,15 @@ nav {
 	}
 }
 
-@keyframes menuBarBack {
+@keyframes logo {
+	0% {
+		transform: translateX(-30px);
+		opacity: 0;
+	}
+}
+
+/* @keyframes menuBarBack {
 	100% {
 		transform: translateX(-300px);
 	}
-}
+} */

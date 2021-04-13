@@ -12,7 +12,7 @@ const Socials = () => {
 				rel="noreferrer"
 			>
 				<Animated
-					animationInDelay={3000}
+					animationInDelay={2500}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}
@@ -32,7 +32,7 @@ const Socials = () => {
 				rel="noreferrer"
 			>
 				<Animated
-					animationInDelay={3200}
+					animationInDelay={2700}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}
@@ -52,7 +52,7 @@ const Socials = () => {
 				rel="noreferrer"
 			>
 				<Animated
-					animationInDelay={3400}
+					animationInDelay={2900}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}
@@ -72,7 +72,7 @@ const Socials = () => {
 				rel="noreferrer"
 			>
 				<Animated
-					animationInDelay={3600}
+					animationInDelay={3100}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}

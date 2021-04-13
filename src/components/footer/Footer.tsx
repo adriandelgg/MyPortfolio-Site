@@ -6,10 +6,13 @@ import { HiArrowUp } from 'react-icons/hi';
 const Footer = () => {
 	return (
 		<footer>
+			<h3 id="contact" className="contact-me">
+				Want to get in contact?
+			</h3>
 			<div className="socials-footer">
 				<SocialsMobile />
 			</div>
-			<h5 className="footer-text">Created by Adrian Delgado 2021</h5>
+			<h5 className="footer-text">© Created by Adrian Delgado 2021</h5>
 			<div className="backup-arrow animation">
 				<a href="#">
 					<HiArrowUp size="3em" color="#fdfdfd" />
