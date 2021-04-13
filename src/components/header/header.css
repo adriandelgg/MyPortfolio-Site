@@ -42,6 +42,7 @@ nav {
 @media (max-width: 620px) {
 	.hamburger-react {
 		z-index: 4;
+		animation: hamburger 1s ease-out forwards;
 	}
 
 	.nav-links {
@@ -85,7 +86,13 @@ nav {
 
 @keyframes logo {
 	0% {
-		transform: translateX(-30px);
+		transform: translateY(3px);
+		opacity: 0;
+	}
+}
+@keyframes hamburger {
+	0% {
+		transform: translateY(3px);
 		opacity: 0;
 	}
 }

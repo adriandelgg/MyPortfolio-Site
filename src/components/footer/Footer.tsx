@@ -7,7 +7,9 @@ const Footer = () => {
 	return (
 		<footer>
 			<h3 id="contact" className="contact-me">
-				Want to get in contact?
+				Need a website?
+				<br />
+				Contact me!
 			</h3>
 			<div className="socials-footer">
 				<SocialsMobile />

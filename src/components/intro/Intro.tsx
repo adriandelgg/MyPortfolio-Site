@@ -14,8 +14,8 @@ const Intro = () => {
 			</h3>
 			<p className="intro-paragraph">
 				My dream is to create something that's going to impact the world
-				forever. I enjoy bringing ideas to life, and creating elegent,
-				minimalistc, and professional websites.
+				forever. I enjoy bringing ideas to life, and creating elegant,
+				minimalist, and professional websites.
 			</p>
 			<div className="intro-socials">
 				<Socials />
