@@ -38,9 +38,11 @@ li {
 
 /* Heading for Sections h3 */
 .section-heading {
-	font-size: clamp(26px, 5vw, 32px);
+	font-size: clamp(28px, 5vw, 40px);
 	margin-bottom: 1.5em;
 	text-align: center;
+	color: #e4ebff;
+	font-weight: 600;
 }
 
 .number {

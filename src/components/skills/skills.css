@@ -1,6 +1,5 @@
 .skills-section {
-	margin-bottom: 5em;
-	/* max-width: 500px; */
+	margin-bottom: 9em;
 }
 
 .skills-container {
@@ -18,10 +17,9 @@
 }
 
 .skill-name {
-	/* font-family: ; */
+	font-family: 'Roboto Mono', monospace;
 	margin-top: 1em;
-	font-size: 1.3rem;
-	padding: 0 1em;
+	font-size: 1.25rem;
 	color: #ffffff;
 	font-weight: 500;
 }

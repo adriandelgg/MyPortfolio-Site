@@ -7,7 +7,7 @@ const Projects = [
 	{
 		name: 'Crypto Liquidation Calculator',
 		description:
-			"A financial calculator that extracts real time cryptocurrency prices using CoinGecko's API. The purpose of this calculator is to help with risk management when investing in certain crypto assets. It's a liquidation calculator to make sure that the user isn't going to lose money when investing.",
+			"A financial calculator that extracts real time cryptocurrency prices using CoinGecko's API. The purpose of this calculator is to help with risk management when investing in certain crypto assets. It's a liquidation calculator to make sure the user isn't going to lose money when investing.",
 		tools: ['JavaScript', 'API', 'CSS3', 'HTML5'],
 		img: xvsCalculator,
 		imgAlt: 'Crypto Liquidation Calculator',
@@ -17,7 +17,7 @@ const Projects = [
 	{
 		name: 'Vanilla Calculator',
 		description:
-			'A colorful calculator built from scratch that computes basic arithmetic.',
+			'A colorful calculator built from scratch that computes basic arithmetic. ',
 		tools: ['JavaScript', 'CSS3', 'HTML5'],
 		img: calculator,
 		imgAlt: 'Vanilla Calculator',
@@ -37,7 +37,7 @@ const Projects = [
 	{
 		name: 'React Trivia Game',
 		description:
-			"A trivia game created with React & Open Trivia's API to get 10 random questions from different categories.",
+			"A fun trivia game created with React & Open Trivia's API to play a quiz with 10 random questions from different categories.",
 		tools: ['React.js', 'REST API', 'CSS3', 'HTML5'],
 		img: reactQuiz,
 		imgAlt: 'Trivia Game',

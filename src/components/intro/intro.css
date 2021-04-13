@@ -10,13 +10,13 @@
 	font-size: clamp(13px, 5vw, 19px);
 	color: #f7bb50;
 	opacity: 0;
-	animation: greetingFade 2s forwards;
+	animation: greetingFade 1s ease-out forwards;
 }
 
 .intro-name {
 	font-size: clamp(40px, 8vw, 70px);
 	color: #e4ebff;
-	font-weight: 600;
+	font-weight: 700;
 	padding: 0.2em 0;
 	animation: nameFade 1s 1s linear forwards;
 	opacity: 0;
@@ -27,11 +27,11 @@
 	padding-bottom: 0.6em;
 	opacity: 0;
 	animation: nameFade 1s 2s linear forwards;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 }
 
 .web-dev {
-	font-family: 'Roboto Mono';
+	font-family: 'Roboto Mono', monospace;
 }
 
 .intro-paragraph {
@@ -56,7 +56,7 @@
 
 @keyframes greetingFade {
 	0% {
-		transform: translateY(50px);
+		transform: translateY(20px);
 	}
 	100% {
 		opacity: 1;

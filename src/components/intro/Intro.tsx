@@ -10,7 +10,7 @@ const Intro = () => {
 			<h1 className="intro-greeting">Hello, my name is</h1>
 			<h2 className="intro-name">Adrian Delgado.</h2>
 			<h3 className="intro-web-dev">
-				I'm a <span className="web-dev">&lt;Web Developer/&gt;</span>.
+				<span className="web-dev">&lt;Web Developer/&gt;</span>.
 			</h3>
 			<p className="intro-paragraph">
 				My dream is to work in a team full of amazing & talented individuals

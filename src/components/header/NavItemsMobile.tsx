@@ -10,8 +10,8 @@ const NavItemMobile = ({ setOpen }: Props) => {
 	};
 
 	return (
-		<ul className="nav-links">
-			<li>
+		<ul id="mobile-nav" className="nav-links animate-mobile animate-back-in">
+			<li className="nav-link-li">
 				<a onClick={handleClick} className="nav-link" href="#about-me">
 					About
 				</a>

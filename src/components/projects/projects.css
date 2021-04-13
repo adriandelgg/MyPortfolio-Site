@@ -1,11 +1,9 @@
+.project-heading {
+	margin-bottom: 2em;
+}
+
 .project-card {
 	margin-bottom: 3em;
-}
-
-.project-name {
-}
-
-.project-description {
 }
 
 .project-photo {
@@ -15,7 +13,6 @@
 .tech-tools {
 	display: flex;
 	justify-content: flex-start;
-	/* flex-wrap: wrap; */
 }
 
 .tech-tool {
@@ -28,17 +25,4 @@
 
 .github-link {
 	margin-left: 0.2em;
-}
-
-@media (min-width: 820px) {
-	.projects-list {
-		/* display: flex;
-		flex-wrap: wrap;
-		align-items: flex-start;
-		justify-content: space-between; */
-	}
-
-	.project-card {
-		/* width: 500px; */
-	}
 }

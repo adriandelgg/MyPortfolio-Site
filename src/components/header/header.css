@@ -14,10 +14,6 @@ nav {
 	align-items: center;
 }
 
-.hamburger-react {
-	display: none;
-}
-
 .nav-links {
 	text-align: center;
 	display: flex;
@@ -37,7 +33,6 @@ nav {
 @media (max-width: 620px) {
 	.hamburger-react {
 		z-index: 4;
-		display: initial;
 	}
 
 	.nav-links {
@@ -54,7 +49,33 @@ nav {
 		z-index: 3;
 	}
 
+	.animate-mobile {
+		animation: menuBar 0.3s ease-out;
+	}
+
+	.animate-back-in {
+		transform: translateZ(0);
+	}
+
 	.nav-link {
 		font-size: 1.3rem;
+		padding: 0;
+		padding-left: 0.5em;
+	}
+
+	.nav-links li::marker {
+		color: #f7bb50;
+		content: '▸';
+	}
+}
+@keyframes menuBar {
+	0% {
+		transform: translateX(300px);
+	}
+}
+
+@keyframes menuBarBack {
+	100% {
+		transform: translateX(-300px);
 	}
 }

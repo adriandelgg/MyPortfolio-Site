@@ -4,7 +4,7 @@ const useStyles = makeStyles({
 	root: {
 		backgroundColor: '#181c3a',
 		color: 'white',
-		marginBottom: '2.5em'
+		marginBottom: '2.8em'
 	}
 });
 
