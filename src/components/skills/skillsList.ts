@@ -7,9 +7,9 @@ import css from '../../img/css.svg';
 import html5 from '../../img/html.svg';
 import npm from '../../img/npm.svg';
 import git from '../../img/git.svg';
-import linux from '../../img/ubuntu.png';
+import linux from '../../img/ubuntu.svg';
 import bash from '../../img/bash.svg';
-import api from '../../img/api.png';
+import api from '../../img/api.svg';
 
 const skills = [
 	{
