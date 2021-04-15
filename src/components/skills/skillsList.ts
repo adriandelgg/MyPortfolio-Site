@@ -39,7 +39,7 @@ const skills = [
 		alt: 'CSS3'
 	},
 	{
-		name: "REST API's",
+		name: 'REST APIs',
 		img: api
 	},
 	{
