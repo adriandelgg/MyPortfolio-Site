@@ -27,7 +27,7 @@ h2 {
 }
 
 p {
-	width: clamp(45ch, 90%, 85ch);
+	max-width: 900px;
 }
 
 section {

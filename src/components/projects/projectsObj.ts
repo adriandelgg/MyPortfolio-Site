@@ -1,8 +1,8 @@
-import xvsCalculator from '../../img/xvscalculator.png';
-import calculator from '../../img/Calculator.png';
-import reactQuiz from '../../img/reactquiz.png';
-import matebook from '../../img/matebook.png';
-import myPortfolio from '../../img/myportfolio.png';
+import xvsCalculator from '../../img/xvscalculator.webp';
+import calculator from '../../img/Calculator.webp';
+import reactQuiz from '../../img/reactquiz.webp';
+import matebook from '../../img/matebook.webp';
+import myPortfolio from '../../img/myportfolio.webp';
 
 const Projects = [
 	{
@@ -18,7 +18,7 @@ const Projects = [
 	{
 		name: 'My Portfolio Site',
 		description:
-			'Hey! This looks familiar! This website was created to show case some of my front-end skills while providing an elegant & minimalist UX design.',
+			'Hey, this looks familiar! This website was created to showcase some of my front-end skills by providing an elegant & minimalist UX design.',
 		tools: ['React', 'TypeScript', 'Material UI', 'CSS3'],
 		img: myPortfolio,
 		imgAlt: 'My Portfolio Website',
