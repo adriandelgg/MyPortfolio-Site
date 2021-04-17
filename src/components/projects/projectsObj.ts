@@ -2,6 +2,7 @@ import xvsCalculator from '../../img/xvscalculator.png';
 import calculator from '../../img/Calculator.png';
 import reactQuiz from '../../img/reactquiz.png';
 import matebook from '../../img/matebook.png';
+import myPortfolio from '../../img/myportfolio.png';
 
 const Projects = [
 	{
@@ -13,6 +14,16 @@ const Projects = [
 		imgAlt: 'Crypto Liquidation Calculator',
 		github: 'https://github.com/adriandelgg/Crypto-Calculator',
 		demo: 'https://www.xvscalculator.com'
+	},
+	{
+		name: 'My Portfolio Site',
+		description:
+			'Hey! This looks familiar! This website was created to show case some of my front-end skills while providing an elegant & minimalist UX design.',
+		tools: ['React', 'TypeScript', 'Material UI', 'CSS3'],
+		img: myPortfolio,
+		imgAlt: 'My Portfolio Website',
+		github: 'https://github.com/adriandelgg/MyPortfolio-Site',
+		demo: 'https://adriandelgado.dev'
 	},
 	{
 		name: 'Vanilla Calculator',
