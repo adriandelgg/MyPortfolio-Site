@@ -17,20 +17,6 @@ const MenuMobile = () => {
 		}
 	});
 
-	// To let you click away from mobile menu
-	// const handleClick = e => {
-	// 	if (!e.target.classList.contains('hamburger-react')) {
-	// 		console.log(e.target);
-	// 	}
-	// };
-
-	// useEffect(() => {
-	// 	document.addEventListener('mousedown', handleClick);
-	// 	return () => {
-	// 		document.removeEventListener('mousedown', handleClick);
-	// 	};
-	// });
-
 	return (
 		<>
 			<Hamburger
