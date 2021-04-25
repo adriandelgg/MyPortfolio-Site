@@ -39,7 +39,12 @@ nav {
 	transition: color 0.3s;
 }
 
-@media (max-width: 620px) {
+.resume-btn:hover {
+	color: black;
+	background-color: #fdcc77 !important;
+}
+
+@media (max-width: 710px) {
 	.hamburger-react {
 		z-index: 4;
 		animation: hamburger 1s ease-out forwards;
@@ -76,6 +81,10 @@ nav {
 	.nav-links li::marker {
 		color: #f7bb50;
 		content: '▸';
+	}
+
+	.nav-links .resume-btn::marker {
+		content: '';
 	}
 }
 @keyframes menuBar {

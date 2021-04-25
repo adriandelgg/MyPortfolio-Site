@@ -5,13 +5,13 @@ const IsMobile = () => {
 
 	// Checks if screen size is mobile on load.
 	useEffect(() => {
-		window.innerWidth <= 620 ? setIsMobile(true) : setIsMobile(false);
+		window.innerWidth <= 709 ? setIsMobile(true) : setIsMobile(false);
 	}, []);
 
 	// Checks for mobile size.
 	useEffect(() => {
 		window.addEventListener('resize', () => {
-			if (window.innerWidth <= 620) setIsMobile(true);
+			if (window.innerWidth <= 709) setIsMobile(true);
 			else setIsMobile(false);
 		});
 		return () => {

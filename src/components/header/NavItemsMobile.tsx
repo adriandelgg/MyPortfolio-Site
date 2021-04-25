@@ -1,10 +1,19 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
+import { Button, makeStyles } from '@material-ui/core';
 interface Props {
 	setOpen: (isOpen: boolean) => void;
 }
 
+const useStyles = makeStyles({
+	root: {
+		backgroundColor: '#181c3a',
+		borderColor: '#f7bb50',
+		color: '#f7bb50'
+	}
+});
+
 const NavItemMobile = ({ setOpen }: Props) => {
+	const styles = useStyles();
 	const handleClick = () => {
 		setOpen(false);
 	};
@@ -35,16 +44,18 @@ const NavItemMobile = ({ setOpen }: Props) => {
 				</a>
 			</li>
 
-			{/*<li>
+			<li className="resume-btn">
 				<Button
 					onClick={handleClick}
-					className="nav-link"
-					href="resume.pdf"
+					classes={{ root: styles.root }}
 					variant="outlined"
+					href="https://drive.google.com/file/d/16jIYHjLf3hYhd5_s04VT_Vnyt9MuWnfS/view?usp=sharing"
+					target="_blank"
+					rel="noopener noreferrer"
 				>
 					Résumé
 				</Button>
-			</li> */}
+			</li>
 		</ul>
 	);
 };
