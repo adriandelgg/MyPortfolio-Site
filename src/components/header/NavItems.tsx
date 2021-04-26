@@ -87,7 +87,7 @@ const NavItems = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Résumé
+						Resume
 					</Button>
 				</li>
 			</Animated>

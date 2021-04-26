@@ -53,7 +53,7 @@ const NavItemMobile = ({ setOpen }: Props) => {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Résumé
+					Resume
 				</Button>
 			</li>
 		</ul>
