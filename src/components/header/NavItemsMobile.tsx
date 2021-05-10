@@ -49,7 +49,7 @@ const NavItemMobile = ({ setOpen }: Props) => {
 					onClick={handleClick}
 					classes={{ root: styles.root }}
 					variant="outlined"
-					href="https://drive.google.com/file/d/16jIYHjLf3hYhd5_s04VT_Vnyt9MuWnfS/view?usp=sharing"
+					href="https://drive.google.com/file/d/1NmHqBa8aFOU0EeeVto8YF2G7lsWoD_F0/view?usp=sharing"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

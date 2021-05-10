@@ -1,7 +1,7 @@
 import xvsCalculator from '../../img/xvscalculator.webp';
 import calculator from '../../img/Calculator.webp';
 import reactQuiz from '../../img/reactquiz.webp';
-import matebook from '../../img/matebook.webp';
+// import matebook from '../../img/matebook.webp';
 import myPortfolio from '../../img/myportfolio.webp';
 import ecommerce from '../../img/ecommerce.webp';
 
@@ -9,7 +9,7 @@ const Projects = [
 	{
 		name: 'Crypto Liquidation Calculator',
 		description:
-			"A financial calculator built for a client that extracts real time cryptocurrency prices using CoinGecko's API. The purpose of this calculator is to help manage risk when investing in certain crypto assets. It's a liquidation calculator to make sure the user isn't going to lose money from leveraging when investing.",
+			"A financial calculator built for a client that extracts real time cryptocurrency prices using CoinGecko's API. The purpose of this calculator is to help with risk management when investing in certain crypto assets on the Ethereum blockchain network using protocols like Compound or Venus. It's a liquidation calculator to make sure the user isn't going to get liquidated when borrowing money while also supplying.",
 		tools: ['JavaScript', 'API', 'CSS3', 'HTML5', 'Google Analytics'],
 		img: xvsCalculator,
 		imgAlt: 'Crypto Liquidation Calculator',
@@ -64,17 +64,17 @@ const Projects = [
 		imgAlt: 'Trivia Game',
 		github: 'https://github.com/adriandelgg/React-API-Quiz-App',
 		demo: 'https://reactquizapi.netlify.app/'
-	},
-	{
-		name: 'Matebook X Pro Landing Page',
-		description:
-			"A mock landing page created for Huawei's flagship laptop. Non-responsive, built for the design & simplicity.",
-		tools: ['CSS3', 'HTML5'],
-		img: matebook,
-		imgAlt: 'Matebook X Pro Site',
-		github: 'https://github.com/adriandelgg/Matebook-Pro',
-		demo: 'https://adriandelgg.github.io/Matebook-Pro'
 	}
+	// {
+	// 	name: 'Matebook X Pro Landing Page',
+	// 	description:
+	// 		"A mock landing page created for Huawei's flagship laptop. Non-responsive, built for the design & simplicity.",
+	// 	tools: ['CSS3', 'HTML5'],
+	// 	img: matebook,
+	// 	imgAlt: 'Matebook X Pro Site',
+	// 	github: 'https://github.com/adriandelgg/Matebook-Pro',
+	// 	demo: 'https://adriandelgg.github.io/Matebook-Pro'
+	// }
 ];
 
 export default Projects;
