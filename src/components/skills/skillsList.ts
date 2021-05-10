@@ -10,6 +10,8 @@ import git from '../../img/git.svg';
 import linux from '../../img/ubuntu.svg';
 import bash from '../../img/bash.svg';
 import api from '../../img/api.svg';
+import sql from '../../img/sql.svg';
+import solidity from '../../img/ethereum.svg';
 
 const skills = [
 	{
@@ -27,6 +29,14 @@ const skills = [
 	{
 		name: 'JavaScript',
 		img: javascript
+	},
+	{
+		name: 'Solidity',
+		img: solidity
+	},
+	{
+		name: 'SQL',
+		img: sql
 	},
 	{
 		name: 'Semantic HTML5',
