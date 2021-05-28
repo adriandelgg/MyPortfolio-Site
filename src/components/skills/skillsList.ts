@@ -12,6 +12,11 @@ import bash from '../../img/bash.svg';
 import api from '../../img/api.svg';
 import sql from '../../img/sql.svg';
 import solidity from '../../img/ethereum.svg';
+import nextjs from '../../img/nextjs.png';
+import web3 from '../../img/web3js.jpg';
+import mocha from '../../img/mochajs.svg';
+import truffle from '../../img/truffle.svg';
+import jest from '../../img/jest.svg';
 
 const skills = [
 	{
@@ -35,8 +40,32 @@ const skills = [
 		img: solidity
 	},
 	{
+		name: 'Web3.js',
+		img: web3
+	},
+	{
+		name: 'Truffle',
+		img: truffle
+	},
+	{
 		name: 'SQL',
 		img: sql
+	},
+	{
+		name: 'Next.js',
+		img: nextjs
+	},
+	{
+		name: 'Mocha',
+		img: mocha
+	},
+	{
+		name: 'Jest',
+		img: jest
+	},
+	{
+		name: 'REST APIs',
+		img: api
 	},
 	{
 		name: 'Semantic HTML5',
@@ -47,10 +76,6 @@ const skills = [
 		name: 'Responsive CSS3',
 		img: css,
 		alt: 'CSS3'
-	},
-	{
-		name: 'REST APIs',
-		img: api
 	},
 	{
 		name: 'Material UI',
