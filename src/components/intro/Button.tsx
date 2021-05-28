@@ -27,6 +27,7 @@ const ButtonMail = () => {
 			>
 				<Button
 					classes={{ root: styles.root }}
+					className="resume-btn"
 					href="mailto:adriandelgado.tech@gmail.com"
 					variant="outlined"
 					endIcon={<ChatIcon />}
