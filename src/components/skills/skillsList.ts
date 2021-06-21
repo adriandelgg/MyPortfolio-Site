@@ -61,10 +61,6 @@ const skills = [
 		img: tailwind
 	},
 	{
-		name: 'Chai.js',
-		img: chai
-	},
-	{
 		name: 'IPFS',
 		img: ipfs
 	},
@@ -87,6 +83,10 @@ const skills = [
 	{
 		name: 'Jest',
 		img: jest
+	},
+	{
+		name: 'Chai.js',
+		img: chai
 	},
 	{
 		name: 'REST APIs',

@@ -1,10 +1,9 @@
-import React from 'react';
 import './intro.css';
 
 import Socials from '../../helper/Socials';
 import ButtonMail from './Button';
 
-const Intro = () => {
+const Intro: React.FC = () => {
 	return (
 		<section className="intro-section">
 			<h1 className="intro-greeting">Hello, my name is</h1>
