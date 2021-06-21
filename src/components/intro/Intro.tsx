@@ -10,12 +10,15 @@ const Intro = () => {
 			<h1 className="intro-greeting">Hello, my name is</h1>
 			<h2 className="intro-name">Adrian Delgado.</h2>
 			<h3 className="intro-web-dev">
-				<span className="web-dev">&lt;Web Developer/&gt;</span>
+				<span className="web-dev">
+					&lt; Full-Stack Blockchain Developer. /&gt;
+				</span>
+				{/* &lt;Web Developer/&gt; */}
 			</h3>
 			<p className="intro-paragraph">
-				My dream is to create something that's going to impact the world
-				forever. I enjoy bringing ideas to life, and creating elegant,
-				minimalist, and professional websites.
+				My dream is to create something that's going to impact the world forever.
+				I enjoy bringing ideas to life, and creating elegant, minimalist, and
+				professional websites.
 			</p>
 			<div className="intro-socials">
 				<Socials />
