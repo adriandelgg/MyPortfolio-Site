@@ -11,41 +11,66 @@ import linux from '../../img/ubuntu.svg';
 import bash from '../../img/bash.svg';
 import api from '../../img/api.svg';
 import sql from '../../img/sql.svg';
-import solidity from '../../img/ethereum.svg';
 import nextjs from '../../img/nextjs.png';
-import web3 from '../../img/web3js.jpg';
 import mocha from '../../img/mochajs.svg';
 import truffle from '../../img/truffle.svg';
 import jest from '../../img/jest.svg';
+import web3 from '../../img/web3js.svg';
+import solidity from '../../img/solidity.svg';
+import ethers from '../../img/ethers.svg';
+import hardhat from '../../img/hardhat.png';
+import tailwind from '../../img/tailwindcss.svg';
+import chai from '../../img/chai.svg';
+import ipfs from '../../img/ipfs.svg';
 
 const skills = [
 	{
-		name: 'React',
-		img: react
+		name: 'Solidity',
+		img: solidity
 	},
 	{
-		name: 'Redux',
-		img: redux
+		name: 'React',
+		img: react
 	},
 	{
 		name: 'TypeScript',
 		img: typescript
 	},
 	{
-		name: 'JavaScript',
-		img: javascript
+		name: 'Redux',
+		img: redux
 	},
 	{
-		name: 'Solidity',
-		img: solidity
+		name: 'Ethers.js',
+		img: ethers
 	},
 	{
 		name: 'Web3.js',
 		img: web3
 	},
 	{
+		name: 'Hardhat',
+		img: hardhat
+	},
+	{
 		name: 'Truffle',
 		img: truffle
+	},
+	{
+		name: 'Tailwind',
+		img: tailwind
+	},
+	{
+		name: 'Chai.js',
+		img: chai
+	},
+	{
+		name: 'IPFS',
+		img: ipfs
+	},
+	{
+		name: 'JavaScript',
+		img: javascript
 	},
 	{
 		name: 'SQL',
