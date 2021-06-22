@@ -6,8 +6,29 @@ import myPortfolio from '../../img/myportfolio.webp';
 import ecommerce from '../../img/ecommerce.webp';
 
 const Projects = [
+	// {
+	// 	name: 'NFT Decentralized Exchange',
+	// 	description:
+	// 		'A decentralized exchange DApp that lets you mint new ERC-721 NFTs (Non-Fungible Tokens). These new minted NFTs are then uploaded to IPFS to store its metadata and keep gas costs low by not saving them on the blockchain directly. The DEx also intelligently keeps track of who puts an NFT up for sale for others to buy & at what price. Once a buyer purchases an NFT, the DEx knows which seller originally put the NFT up for sale as is able to pay them properly, as well as takes a commission for the service.',
+	// 	tools: [
+	// 		'Solidity',
+	// 		'NFTs/ERC-721',
+	// 		'React',
+	// 		'Web3.js',
+	// 		'Truffle',
+	// 		'Next.js',
+	// 		'JavaScript',
+	// 		'Tailwind CSS',
+	// 		'Mocha',
+	// 		'Chai'
+	// 	],
+	// 	// img: dex,
+	// 	imgAlt: 'NFT Decentralized Exchange',
+	// 	github: 'https://github.com/adriandelgg/NFT-Exchange'
+	// 	// demo: ''
+	// },
 	{
-		name: 'Crypto Liquidation Calculator',
+		name: 'DeFi Liquidation Calculator',
 		description:
 			"A financial calculator built for a client that extracts real time cryptocurrency prices using CoinGecko's API. The purpose of this calculator is to help with risk management when investing in certain crypto assets on the Ethereum blockchain network using protocols like Compound or Venus. It's a liquidation calculator to make sure the user isn't going to get liquidated when borrowing money while also supplying.",
 		tools: ['JavaScript', 'API', 'CSS3', 'HTML5', 'Google Analytics'],
@@ -65,16 +86,6 @@ const Projects = [
 		github: 'https://github.com/adriandelgg/React-API-Quiz-App',
 		demo: 'https://reactquizapi.netlify.app/'
 	}
-	// {
-	// 	name: 'Matebook X Pro Landing Page',
-	// 	description:
-	// 		"A mock landing page created for Huawei's flagship laptop. Non-responsive, built for the design & simplicity.",
-	// 	tools: ['CSS3', 'HTML5'],
-	// 	img: matebook,
-	// 	imgAlt: 'Matebook X Pro Site',
-	// 	github: 'https://github.com/adriandelgg/Matebook-Pro',
-	// 	demo: 'https://adriandelgg.github.io/Matebook-Pro'
-	// }
 ];
 
 export default Projects;

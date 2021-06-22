@@ -45,12 +45,12 @@ const skills = [
 		img: ethers
 	},
 	{
-		name: 'Web3.js',
-		img: web3
-	},
-	{
 		name: 'Hardhat',
 		img: hardhat
+	},
+	{
+		name: 'Web3.js',
+		img: web3
 	},
 	{
 		name: 'Truffle',

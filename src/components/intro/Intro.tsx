@@ -14,8 +14,10 @@ const Intro: React.FC = () => {
 			</h3>
 			<p className="intro-paragraph">
 				My dream is to create something that's going to impact the world forever
-				using blockchain technology. I enjoy bringing ideas to life, and am a
-				strong believer that blockchain is the future of many infrastructures.
+				using blockchain technology.
+				<br />I enjoy bringing ideas to life, and am a strong believer that
+				blockchain is the future of of the internet as well as many of our current
+				business models.
 			</p>
 			<div className="intro-socials">
 				<Socials />

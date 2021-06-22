@@ -1,9 +1,8 @@
-import React from 'react';
 import SocialsMobile from './SocialsFooter';
 import './footer.css';
 import { HiArrowUp } from 'react-icons/hi';
 
-const Footer = () => {
+const Footer: React.FC = () => {
 	return (
 		<footer>
 			<h3 id="contact" className="contact-me">
