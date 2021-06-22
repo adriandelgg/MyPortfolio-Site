@@ -18,7 +18,7 @@ import jest from '../../img/jest.svg';
 import web3 from '../../img/web3js.svg';
 import solidity from '../../img/solidity.svg';
 import ethers from '../../img/ethers.svg';
-import hardhat from '../../img/hardhat.png';
+import hardhat from '../../img/hardhat.svg';
 import tailwind from '../../img/tailwindcss.svg';
 import chai from '../../img/chai.svg';
 import ipfs from '../../img/ipfs.svg';
