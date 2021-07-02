@@ -1,16 +1,16 @@
-import React from 'react';
-
 import { Animated } from 'react-animated-css';
-import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from 'react-icons/fi';
+import {
+	FiGithub,
+	FiLinkedin,
+	FiInstagram,
+	FiTwitter,
+	FiYoutube
+} from 'react-icons/fi';
 
 const Socials = () => {
 	return (
 		<>
-			<a
-				href="https://github.com/adriandelgg"
-				target="_blank"
-				rel="noreferrer"
-			>
+			<a href="https://github.com/adriandelgg" target="_blank" rel="noreferrer">
 				<Animated
 					animationInDelay={2500}
 					animationIn="fadeInDown"
@@ -47,12 +47,32 @@ const Socials = () => {
 				</Animated>
 			</a>
 			<a
-				href="https://www.instagram.com/cloudcoding/"
+				href="https://www.youtube.com/channel/UCci3UPQ2p4hyERNhXqAPCBw"
 				target="_blank"
 				rel="noreferrer"
 			>
 				<Animated
 					animationInDelay={2900}
+					animationIn="fadeInDown"
+					animationOut="fadeOutUp"
+					animationInDuration={1000}
+					animationOutDuration={1000}
+					isVisible={true}
+				>
+					<FiYoutube
+						className="social-img animation"
+						size="1.5em"
+						color="#c8d3f0"
+					/>
+				</Animated>
+			</a>
+			<a
+				href="https://www.instagram.com/codeonblocks/"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<Animated
+					animationInDelay={3100}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}
@@ -66,13 +86,9 @@ const Socials = () => {
 					/>
 				</Animated>
 			</a>
-			<a
-				href="https://twitter.com/cloudcoding_"
-				target="_blank"
-				rel="noreferrer"
-			>
+			<a href="https://twitter.com/codeonblocks" target="_blank" rel="noreferrer">
 				<Animated
-					animationInDelay={3100}
+					animationInDelay={3300}
 					animationIn="fadeInDown"
 					animationOut="fadeOutUp"
 					animationInDuration={1000}

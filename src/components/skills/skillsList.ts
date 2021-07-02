@@ -11,7 +11,7 @@ import linux from '../../img/ubuntu.svg';
 import bash from '../../img/bash.svg';
 import api from '../../img/api.svg';
 import sql from '../../img/sql.svg';
-import nextjs from '../../img/nextjs.png';
+import nextjs from '../../img/nextjs.webp';
 import mocha from '../../img/mochajs.svg';
 import truffle from '../../img/truffle.svg';
 import jest from '../../img/jest.svg';

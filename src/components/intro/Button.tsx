@@ -1,7 +1,5 @@
-import React from 'react';
-import { Button } from '@material-ui/core';
 import ChatIcon from '@material-ui/icons/Chat';
-import { makeStyles } from '@material-ui/core';
+import { makeStyles, Button } from '@material-ui/core';
 import { Animated } from 'react-animated-css';
 
 const useStyles = makeStyles({
@@ -16,26 +14,24 @@ const useStyles = makeStyles({
 const ButtonMail = () => {
 	const styles = useStyles();
 	return (
-		<>
-			<Animated
-				animationInDelay={3200}
-				animationIn="fadeInUp"
-				animationOut="fadeOut"
-				animationInDuration={1000}
-				animationOutDuration={1000}
-				isVisible={true}
+		<Animated
+			animationInDelay={3200}
+			animationIn="fadeInUp"
+			animationOut="fadeOut"
+			animationInDuration={1000}
+			animationOutDuration={1000}
+			isVisible={true}
+		>
+			<Button
+				classes={{ root: styles.root }}
+				className="resume-btn"
+				href="mailto:adriandelgado.tech@gmail.com"
+				variant="outlined"
+				endIcon={<ChatIcon />}
 			>
-				<Button
-					classes={{ root: styles.root }}
-					className="resume-btn"
-					href="mailto:adriandelgado.tech@gmail.com"
-					variant="outlined"
-					endIcon={<ChatIcon />}
-				>
-					Let's chat!
-				</Button>
-			</Animated>
-		</>
+				Let's chat!
+			</Button>
+		</Animated>
 	);
 };
 

@@ -1,5 +1,5 @@
-import React from 'react';
 import './projects.css';
+import useStyles from './CardStyles';
 
 import Projects from './projectsObj';
 import {
@@ -9,7 +9,6 @@ import {
 	CardHeader,
 	CardActions
 } from '@material-ui/core';
-import useStyles from './CardStyles';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const Project = () => {
@@ -17,15 +16,7 @@ const Project = () => {
 	return (
 		<ul className="projects-list">
 			{Projects.map((project, index) => {
-				const {
-					name,
-					img,
-					imgAlt,
-					description,
-					tools,
-					github,
-					demo
-				} = project;
+				const { name, img, imgAlt, description, tools, github, demo } = project;
 
 				return (
 					<li key={index}>
@@ -33,11 +24,7 @@ const Project = () => {
 							<CardHeader component="h4" title={name} />
 							<CardMedia>
 								<a href={demo} target="_blank" rel="noreferrer">
-									<img
-										className="project-photo"
-										src={img}
-										alt={imgAlt}
-									/>
+									<img className="project-photo" src={img} alt={imgAlt} />
 								</a>
 							</CardMedia>
 							<CardContent>
@@ -60,11 +47,7 @@ const Project = () => {
 									/>
 								</a>
 								<a href={github} target="_blank" rel="noreferrer">
-									<FiGithub
-										className="github-link"
-										size="1.5em"
-										color="white"
-									/>
+									<FiGithub className="github-link" size="1.5em" color="white" />
 								</a>
 							</CardActions>
 						</Card>

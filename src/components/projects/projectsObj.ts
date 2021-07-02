@@ -1,9 +1,9 @@
 import xvsCalculator from '../../img/xvscalculator.webp';
 import calculator from '../../img/Calculator.webp';
 import reactQuiz from '../../img/reactquiz.webp';
-// import matebook from '../../img/matebook.webp';
 import myPortfolio from '../../img/myportfolio.webp';
 import ecommerce from '../../img/ecommerce.webp';
+import coinflip from '../../img/coinflip.webp';
 
 const Projects = [
 	// {
@@ -27,6 +27,28 @@ const Projects = [
 	// 	github: 'https://github.com/adriandelgg/NFT-Exchange'
 	// 	// demo: ''
 	// },
+	{
+		name: 'Ethereum CoinFlip Game',
+		description:
+			'An Ethereum blockchain dApp game where 2 players can bet a token I created, FLIP, with each other. The winner of the coin flip gets the whole bet amount and can withdraw their earnings at any time to their wallet.',
+		tools: [
+			'Solidity',
+			'TypeScript',
+			'React',
+			'Hardhat',
+			'Ethers.js',
+			'ERC20',
+			'Next.js',
+			'Tailwind CSS',
+			'Mocha',
+			'Chai',
+			'Waffle'
+		],
+		img: coinflip,
+		imgAlt: 'CoinFlip Game',
+		github: 'https://github.com/adriandelgg/CoinFlip.eth',
+		demo: 'https://coinflip-eth.vercel.app/'
+	},
 	{
 		name: 'DeFi Liquidation Calculator',
 		description:

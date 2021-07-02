@@ -1,7 +1,5 @@
-import React from 'react';
-
 import MenuMobile from './MenuMobile';
-import IsMobile from '../../helper/IsMobile';
+import IsMobile from '../../helper/useMobile';
 import NavItems from './NavItems';
 
 const Navbar = () => {
