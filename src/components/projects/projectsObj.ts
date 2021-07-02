@@ -20,7 +20,8 @@ const Projects = [
 	// 		'JavaScript',
 	// 		'Tailwind CSS',
 	// 		'Mocha',
-	// 		'Chai'
+	// 		'Chai',
+	//		'Ethereum'
 	// 	],
 	// 	// img: dex,
 	// 	imgAlt: 'NFT Decentralized Exchange',
@@ -30,7 +31,7 @@ const Projects = [
 	{
 		name: 'Ethereum CoinFlip Game',
 		description:
-			'An Ethereum blockchain dApp game where 2 players can bet a token I created, FLIP, with each other. The winner of the coin flip gets the whole bet amount and can withdraw their earnings at any time to their wallet.',
+			'An Ethereum blockchain dApp game where 2 players can bet an ERC20 token I created (FLIP) with each other. The winner of the randomized coin flip gets the whole bet amount and can withdraw their earnings at any time to their wallet.',
 		tools: [
 			'Solidity',
 			'TypeScript',
@@ -42,7 +43,8 @@ const Projects = [
 			'Tailwind CSS',
 			'Mocha',
 			'Chai',
-			'Waffle'
+			'Waffle',
+			'Ethereum'
 		],
 		img: coinflip,
 		imgAlt: 'CoinFlip Game',
