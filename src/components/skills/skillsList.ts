@@ -22,6 +22,8 @@ import hardhat from '../../img/hardhat.svg';
 import tailwind from '../../img/tailwindcss.svg';
 import chai from '../../img/chai.svg';
 import ipfs from '../../img/ipfs.svg';
+import nodejs from '../../img/nodejs.svg';
+import mongodb from '../../img/mongodb.svg';
 
 const skills = [
 	{
@@ -33,20 +35,24 @@ const skills = [
 		img: react
 	},
 	{
+		name: 'Hardhat',
+		img: hardhat
+	},
+	{
 		name: 'TypeScript',
 		img: typescript
 	},
 	{
-		name: 'Redux',
-		img: redux
+		name: 'MongoDB',
+		img: mongodb
 	},
 	{
 		name: 'Ethers.js',
 		img: ethers
 	},
 	{
-		name: 'Hardhat',
-		img: hardhat
+		name: 'Redux',
+		img: redux
 	},
 	{
 		name: 'Web3.js',
@@ -55,6 +61,10 @@ const skills = [
 	{
 		name: 'Truffle',
 		img: truffle
+	},
+	{
+		name: 'Node.js',
+		img: nodejs
 	},
 	{
 		name: 'Tailwind',
@@ -93,12 +103,12 @@ const skills = [
 		img: api
 	},
 	{
-		name: 'Semantic HTML5',
+		name: 'Semantic HTML',
 		img: html5,
 		alt: 'HTML5'
 	},
 	{
-		name: 'Responsive CSS3',
+		name: 'Responsive CSS',
 		img: css,
 		alt: 'CSS3'
 	},

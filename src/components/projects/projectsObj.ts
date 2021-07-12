@@ -31,7 +31,7 @@ const Projects = [
 	{
 		name: 'Ethereum CoinFlip Game',
 		description:
-			'An Ethereum blockchain dApp game where 2 players can bet an ERC20 token I created (FLIP) with each other. The winner of the randomized coin flip gets the whole bet amount and can withdraw their earnings at any time to their wallet.',
+			'An Ethereum blockchain dApp game where 2 players can bet an ERC20 token I created (FLIP) with each other. The winner of the randomized coin flip wins the whole bet amount and can withdraw their earnings at any time to their wallet. MetaMask is required to use.',
 		tools: [
 			'Solidity',
 			'TypeScript',
@@ -44,7 +44,8 @@ const Projects = [
 			'Mocha',
 			'Chai',
 			'Waffle',
-			'Ethereum'
+			'Ethereum',
+			'MetaMask'
 		],
 		img: coinflip,
 		imgAlt: 'CoinFlip Game',
@@ -71,9 +72,10 @@ const Projects = [
 			'JavaScript',
 			'Material UI',
 			'API',
-			'CSS3',
+			'CSS',
 			'React-Router',
-			'Reselect'
+			'Reselect',
+			'Commerce.js'
 		],
 		img: ecommerce,
 		imgAlt: 'eCommerce Website',
@@ -84,7 +86,7 @@ const Projects = [
 		name: 'My Portfolio Site',
 		description:
 			'Hey, this looks familiar! This website was created & designed from scratch without templates to showcase some of my front-end skills by providing an elegant & minimalist UX design.',
-		tools: ['React', 'TypeScript', 'Material UI', 'CSS3', 'Google Analytics'],
+		tools: ['React', 'TypeScript', 'Material UI', 'CSS', 'Google Analytics'],
 		img: myPortfolio,
 		imgAlt: 'My Portfolio Website',
 		github: 'https://github.com/adriandelgg/MyPortfolio-Site',
@@ -94,7 +96,7 @@ const Projects = [
 		name: 'Vanilla Calculator',
 		description:
 			"The very first project I ever created! It's a colorful calculator built & designed from scratch that computes basic arithmetic. ",
-		tools: ['JavaScript', 'CSS3', 'HTML5'],
+		tools: ['JavaScript', 'CSS', 'HTML'],
 		img: calculator,
 		imgAlt: 'Vanilla Calculator',
 		github: 'https://github.com/adriandelgg/Calculator',
@@ -104,7 +106,7 @@ const Projects = [
 		name: 'React Trivia Game',
 		description:
 			"A fun trivia game created with React & Open Trivia's API. It gives you 10 random questions from the category of your choice.",
-		tools: ['React.js', 'REST API', 'CSS3', 'HTML5'],
+		tools: ['React.js', 'REST API', 'CSS', 'HTML'],
 		img: reactQuiz,
 		imgAlt: 'Trivia Game',
 		github: 'https://github.com/adriandelgg/React-API-Quiz-App',
