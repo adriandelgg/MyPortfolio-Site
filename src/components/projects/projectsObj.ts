@@ -23,10 +23,10 @@ const Projects = [
 	// 		'Chai',
 	//		'Ethereum'
 	// 	],
-	// 	// img: dex,
+	//  img: dex,
 	// 	imgAlt: 'NFT Decentralized Exchange',
 	// 	github: 'https://github.com/adriandelgg/NFT-Exchange'
-	// 	// demo: ''
+	//  demo: ''
 	// },
 	{
 		name: 'Ethereum CoinFlip Game',
@@ -58,7 +58,7 @@ const Projects = [
 			"A financial calculator built for a client that extracts real time cryptocurrency prices using CoinGecko's API. The purpose of this calculator is to help with risk management when investing in certain crypto assets on the Ethereum blockchain network using protocols like Compound or Venus. It's a liquidation calculator to make sure the user isn't going to get liquidated when borrowing money while also supplying.",
 		tools: ['JavaScript', 'API', 'CSS3', 'HTML5', 'Google Analytics'],
 		img: xvsCalculator,
-		imgAlt: 'Crypto Liquidation Calculator',
+		imgAlt: 'DeFi Liquidation Calculator',
 		github: 'https://github.com/adriandelgg/Crypto-Calculator',
 		demo: 'https://xvscalculator.com'
 	},
