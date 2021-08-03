@@ -21,7 +21,7 @@ const Projects = [
 	// 		'Tailwind CSS',
 	// 		'Mocha',
 	// 		'Chai',
-	//		'Ethereum'
+	// 		'Ethereum'
 	// 	],
 	//  img: dex,
 	// 	imgAlt: 'NFT Decentralized Exchange',

@@ -1,4 +1,3 @@
-import React from 'react';
 import './projects.css';
 import useStyles from './CardStyles';
 
@@ -48,7 +47,11 @@ const Project = () => {
 									/>
 								</a>
 								<a href={github} target="_blank" rel="noreferrer">
-									<FiGithub className="github-link" size="1.5em" color="white" />
+									<FiGithub
+										className="github-link"
+										size="1.5em"
+										color="white"
+									/>
 								</a>
 							</CardActions>
 						</Card>
