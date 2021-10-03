@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
 			</div>
 			<h5 className="footer-text">© Created by Adrian Delgado 2021</h5>
 			<div className="backup-arrow animation">
-				<a href="#">
+				<a href="#top">
 					<HiArrowUp size="3em" color="#fdfdfd" />
 				</a>
 			</div>

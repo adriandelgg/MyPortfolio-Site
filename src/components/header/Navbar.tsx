@@ -5,12 +5,7 @@ import NavItems from './NavItems';
 const Navbar = () => {
 	const { isMobile } = IsMobile();
 
-	return (
-		<nav>
-			{!isMobile && <NavItems />}
-			{isMobile && <MenuMobile />}
-		</nav>
-	);
+	return <nav>{!isMobile ? <NavItems /> : <MenuMobile />}</nav>;
 };
 
 export default Navbar;

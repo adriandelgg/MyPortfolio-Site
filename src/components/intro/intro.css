@@ -36,6 +36,7 @@
 }
 
 .intro-paragraph {
+	margin: 0.1em 0;
 	line-height: 1.4;
 	font-size: 1rem;
 	color: #a6accd;

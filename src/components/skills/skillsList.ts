@@ -25,7 +25,7 @@ import ipfs from '../../img/ipfs.svg';
 import nodejs from '../../img/nodejs.svg';
 import mongodb from '../../img/mongodb.svg';
 
-const skills = [
+export const skills = [
 	{
 		name: 'Solidity',
 		img: solidity
@@ -133,5 +133,3 @@ const skills = [
 		img: bash
 	}
 ];
-
-export default skills;
