@@ -1,15 +1,18 @@
 import { Button, makeStyles } from '@material-ui/core';
 interface Props {
-	setOpen: (isOpen: boolean) => void;
+	setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const useStyles = makeStyles({
-	root: {
-		backgroundColor: '#181c3a',
-		borderColor: '#f7bb50',
-		color: '#f7bb50'
-	}
-});
+const useStyles = makeStyles(
+	{
+		root: {
+			backgroundColor: '#181c3a',
+			borderColor: '#f7bb50',
+			color: '#f7bb50'
+		}
+	},
+	{ index: 1 }
+);
 
 const NavItemMobile = ({ setOpen }: Props) => {
 	const styles = useStyles();

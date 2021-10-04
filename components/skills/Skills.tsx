@@ -6,8 +6,10 @@ const Skills: React.FC = () => (
 		<h3 className="section-heading">My Skills</h3>
 		<div className="skills-container">
 			{skills.map(({ name, img, alt }) => (
-				<figure className="skill animation" key={name}>
-					<Image height={75} width={75} src={img} alt={alt || name} />
+				<figure className="skill" key={name}>
+					<div className="animation">
+						<Image height={80} width={80} src={img} alt={alt || name} />
+					</div>
 					<figcaption className="skill-name">{name}</figcaption>
 				</figure>
 			))}

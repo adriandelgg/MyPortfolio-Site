@@ -21,7 +21,7 @@ const Home: NextPage = () => {
 				/>
 			</Head>
 			<Header />
-			<main>
+			<main id="main">
 				<Intro />
 				<Skills />
 				<Projects />

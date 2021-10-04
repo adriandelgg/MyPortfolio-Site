@@ -1,7 +1,5 @@
-import useStyles from './CardStyles';
 import Image from 'next/image';
-
-import Projects from './projectsObj';
+import { makeStyles } from '@material-ui/core';
 import {
 	Card,
 	CardMedia,
@@ -10,6 +8,18 @@ import {
 	CardActions
 } from '@material-ui/core';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import Projects from './projectsObj';
+
+const useStyles = makeStyles(
+	{
+		root: {
+			backgroundColor: '#181c3a',
+			color: 'white',
+			marginBottom: '2.8em'
+		}
+	},
+	{ index: 2 }
+);
 
 const Project = () => {
 	const styles = useStyles();
@@ -20,19 +30,7 @@ const Project = () => {
 					<li key={name}>
 						<Card classes={{ root: styles.root }} raised>
 							<CardHeader component="h4" title={name} />
-							<CardMedia>
-								<a href={demo} target="_blank" rel="noreferrer">
-									<Image
-										className="project-photo"
-										src={img}
-										alt={imgAlt}
-										width="100%"
-										height="100%"
-										layout="responsive"
-										objectFit="contain"
-									/>
-								</a>
-							</CardMedia>
+							<CardMedia component="img" image={img} alt={imgAlt} />
 							<CardContent>
 								<p className="project-description">{description}</p>
 							</CardContent>
