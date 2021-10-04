@@ -3,7 +3,7 @@ import { HiArrowUp } from 'react-icons/hi';
 
 const Footer: React.FC = () => {
 	return (
-		<footer className="h-">
+		<footer>
 			<h3 id="contact" className="contact-me">
 				Need a website?
 				<br />

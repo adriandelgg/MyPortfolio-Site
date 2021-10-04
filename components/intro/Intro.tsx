@@ -1,5 +1,4 @@
-import './intro.css';
-import Socials from '../../helper/Socials';
+import Socials from '@components/helper/Socials';
 import ButtonMail from './Button';
 
 const Intro: React.FC = () => (

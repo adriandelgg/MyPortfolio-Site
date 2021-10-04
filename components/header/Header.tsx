@@ -1,5 +1,3 @@
-import './header.css';
-
 import Navbar from './Navbar';
 import { RiCodeSSlashFill } from 'react-icons/ri';
 

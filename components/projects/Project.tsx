@@ -16,8 +16,8 @@ const Project = () => {
 	return (
 		<ul className="projects-list">
 			{Projects.map(
-				({ name, img, imgAlt, description, tools, github, demo }, index) => (
-					<li key={index}>
+				({ name, img, imgAlt, description, tools, github, demo }) => (
+					<li key={name}>
 						<Card classes={{ root: styles.root }} raised>
 							<CardHeader component="h4" title={name} />
 							<CardMedia>
@@ -28,7 +28,8 @@ const Project = () => {
 										alt={imgAlt}
 										width="100%"
 										height="100%"
-										// layout="fill"
+										layout="responsive"
+										objectFit="contain"
 									/>
 								</a>
 							</CardMedia>
@@ -39,7 +40,7 @@ const Project = () => {
 								<h5>Tools Used:</h5>
 								<ul className="tech-tools">
 									{tools.map(tool => (
-										<li className="tech-tool" key="tool">
+										<li className="tech-tool" key={Math.random()}>
 											{tool}
 										</li>
 									))}

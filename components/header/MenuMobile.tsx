@@ -4,12 +4,13 @@ import NavItemsMobile from './NavItemsMobile';
 import Hamburger from 'hamburger-react';
 
 const MenuMobile = () => {
-	const [isOpen, setOpen] = useState<boolean>(false);
+	const [isOpen, setOpen] = useState(false);
 
 	useEffect(() => {
-		if (isOpen) {
+		if (isOpen && document) {
 			document.body.style.overflow = 'hidden';
-			document.getElementById('main')!.style.filter = 'blur(5px) brightness(0.7)';
+			document.getElementById('main')!.style.filter =
+				'blur(5px) brightness(0.7)';
 		} else {
 			document.body.style.overflow = 'visible';
 			document.getElementById('main')!.style.filter = 'none';

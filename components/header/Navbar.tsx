@@ -1,9 +1,9 @@
+import useMobileCheck from '@components/helper/useMobileCheck';
 import MenuMobile from './MenuMobile';
-import IsMobile from '../../helper/useMobile';
 import NavItems from './NavItems';
 
 const Navbar = () => {
-	const { isMobile } = IsMobile();
+	const { isMobile } = useMobileCheck();
 
 	return <nav>{!isMobile ? <NavItems /> : <MenuMobile />}</nav>;
 };

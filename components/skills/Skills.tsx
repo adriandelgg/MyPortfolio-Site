@@ -1,4 +1,4 @@
-import './skills.css';
+import Image from 'next/image';
 import { skills } from './skillsList';
 
 const Skills: React.FC = () => (
@@ -6,8 +6,8 @@ const Skills: React.FC = () => (
 		<h3 className="section-heading">My Skills</h3>
 		<div className="skills-container">
 			{skills.map(({ name, img, alt }) => (
-				<figure className="skill" key={name}>
-					<img className="animation skill-img" src={img} alt={alt || name} />
+				<figure className="skill animation" key={name}>
+					<Image height={75} width={75} src={img} alt={alt || name} />
 					<figcaption className="skill-name">{name}</figcaption>
 				</figure>
 			))}

@@ -28,108 +28,108 @@ import mongodb from '../../img/mongodb.svg';
 export const skills = [
 	{
 		name: 'Solidity',
-		img: solidity
+		img: '/solidity.svg'
 	},
 	{
 		name: 'React',
-		img: react
+		img: '/react.svg'
 	},
 	{
 		name: 'Hardhat',
-		img: hardhat
+		img: '/hardhat.svg'
 	},
 	{
 		name: 'TypeScript',
-		img: typescript
+		img: '/typescript.svg'
 	},
 	{
 		name: 'MongoDB',
-		img: mongodb
+		img: '/mongodb.svg'
 	},
 	{
 		name: 'Ethers.js',
-		img: ethers
+		img: '/ethers.svg'
 	},
 	{
 		name: 'Redux',
-		img: redux
+		img: '/redux.svg'
 	},
 	{
 		name: 'Web3.js',
-		img: web3
+		img: '/web3js.svg'
 	},
 	{
 		name: 'Truffle',
-		img: truffle
+		img: '/truffle.svg'
 	},
 	{
 		name: 'Node.js',
-		img: nodejs
+		img: '/nodejs.svg'
 	},
 	{
 		name: 'Tailwind',
-		img: tailwind
+		img: '/tailwindcss.svg'
 	},
 	{
 		name: 'IPFS',
-		img: ipfs
+		img: '/ipfs.svg'
 	},
 	{
 		name: 'JavaScript',
-		img: javascript
+		img: '/javascript.svg'
 	},
 	{
 		name: 'SQL',
-		img: sql
+		img: '/sql.svg'
 	},
 	{
 		name: 'Next.js',
-		img: nextjs
+		img: '/nextjs.webp'
 	},
 	{
 		name: 'Mocha',
-		img: mocha
+		img: '/mochajs.svg'
 	},
 	{
 		name: 'Jest',
-		img: jest
+		img: '/jest.svg'
 	},
 	{
 		name: 'Chai.js',
-		img: chai
+		img: '/chai.svg'
 	},
 	{
 		name: 'REST APIs',
-		img: api
+		img: '/api.svg'
 	},
 	{
 		name: 'Semantic HTML',
-		img: html5,
+		img: '/html.svg',
 		alt: 'HTML5'
 	},
 	{
 		name: 'Responsive CSS',
-		img: css,
+		img: '/css.svg',
 		alt: 'CSS3'
 	},
 	{
 		name: 'Material UI',
-		img: materialui
+		img: '/materialui.svg'
 	},
 	{
 		name: 'Git',
-		img: git
+		img: '/git.svg'
 	},
 	{
 		name: 'Linux',
-		img: linux
+		img: '/ubuntu.svg'
 	},
 	{
 		name: 'npm',
-		img: npm
+		img: '/npm.svg'
 	},
 	{
 		name: 'Bash',
-		img: bash
+		img: '/bash.svg'
 	}
 ];
