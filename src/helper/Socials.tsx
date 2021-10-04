@@ -47,7 +47,7 @@ const Socials = () => {
 				</Animated>
 			</a>
 			<a
-				href="https://www.youtube.com/channel/UCci3UPQ2p4hyERNhXqAPCBw"
+				href="https://www.youtube.com/c/codeonblocks"
 				target="_blank"
 				rel="noreferrer"
 			>
@@ -86,7 +86,11 @@ const Socials = () => {
 					/>
 				</Animated>
 			</a>
-			<a href="https://twitter.com/codeonblocks" target="_blank" rel="noreferrer">
+			<a
+				href="https://twitter.com/codeonblocks"
+				target="_blank"
+				rel="noreferrer"
+			>
 				<Animated
 					animationInDelay={3300}
 					animationIn="fadeInDown"

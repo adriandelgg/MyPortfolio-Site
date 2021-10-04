@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const IsMobile = () => {
+const useMobile = () => {
 	const [isMobile, setIsMobile] = useState(true);
 
 	// Checks if screen size is mobile on load.
@@ -22,4 +22,4 @@ const IsMobile = () => {
 	return { isMobile };
 };
 
-export default IsMobile;
+export default useMobile;

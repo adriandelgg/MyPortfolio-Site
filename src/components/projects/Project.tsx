@@ -1,7 +1,7 @@
 import './projects.css';
 import useStyles from './CardStyles';
 
-import Projects from './projectsObj';
+import { projectsList } from './projectsObj';
 import {
 	Card,
 	CardMedia,
@@ -15,11 +15,9 @@ const Project = () => {
 	const styles = useStyles();
 	return (
 		<ul className="projects-list">
-			{Projects.map((project, index) => {
-				const { name, img, imgAlt, description, tools, github, demo } = project;
-
-				return (
-					<li key={index}>
+			{projectsList.map(
+				({ name, img, imgAlt, description, tools, github, demo }) => (
+					<li key={name}>
 						<Card classes={{ root: styles.root }} raised>
 							<CardHeader component="h4" title={name} />
 							<CardMedia>
@@ -34,7 +32,9 @@ const Project = () => {
 								<h5>Tools Used:</h5>
 								<ul className="tech-tools">
 									{tools.map(tool => (
-										<li className="tech-tool">{tool}</li>
+										<li className="tech-tool" key={Math.random()}>
+											{tool}
+										</li>
 									))}
 								</ul>
 							</CardContent>
@@ -56,8 +56,8 @@ const Project = () => {
 							</CardActions>
 						</Card>
 					</li>
-				);
-			})}
+				)
+			)}
 		</ul>
 	);
 };

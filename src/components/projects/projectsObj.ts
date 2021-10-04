@@ -5,7 +5,7 @@ import myPortfolio from '../../img/myportfolio.webp';
 import ecommerce from '../../img/ecommerce.webp';
 import coinflip from '../../img/coinflip.webp';
 
-const Projects = [
+export const projectsList = [
 	// {
 	// 	name: 'NFT Decentralized Exchange',
 	// 	description:
@@ -113,5 +113,3 @@ const Projects = [
 		demo: 'https://reactquizapi.netlify.app/'
 	}
 ];
-
-export default Projects;

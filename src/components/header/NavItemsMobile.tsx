@@ -1,6 +1,6 @@
 import { Button, makeStyles } from '@material-ui/core';
 interface Props {
-	setOpen: (isOpen: boolean) => void;
+	setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const useStyles = makeStyles({
