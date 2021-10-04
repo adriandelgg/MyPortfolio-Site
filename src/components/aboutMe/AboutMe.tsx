@@ -1,4 +1,5 @@
 import './about.css';
+import adrian from '../../img/adrian.png';
 
 const AboutMe = () => {
 	return (
@@ -19,7 +20,9 @@ const AboutMe = () => {
 						minus aspernatur! Et.
 					</p>
 				</div>
-				<div className="myphoto"></div>
+				{/* <div className="myphoto"> */}
+				<img src={adrian} alt="" />
+				{/* </div> */}
 			</div>
 		</section>
 	);
