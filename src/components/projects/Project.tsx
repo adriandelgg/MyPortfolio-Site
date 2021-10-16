@@ -21,7 +21,7 @@ const Project = () => {
 						<Card classes={{ root: styles.root }} raised>
 							<CardHeader component="h4" title={name} />
 							<CardMedia>
-								<a href={demo} target="_blank" rel="noreferrer">
+								<a href={demo} target="_blank" rel="noreferrer noopener">
 									<img className="project-photo" src={img} alt={imgAlt} />
 								</a>
 							</CardMedia>
@@ -39,14 +39,14 @@ const Project = () => {
 								</ul>
 							</CardContent>
 							<CardActions>
-								<a href={demo} target="_blank" rel="noreferrer">
+								<a href={demo} target="_blank" rel="noreferrer noopener">
 									<FiExternalLink
 										className="external-link"
 										size="1.5em"
 										color="white"
 									/>
 								</a>
-								<a href={github} target="_blank" rel="noreferrer">
+								<a href={github} target="_blank" rel="noreferrer noopener">
 									<FiGithub
 										className="github-link"
 										size="1.5em"

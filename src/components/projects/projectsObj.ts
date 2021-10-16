@@ -31,7 +31,7 @@ export const projectsList = [
 	{
 		name: 'Ethereum CoinFlip Game',
 		description:
-			'An Ethereum blockchain dApp game where 2 players can bet an ERC20 token I created (FLIP) with each other. The winner of the randomized coin flip wins the whole bet amount and can withdraw their earnings at any time to their wallet. MetaMask is required to use.',
+			'An Ethereum blockchain game where 2 players can bet an ERC20 token I created with each other. The winner of the randomized coin flip wins the whole bet amount and can withdraw their earnings at any time to their wallet. MetaMask is required to use.',
 		tools: [
 			'Solidity',
 			'TypeScript',
