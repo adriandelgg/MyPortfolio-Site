@@ -7,7 +7,7 @@ import css from '../../img/css.svg';
 import html5 from '../../img/html.svg';
 import npm from '../../img/npm.svg';
 import git from '../../img/git.svg';
-import linux from '../../img/ubuntu.svg';
+import linux from '../../img/linux.svg';
 import bash from '../../img/bash.svg';
 import api from '../../img/api.svg';
 import sql from '../../img/sql.svg';
@@ -24,6 +24,8 @@ import chai from '../../img/chai.svg';
 import ipfs from '../../img/ipfs.svg';
 import nodejs from '../../img/nodejs.svg';
 import mongodb from '../../img/mongodb.svg';
+import docker from '../../img/docker.svg';
+import kubernetes from '../../img/kubernetes.svg';
 
 export const skills = [
 	{
@@ -51,8 +53,24 @@ export const skills = [
 		img: ethers
 	},
 	{
+		name: 'Node.js',
+		img: nodejs
+	},
+	{
+		name: 'Docker',
+		img: docker
+	},
+	// {
+	// 	name: 'Kubernetes',
+	// 	img: kubernetes
+	// },
+	{
 		name: 'Redux',
 		img: redux
+	},
+	{
+		name: 'JavaScript',
+		img: javascript
 	},
 	{
 		name: 'Web3.js',
@@ -63,10 +81,6 @@ export const skills = [
 		img: truffle
 	},
 	{
-		name: 'Node.js',
-		img: nodejs
-	},
-	{
 		name: 'Tailwind',
 		img: tailwind
 	},
@@ -74,9 +88,10 @@ export const skills = [
 		name: 'IPFS',
 		img: ipfs
 	},
+
 	{
-		name: 'JavaScript',
-		img: javascript
+		name: 'Bash',
+		img: bash
 	},
 	{
 		name: 'SQL',
@@ -127,9 +142,5 @@ export const skills = [
 	{
 		name: 'npm',
 		img: npm
-	},
-	{
-		name: 'Bash',
-		img: bash
 	}
 ];
