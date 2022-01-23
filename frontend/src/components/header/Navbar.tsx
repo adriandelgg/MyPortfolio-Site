@@ -1,5 +1,5 @@
 import MenuMobile from './MenuMobile';
-import IsMobile from '../../helper/useMobile';
+import IsMobile from '../../helpers/useMobile';
 import NavItems from './NavItems';
 
 const Navbar = () => {
