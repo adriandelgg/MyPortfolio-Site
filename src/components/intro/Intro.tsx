@@ -15,9 +15,9 @@ const Intro: React.FC = () => (
 			I love bringing ideas to life, and am a strong believer that blockchain
 			technology will revolutionize the world.
 		</p>
-		<div className="intro-socials">
+		{/* <div className="intro-socials">
 			<Socials />
-		</div>
+		</div> */}
 		<ButtonMail />
 	</section>
 );

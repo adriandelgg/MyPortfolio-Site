@@ -1,5 +1,3 @@
-// import useStyles from './CardStyles';
-
 import { projectsList } from './projectsObj';
 import {
 	Card,
@@ -11,17 +9,23 @@ import {
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const Project = () => {
-	// const styles = useStyles();
 	return (
 		<ul className="projects-list">
 			{projectsList.map(
 				({ name, img, imgAlt, description, tools, github, demo }) => (
 					<li key={name}>
-						<Card classes={''} raised>
+						<Card
+							raised
+							sx={{
+								backgroundColor: '#181c3a',
+								color: 'white',
+								marginBottom: '2.8em'
+							}}
+						>
 							<CardHeader component="h4" title={name} />
 							<CardMedia>
 								<a href={demo} target="_blank" rel="noreferrer noopener">
-									{/* <img className="project-photo" src={img} alt={imgAlt} /> */}
+									<img className="project-photo" src={img} alt={imgAlt} />
 								</a>
 							</CardMedia>
 							<CardContent>

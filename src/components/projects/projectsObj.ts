@@ -1,10 +1,3 @@
-import xvsCalculator from '../../public/xvscalculator.webp';
-import calculator from '../../public/Calculator.webp';
-import reactQuiz from '../../public/reactquiz.webp';
-import myPortfolio from '../../public/myportfolio.webp';
-import ecommerce from '../../public/ecommerce.webp';
-import coinflip from '../../public/coinflip.webp';
-
 export const projectsList = [
 	// {
 	// 	name: 'NFT Decentralized Exchange',
@@ -23,7 +16,7 @@ export const projectsList = [
 	// 		'Chai',
 	// 		'Ethereum'
 	// 	],
-	//  img: dex,
+	//  img: '',
 	// 	imgAlt: 'NFT Decentralized Exchange',
 	// 	github: 'https://github.com/adriandelgg/NFT-Exchange'
 	//  demo: ''
@@ -47,7 +40,7 @@ export const projectsList = [
 			'Ethereum',
 			'MetaMask'
 		],
-		// img: coinflip,
+		img: '/coinflip.webp',
 		imgAlt: 'CoinFlip Game',
 		github: 'https://github.com/adriandelgg/CoinFlip.eth',
 		demo: 'https://coinflip-eth.vercel.app/'
@@ -57,7 +50,7 @@ export const projectsList = [
 		description:
 			"A financial calculator built for a client that extracts real time cryptocurrency prices using CoinGecko's API. The purpose of this calculator is to help with risk management when investing in certain crypto assets on the Ethereum blockchain network using protocols like Compound or Venus. It's a liquidation calculator to make sure the user isn't going to get liquidated when borrowing money while also supplying.",
 		tools: ['JavaScript', 'API', 'CSS3', 'HTML5', 'Google Analytics'],
-		// img: xvsCalculator,
+		img: '/xvscalculator.webp',
 		imgAlt: 'DeFi Liquidation Calculator',
 		github: 'https://github.com/adriandelgg/Crypto-Calculator',
 		demo: 'https://xvscalculator.com'
@@ -77,7 +70,7 @@ export const projectsList = [
 			'Reselect',
 			'Commerce.js'
 		],
-		// img: ecommerce,
+		img: '/ecommerce.webp',
 		imgAlt: 'eCommerce Website',
 		github: 'https://github.com/adriandelgg/eCommerce-Store',
 		demo: 'https://techecommerce.netlify.app/'
@@ -87,7 +80,7 @@ export const projectsList = [
 		description:
 			'Hey, this looks familiar! This website was created & designed from scratch without templates to showcase some of my front-end skills by providing an elegant & minimalist UX design.',
 		tools: ['React', 'TypeScript', 'Material UI', 'CSS', 'Google Analytics'],
-		// img: myPortfolio,
+		img: '/myportfolio.webp',
 		imgAlt: 'My Portfolio Website',
 		github: 'https://github.com/adriandelgg/MyPortfolio-Site',
 		demo: 'https://adriandelgado.dev'
@@ -97,7 +90,7 @@ export const projectsList = [
 		description:
 			"The very first project I ever created! It's a colorful calculator built & designed from scratch that computes basic arithmetic. ",
 		tools: ['JavaScript', 'CSS', 'HTML'],
-		// img: calculator,
+		img: '/Calculator.webp',
 		imgAlt: 'Vanilla Calculator',
 		github: 'https://github.com/adriandelgg/Calculator',
 		demo: 'https://adriandelgg.github.io/Calculator/'
@@ -107,7 +100,7 @@ export const projectsList = [
 		description:
 			"A fun trivia game created with React & Open Trivia's API. It gives you 10 random questions from the category of your choice.",
 		tools: ['React.js', 'REST API', 'CSS', 'HTML'],
-		// img: reactQuiz,
+		img: '/reactquiz.webp',
 		imgAlt: 'Trivia Game',
 		github: 'https://github.com/adriandelgg/React-API-Quiz-App',
 		demo: 'https://reactquizapi.netlify.app/'
