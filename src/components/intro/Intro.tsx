@@ -1,7 +1,7 @@
-import Socials from '../../helper/Socials';
-import ButtonMail from './Button';
+import { Socials } from '../../helper/Socials';
+import { ButtonMail } from './ButtonMail';
 
-const Intro: React.FC = () => (
+export const Intro = () => (
 	<section className="intro-section">
 		<h1 className="intro-greeting">Hello, my name is</h1>
 		<h2 className="intro-name">Adrian Delgado.</h2>
@@ -21,4 +21,3 @@ const Intro: React.FC = () => (
 		<ButtonMail />
 	</section>
 );
-export default Intro;

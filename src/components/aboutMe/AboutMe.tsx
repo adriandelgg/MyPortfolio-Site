@@ -1,6 +1,4 @@
-import adrian from '../../img/adrian.png';
-
-const AboutMe = () => {
+export const AboutMe = () => {
 	return (
 		<section id="about-me">
 			<h3 className="section-heading">About Me</h3>
@@ -20,11 +18,9 @@ const AboutMe = () => {
 					</p>
 				</div>
 				{/* <div className="myphoto"> */}
-				<img src={adrian} alt="" />
+				<img src="/adrian.png" alt="" />
 				{/* </div> */}
 			</div>
 		</section>
 	);
 };
-
-export default AboutMe;

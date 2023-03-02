@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-import Header from '@/components/header/Header';
-import Intro from '@/components/intro/Intro';
+import { Header } from '@/components/header/Header';
+import { Intro } from '@/components/intro/Intro';
 // import AboutMe from '@/components/aboutMe/AboutMe';
-import Projects from '@/components/projects/Projects';
+import { Projects } from '@/components/projects/Projects';
 import Skills from '@/components/skills/Skills';
 import Footer from '@/components/footer/Footer';
 

@@ -1,7 +1,7 @@
 import { Animated } from 'react-animated-css';
 import { FiGithub, FiLinkedin, FiTwitter, FiYoutube } from 'react-icons/fi';
 
-const Socials = () => (
+export const Socials = () => (
 	<>
 		<a
 			href="https://github.com/adriandelgg"
@@ -85,5 +85,3 @@ const Socials = () => (
 		</a>
 	</>
 );
-
-export default Socials;

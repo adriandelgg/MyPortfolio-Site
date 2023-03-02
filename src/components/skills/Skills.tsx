@@ -1,6 +1,6 @@
 import { skills } from './skillsList';
 
-const Skills: React.FC = () => (
+export const Skills = () => (
 	<section id="skills" className="skills-section">
 		<h3 className="section-heading">My Skills</h3>
 		<div className="skills-container">
@@ -13,5 +13,3 @@ const Skills: React.FC = () => (
 		</div>
 	</section>
 );
-
-export default Skills;

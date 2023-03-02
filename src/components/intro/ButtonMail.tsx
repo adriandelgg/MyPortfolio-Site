@@ -2,17 +2,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import { Button } from '@mui/material';
 // import { Animated } from 'react-animated-css';
 
-// const useStyles = makeStyles({
-// 	root: {
-// 		backgroundColor: '#181c3a',
-// 		borderColor: '#f7bb50',
-// 		color: '#f7bb50',
-// 		marginBottom: '2.5em'
-// 	}
-// });
-
-const ButtonMail = () => {
-	// const styles = useStyles();
+export const ButtonMail = () => {
 	return (
 		// <Animated
 		// 	animationInDelay={3200}
@@ -23,7 +13,12 @@ const ButtonMail = () => {
 		// 	isVisible={true}
 		// >
 		<Button
-			// classes={{ root: styles.root }}
+			sx={{
+				backgroundColor: '#181c3a',
+				borderColor: '#f7bb50',
+				color: '#f7bb50',
+				marginBottom: '2.5em'
+			}}
 			className="resume-btn"
 			href="mailto:adriandelgado.tech@gmail.com"
 			variant="outlined"
@@ -34,5 +29,3 @@ const ButtonMail = () => {
 		// </Animated>
 	);
 };
-
-export default ButtonMail;

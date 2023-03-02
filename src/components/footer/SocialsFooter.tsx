@@ -6,7 +6,7 @@ import {
 	FiYoutube
 } from 'react-icons/fi';
 
-const Socials = () => (
+export const SocialsFooter = () => (
 	<>
 		<a
 			href="https://github.com/adriandelgg"
@@ -57,5 +57,3 @@ const Socials = () => (
 		</a>
 	</>
 );
-
-export default Socials;

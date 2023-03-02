@@ -1,16 +1,7 @@
-import { Button, makeStyles } from '@mui/material';
+import { Button } from '@mui/material';
 import { Animated } from 'react-animated-css';
 
-const useStyles = makeStyles({
-	root: {
-		backgroundColor: '#181c3a',
-		borderColor: '#f7bb50',
-		color: '#f7bb50'
-	}
-});
-
-const NavItems = () => {
-	const styles = useStyles();
+export const NavItems = () => {
 	return (
 		<ul className="nav-links">
 			{/* <Animated
@@ -79,7 +70,11 @@ const NavItems = () => {
 			>
 				<li>
 					<Button
-						classes={{ root: styles.root }}
+						sx={{
+							backgroundColor: '#181c3a',
+							borderColor: '#f7bb50',
+							color: '#f7bb50'
+						}}
 						className="resume-btn"
 						variant="outlined"
 						href="https://drive.google.com/file/d/1NmHqBa8aFOU0EeeVto8YF2G7lsWoD_F0/view?usp=sharing"
@@ -93,5 +88,3 @@ const NavItems = () => {
 		</ul>
 	);
 };
-
-export default NavItems;

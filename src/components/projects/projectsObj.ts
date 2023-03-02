@@ -18,7 +18,7 @@ export const projectsList = [
 	// 	],
 	//  img: '',
 	// 	imgAlt: 'NFT Decentralized Exchange',
-	// 	github: 'https://github.com/adriandelgg/NFT-Exchange'
+	// 	github: 'https://github.com/codeonblocks/NFT-Exchange'
 	//  demo: ''
 	// },
 	{
@@ -42,7 +42,7 @@ export const projectsList = [
 		],
 		img: '/coinflip.webp',
 		imgAlt: 'CoinFlip Game',
-		github: 'https://github.com/adriandelgg/CoinFlip.eth',
+		github: 'https://github.com/codeonblocks/CoinFlip.eth',
 		demo: 'https://coinflip-eth.vercel.app/'
 	},
 	{
@@ -52,7 +52,7 @@ export const projectsList = [
 		tools: ['JavaScript', 'API', 'CSS3', 'HTML5', 'Google Analytics'],
 		img: '/xvscalculator.webp',
 		imgAlt: 'DeFi Liquidation Calculator',
-		github: 'https://github.com/adriandelgg/Crypto-Calculator',
+		github: 'https://github.com/codeonblocks/Crypto-Calculator',
 		demo: 'https://xvscalculator.com'
 	},
 	{
@@ -72,7 +72,7 @@ export const projectsList = [
 		],
 		img: '/ecommerce.webp',
 		imgAlt: 'eCommerce Website',
-		github: 'https://github.com/adriandelgg/eCommerce-Store',
+		github: 'https://github.com/codeonblocks/eCommerce-Store',
 		demo: 'https://techecommerce.netlify.app/'
 	},
 	{
@@ -82,7 +82,7 @@ export const projectsList = [
 		tools: ['React', 'TypeScript', 'Material UI', 'CSS', 'Google Analytics'],
 		img: '/myportfolio.webp',
 		imgAlt: 'My Portfolio Website',
-		github: 'https://github.com/adriandelgg/MyPortfolio-Site',
+		github: 'https://github.com/codeonblocks/MyPortfolio-Site',
 		demo: 'https://adriandelgado.dev'
 	},
 	{
@@ -92,8 +92,8 @@ export const projectsList = [
 		tools: ['JavaScript', 'CSS', 'HTML'],
 		img: '/Calculator.webp',
 		imgAlt: 'Vanilla Calculator',
-		github: 'https://github.com/adriandelgg/Calculator',
-		demo: 'https://adriandelgg.github.io/Calculator/'
+		github: 'https://github.com/codeonblocks/Calculator',
+		demo: 'https://codeonblocks.github.io/Calculator/'
 	},
 	{
 		name: 'React Trivia Game',
@@ -102,7 +102,7 @@ export const projectsList = [
 		tools: ['React.js', 'REST API', 'CSS', 'HTML'],
 		img: '/reactquiz.webp',
 		imgAlt: 'Trivia Game',
-		github: 'https://github.com/adriandelgg/React-API-Quiz-App',
+		github: 'https://github.com/codeonblocks/React-API-Quiz-App',
 		demo: 'https://reactquizapi.netlify.app/'
 	}
 ];

@@ -1,11 +1,9 @@
-import MenuMobile from './MenuMobile';
-import IsMobile from '../../helper/useMobile';
-import NavItems from './NavItems';
+import { MenuMobile } from './MenuMobile';
+import { useMobile } from '../../helper/useMobile';
+import { NavItems } from './NavItems';
 
-const Navbar = () => {
-	const { isMobile } = IsMobile();
+export const Navbar = () => {
+	const { isMobile } = useMobile();
 
 	return <nav>{/* {!isMobile ? <NavItems /> : <MenuMobile />} */}</nav>;
 };
-
-export default Navbar;
