@@ -9,15 +9,18 @@ export const Intro = () => (
 			<span className="web-dev">&lt;Full-Stack Blockchain Developer/&gt;</span>
 		</h3>
 		<p className="intro-paragraph">
-			My dream is that my work will positively impact the world forever.
+			I&apos;m a blockchain enthusiast with a passion for bringing ideas to
+			life. My dream is to use my skills to make a positive impact on the world.
 		</p>
 		<p className="intro-paragraph">
-			I love bringing ideas to life, and am a strong believer that blockchain
-			technology will revolutionize the world.
+			I believe that blockchain technology has the potential to revolutionize
+			the way we live and work, and I&apos;m excited to be a part of this
+			transformation. Through my work, I aim to contribute to this movement and
+			create solutions that make a lasting difference.
 		</p>
-		{/* <div className="intro-socials">
+		<div className="intro-socials">
 			<Socials />
-		</div> */}
+		</div>
 		<ButtonMail />
 	</section>
 );

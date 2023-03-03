@@ -8,10 +8,12 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@emailjs/browser": "^3.10.0",
 		"@emotion/react": "^11.10.6",
 		"@emotion/styled": "^11.10.6",
 		"@mui/icons-material": "^5.11.11",
 		"@mui/material": "^5.11.11",
+		"@react-spring/web": "^9.7.1",
 		"animate.css": "^4.1.1",
 		"hamburger-react": "^2.5.0",
 		"next": "13.2.3",

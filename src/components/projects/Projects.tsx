@@ -1,4 +1,3 @@
-import { projectsList } from './projectsObj';
 import {
 	Card,
 	CardMedia,
@@ -6,6 +5,7 @@ import {
 	CardHeader,
 	CardActions
 } from '@mui/material';
+import { projectsList } from './projectsObj';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 export const Projects = () => (

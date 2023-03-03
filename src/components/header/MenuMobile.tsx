@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-
 import NavItemsMobile from './NavItemsMobile';
 import Hamburger from 'hamburger-react';
 
