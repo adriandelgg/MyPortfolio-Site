@@ -4,47 +4,38 @@ interface Props {
 	setOpen: Dispatch<SetStateAction<boolean>>;
 }
 
-const NavItemMobile = ({ setOpen }: Props) => {
-	const handleClick = () => setOpen(false);
+export const NavItemsMobile = ({ setOpen }: Props) => {
+	const handleClick = (id: string) => {
+		setOpen(false);
+		document?.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+	};
 
 	return (
 		<ul id="mobile-nav" className="nav-links animate-mobile animate-back-in">
-			{/* <li className="nav-link-li">
-				<a onClick={handleClick} className="nav-link" href="#about-me">
-					About
-				</a>
+			{/* <li className="nav-link">
+				<a onClick={() => handleClick('about-me')}>About</a>
 			</li> */}
-
-			<li>
-				<a onClick={handleClick} className="nav-link" href="#skills">
-					Skills
-				</a>
+			<li className="nav-link">
+				<a onClick={() => handleClick('skills')}>Skills</a>
 			</li>
-
-			<li>
-				<a onClick={handleClick} className="nav-link" href="#projects">
-					Projects
-				</a>
+			<li className="nav-link">
+				<a onClick={() => handleClick('projects')}>Projects</a>
 			</li>
-
-			<li>
-				<a onClick={handleClick} className="nav-link" href="#contact">
-					Contact
-				</a>
+			<li className="nav-link">
+				<a onClick={() => handleClick('contact')}>Contact</a>
 			</li>
-
 			<li className="resume-btn">
 				<Button
-					onClick={handleClick}
 					sx={{
 						backgroundColor: '#181c3a',
 						borderColor: '#f7bb50',
 						color: '#f7bb50'
 					}}
 					variant="outlined"
-					href="https://drive.google.com/file/d/1NmHqBa8aFOU0EeeVto8YF2G7lsWoD_F0/view?usp=sharing"
+					href=""
 					target="_blank"
 					rel="noopener noreferrer"
+					onClick={() => setOpen(false)}
 				>
 					Resume
 				</Button>
@@ -52,5 +43,3 @@ const NavItemMobile = ({ setOpen }: Props) => {
 		</ul>
 	);
 };
-
-export default NavItemMobile;

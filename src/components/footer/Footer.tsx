@@ -13,7 +13,14 @@ export const Footer = () => (
 		</div>
 		<h5 className="footer-text">© Created by Adrian Delgado 2021</h5>
 		<div className="backup-arrow animation">
-			<a href="#top">
+			<a
+				onClick={() =>
+					window.scrollTo({
+						top: 0,
+						behavior: 'smooth'
+					})
+				}
+			>
 				<HiArrowUp size="3em" color="#fdfdfd" />
 			</a>
 		</div>

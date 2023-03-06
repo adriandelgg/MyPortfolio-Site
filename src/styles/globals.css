@@ -88,6 +88,7 @@ nav {
 	font-weight: 600;
 	font-family: 'Roboto Mono', monospace;
 	color: var(--light-slate);
+	cursor: pointer;
 }
 
 .nav-link:hover {

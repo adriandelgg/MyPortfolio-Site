@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import NavItemsMobile from './NavItemsMobile';
+import { NavItemsMobile } from './NavItemsMobile';
 import Hamburger from 'hamburger-react';
 
 export const MenuMobile = () => {
