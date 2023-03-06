@@ -1,11 +1,14 @@
-import xvsCalculator from '../../img/xvscalculator.webp';
-import calculator from '../../img/Calculator.webp';
-import reactQuiz from '../../img/reactquiz.webp';
-import myPortfolio from '../../img/myportfolio.webp';
-import ecommerce from '../../img/ecommerce.webp';
-import coinflip from '../../img/coinflip.webp';
+type ProjectList = {
+	name: string;
+	description: string;
+	tools: string[];
+	img: string;
+	imgAlt: string;
+	github: string;
+	demo: string;
+}[];
 
-export const projectsList = [
+export const projectsList: ProjectList = [
 	// {
 	// 	name: 'NFT Decentralized Exchange',
 	// 	description:
@@ -23,15 +26,37 @@ export const projectsList = [
 	// 		'Chai',
 	// 		'Ethereum'
 	// 	],
-	//  img: dex,
+	//  img: '',
 	// 	imgAlt: 'NFT Decentralized Exchange',
-	// 	github: 'https://github.com/adriandelgg/NFT-Exchange'
+	// 	github: 'https://github.com/codeonblocks/NFT-Exchange'
 	//  demo: ''
 	// },
 	{
+		name: 'NFT Staking Contracts w/ REST API',
+		description:
+			'This NFT staking and trading platform enables users to stake their NFTs and earn rewards in ERC20 tokens. The platform supports NFTs only from a specific contract I created, and users can trade their staked NFTs with other users in the marketplace using ERC20 tokens. This project includes a backend API that captures events from the smart contracts and saves data to MongoDB, which can be retrieved and used in a frontend application in order to save gas. The project has several deliverables, including the ability to set the fee percentage, change the fee receiver address, whitelist NFT addresses, show NFTs for sale, allow sellers to cancel listings, transfer NFTs to buyers, and show recent NFTs sold. Overall, this project provides a secure and efficient platform for staking, trading, and earning rewards using NFTs and ERC20 tokens.',
+		tools: [
+			'Solidity',
+			'Ethers.js',
+			'Hardhat',
+			'TypeScript',
+			'Node.js',
+			'Express.js',
+			'MongoDB',
+			'Mongoose.js',
+			'ERC1155',
+			'ERC20',
+			'Ethereum'
+		],
+		img: '/nft-staking-code.png',
+		imgAlt: 'CoinFlip Game',
+		github: 'https://github.com/codeonblocks/nft-staking',
+		demo: 'https://github.com/codeonblocks/nft-staking'
+	},
+	{
 		name: 'Ethereum CoinFlip Game',
 		description:
-			'An Ethereum blockchain game where 2 players can bet an ERC20 token I created with each other. The winner of the randomized coin flip wins the whole bet amount and can withdraw their earnings at any time to their wallet. MetaMask is required to use.',
+			'A decentralized game on the Ethereum blockchain that allows two players to bet an ERC20 token I created. The game is a simple coin flip, with the winner taking the entire bet amount. The game is provably fair, with the outcome determined by the smart contract. Players can withdraw their winnings at any time to their wallet, and MetaMask is required to participate.',
 		tools: [
 			'Solidity',
 			'TypeScript',
@@ -47,25 +72,35 @@ export const projectsList = [
 			'Ethereum',
 			'MetaMask'
 		],
-		img: coinflip,
+		img: '/coinflip.webp',
 		imgAlt: 'CoinFlip Game',
-		github: 'https://github.com/adriandelgg/CoinFlip.eth',
+		github: 'https://github.com/codeonblocks/CoinFlip.eth',
 		demo: 'https://coinflip-eth.vercel.app/'
 	},
 	{
 		name: 'DeFi Liquidation Calculator',
 		description:
-			"A financial calculator built for a client that extracts real time cryptocurrency prices using CoinGecko's API. The purpose of this calculator is to help with risk management when investing in certain crypto assets on the Ethereum blockchain network using protocols like Compound or Venus. It's a liquidation calculator to make sure the user isn't going to get liquidated when borrowing money while also supplying.",
+			"This financial calculator is designed to help investors manage their risk when investing in cryptocurrencies on the Ethereum blockchain. The calculator extracts real-time cryptocurrency prices using CoinGecko's API and is specifically tailored to support the protocol Venus (similar to Compound), where users can borrow or supply cryptocurrencies. The calculator provides crucial information to help users avoid liquidation risks, allowing them to manage their investments with confidence. The project leverages cutting-edge technology to provide reliable and up-to-date information and ensures the security and privacy of user data. Overall, this project provides an essential tool for investors looking to maximize their returns while minimizing their risks.",
 		tools: ['JavaScript', 'API', 'CSS3', 'HTML5', 'Google Analytics'],
-		img: xvsCalculator,
+		img: '/xvscalculator.webp',
 		imgAlt: 'DeFi Liquidation Calculator',
-		github: 'https://github.com/adriandelgg/Crypto-Calculator',
-		demo: 'https://xvscalculator.com'
+		github: 'https://github.com/codeonblocks/DeFi-Calculator',
+		demo: 'https://deficalculator.netlify.app/'
+	},
+	{
+		name: 'Luxury Only Cattery',
+		description:
+			"I built this site from scratch for a client to showcase their cat breeding business and attract new customers. It features a clean, modern design and is fully responsive on all devices. Using my front-end development skills, I created an engaging and user-friendly experience for visitors to learn about the cattery's services and see their adorable cats. In exchange for my work, the client gave me a kitten, making this project a truly special collaboration.",
+		tools: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+		img: '/luxury-only.png',
+		imgAlt: 'One of the Kings of the Cattery',
+		github: 'https://github.com/codeonblocks/british-shorthair',
+		demo: 'https://www.luxuryonlykittens.com'
 	},
 	{
 		name: 'eCommerce Store',
 		description:
-			"An eCommerce website built & designed completely from scratch using Commerce.js's REST API to handle the population of the products. I used Redux to store the state of the shopping cart, saved items, & render the proper UI components based on the user's actions.",
+			"I built and designed this eCommerce website completely from scratch using Commerce.js's REST API to handle the population of the products. To store the state of the shopping cart, saved items, and render the proper UI components based on the user's actions, I utilized Redux. Through this project, I was able to showcase my expertise in designing, building, and deploying robust eCommerce solutions that meet the needs of modern online businesses.",
 		tools: [
 			'React',
 			'Redux',
@@ -77,39 +112,47 @@ export const projectsList = [
 			'Reselect',
 			'Commerce.js'
 		],
-		img: ecommerce,
+		img: '/ecommerce.webp',
 		imgAlt: 'eCommerce Website',
-		github: 'https://github.com/adriandelgg/eCommerce-Store',
+		github: 'https://github.com/codeonblocks/eCommerce-Store',
 		demo: 'https://techecommerce.netlify.app/'
 	},
 	{
 		name: 'My Portfolio Site',
 		description:
-			'Hey, this looks familiar! This website was created & designed from scratch without templates to showcase some of my front-end skills by providing an elegant & minimalist UX design.',
-		tools: ['React', 'TypeScript', 'Material UI', 'CSS', 'Google Analytics'],
-		img: myPortfolio,
+			'My portfolio website is a testament to my front-end development skills. I designed and built it from scratch without using any templates, with the goal of creating an elegant and minimalist user experience. The website showcases my work and expertise in web development, featuring a clean and intuitive design that draws attention to my projects and highlights my skill set. I utilized Next.js to build the website, allowing for a fast and responsive browsing experience for visitors. Through this project, I demonstrated my ability to design and develop high-quality websites that not only look great but also provide a seamless user experience.',
+		tools: [
+			'Next.js',
+			'React',
+			'TypeScript',
+			'Material UI',
+			'CSS',
+			'React-Spring',
+			'Google Analytics'
+		],
+		img: '/myportfolio.webp',
 		imgAlt: 'My Portfolio Website',
-		github: 'https://github.com/adriandelgg/MyPortfolio-Site',
+		github: 'https://github.com/codeonblocks/MyPortfolio-Site',
 		demo: 'https://adriandelgado.dev'
 	},
 	{
 		name: 'Vanilla Calculator',
 		description:
-			"The very first project I ever created! It's a colorful calculator built & designed from scratch that computes basic arithmetic. ",
+			"It's a colorful calculator built & designed from scratch that computes basic arithmetic. ",
 		tools: ['JavaScript', 'CSS', 'HTML'],
-		img: calculator,
+		img: '/Calculator.webp',
 		imgAlt: 'Vanilla Calculator',
-		github: 'https://github.com/adriandelgg/Calculator',
-		demo: 'https://adriandelgg.github.io/Calculator/'
-	},
-	{
-		name: 'React Trivia Game',
-		description:
-			"A fun trivia game created with React & Open Trivia's API. It gives you 10 random questions from the category of your choice.",
-		tools: ['React.js', 'REST API', 'CSS', 'HTML'],
-		img: reactQuiz,
-		imgAlt: 'Trivia Game',
-		github: 'https://github.com/adriandelgg/React-API-Quiz-App',
-		demo: 'https://reactquizapi.netlify.app/'
+		github: 'https://github.com/codeonblocks/Calculator',
+		demo: 'https://codeonblocks.github.io/Calculator/'
 	}
+	// {
+	// 	name: 'React Trivia Game',
+	// 	description:
+	// 		"A fun trivia game created with React & Open Trivia's API. It gives you 10 random questions from the category of your choice.",
+	// 	tools: ['React.js', 'REST API', 'CSS', 'HTML'],
+	// 	img: '/reactquiz.webp',
+	// 	imgAlt: 'Trivia Game',
+	// 	github: 'https://github.com/codeonblocks/React-API-Quiz-App',
+	// 	demo: 'https://reactquizapi.netlify.app/'
+	// }
 ];

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const useMobile = () => {
+export const useMobile = () => {
 	const [isMobile, setIsMobile] = useState(true);
 
 	// Checks if screen size is mobile on load.
@@ -10,16 +10,17 @@ const useMobile = () => {
 
 	// Checks for mobile size.
 	useEffect(() => {
-		window.addEventListener('resize', () => {
+		function checkIsMobile() {
 			if (window.innerWidth <= 709) setIsMobile(true);
 			else setIsMobile(false);
-		});
+		}
+
+		window.addEventListener('resize', checkIsMobile);
+
 		return () => {
-			window.removeEventListener('resize', () => {});
+			window.removeEventListener('resize', checkIsMobile);
 		};
 	});
 
 	return { isMobile };
 };
-
-export default useMobile;
