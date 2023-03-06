@@ -1,4 +1,10 @@
-export const skills = [
+interface Skill {
+	name: string;
+	img: string;
+	alt?: string;
+}
+
+export const skills: Skill[] = [
 	{
 		name: 'Solidity',
 		img: '/solidity.svg'

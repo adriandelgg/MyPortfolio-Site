@@ -34,7 +34,7 @@ export const NavItems = () => {
 					}}
 					className="resume-btn"
 					variant="outlined"
-					href="https://drive.google.com/file/d/1NmHqBa8aFOU0EeeVto8YF2G7lsWoD_F0/view?usp=sharing"
+					href=""
 					target="_blank"
 					rel="noopener noreferrer"
 					key="3"

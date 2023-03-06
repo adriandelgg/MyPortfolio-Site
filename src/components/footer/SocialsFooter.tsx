@@ -9,7 +9,7 @@ import {
 export const SocialsFooter = () => (
 	<>
 		<a
-			href="https://github.com/adriandelgg"
+			href="https://github.com/codeonblocks"
 			target="_blank"
 			rel="noreferrer noopener"
 		>

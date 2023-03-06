@@ -84,8 +84,8 @@ export const projectsList: ProjectList = [
 		tools: ['JavaScript', 'API', 'CSS3', 'HTML5', 'Google Analytics'],
 		img: '/xvscalculator.webp',
 		imgAlt: 'DeFi Liquidation Calculator',
-		github: 'https://github.com/codeonblocks/Crypto-Calculator',
-		demo: 'https://www.xvscalculator.com'
+		github: 'https://github.com/codeonblocks/DeFi-Calculator',
+		demo: 'https://deficalculator.netlify.app/'
 	},
 	{
 		name: 'Luxury Only Cattery',

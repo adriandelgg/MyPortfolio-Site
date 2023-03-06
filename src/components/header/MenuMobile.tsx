@@ -3,7 +3,7 @@ import NavItemsMobile from './NavItemsMobile';
 import Hamburger from 'hamburger-react';
 
 export const MenuMobile = () => {
-	const [isOpen, setOpen] = useState<boolean>(false);
+	const [isOpen, setOpen] = useState(false);
 
 	useEffect(() => {
 		if (isOpen) {
