@@ -1,9 +1,9 @@
-import { MenuMobile } from './MenuMobile';
-import { useMobile } from '../../helper/useMobile';
-import { NavItems } from './NavItems';
+import { MenuMobile } from "./MenuMobile";
+import { useIsMobile } from "../../hooks/useIsMobile";
+import { NavItems } from "./NavItems";
 
 export const Navbar = () => {
-	const { isMobile } = useMobile();
+  const isMobile = useIsMobile();
 
-	return <nav>{isMobile ? <MenuMobile /> : <NavItems />}</nav>;
+  return <nav>{isMobile ? <MenuMobile /> : <NavItems />}</nav>;
 };
