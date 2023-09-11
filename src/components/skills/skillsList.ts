@@ -8,6 +8,10 @@ export const skills = [
     img: "/solidity.svg"
   },
   {
+    name: "Python",
+    img: "/pythonlogo.svg"
+  },
+  {
     name: "React",
     img: "/react.svg"
   },
@@ -20,12 +24,16 @@ export const skills = [
     img: "/postgresql.svg"
   },
   {
-    name: "Next.js",
-    img: "/nextjs.webp"
+    name: "Express.js",
+    img: "/expressjs.svg"
   },
   {
     name: "MongoDB",
     img: "/mongodb.svg"
+  },
+  {
+    name: "Next.js",
+    img: "/nextjs.webp"
   },
   {
     name: "Hardhat",
@@ -68,22 +76,20 @@ export const skills = [
     img: "/tailwindcss.svg"
   },
   {
-    name: "Mocha",
-    img: "/mochajs.svg"
-  },
-  {
     name: "Jest",
     img: "/jest.svg"
   },
   {
-    name: "Semantic HTML",
-    img: "/html.svg",
-    alt: "HTML5"
+    name: "Mocha",
+    img: "/mochajs.svg"
   },
   {
-    name: "Responsive CSS",
-    img: "/css.svg",
-    alt: "CSS3"
+    name: "HTML",
+    img: "/html.svg"
+  },
+  {
+    name: "CSS",
+    img: "/css.svg"
   },
   {
     name: "Git",
