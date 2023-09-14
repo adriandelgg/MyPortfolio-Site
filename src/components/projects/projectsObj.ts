@@ -1,3 +1,5 @@
+import { GITHUB_URL } from "@/config/constants";
+
 export const projectsList = [
   // {
   //   name: "NFT Decentralized Exchange",
@@ -18,7 +20,7 @@ export const projectsList = [
   //   ],
   //   img: "",
   //   imgAlt: "NFT Decentralized Exchange",
-  //   github: "https://github.com/codeonblocks/NFT-Exchange",
+  //   github: `${GITHUB_URL}/NFT-Exchange`,
   //   demo: ""
   // },
   {
@@ -38,7 +40,7 @@ export const projectsList = [
     ],
     img: "/ecommerce.webp",
     imgAlt: "eCommerce Website",
-    github: "https://github.com/codeonblocks/eCommerce-Store",
+    github: `${GITHUB_URL}/eCommerce-Store`,
     demo: "https://techecommerce.netlify.app/"
   },
   {
@@ -48,7 +50,7 @@ export const projectsList = [
     tools: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     img: "/luxury-only.png",
     imgAlt: "One of the Kings of the Cattery",
-    github: "https://github.com/codeonblocks/british-shorthair",
+    github: `${GITHUB_URL}/british-shorthair`,
     demo: "https://www.luxuryonlykittens.com"
   },
   {
@@ -70,8 +72,8 @@ export const projectsList = [
     ],
     img: "/nft-staking-code.png",
     imgAlt: "CoinFlip Game",
-    github: "https://github.com/codeonblocks/nft-staking",
-    demo: "https://github.com/codeonblocks/nft-staking"
+    github: `${GITHUB_URL}/nft-staking`,
+    demo: `${GITHUB_URL}/nft-staking`
   },
   {
     name: "DeFi Liquidation Calculator",
@@ -80,7 +82,7 @@ export const projectsList = [
     tools: ["JavaScript", "API", "CSS3", "HTML5", "Google Analytics"],
     img: "/xvscalculator.webp",
     imgAlt: "DeFi Liquidation Calculator",
-    github: "https://github.com/codeonblocks/DeFi-Calculator",
+    github: `${GITHUB_URL}/DeFi-Calculator`,
     demo: "https://deficalculator.netlify.app/"
   },
   {
@@ -104,7 +106,7 @@ export const projectsList = [
     ],
     img: "/coinflip.webp",
     imgAlt: "CoinFlip Game",
-    github: "https://github.com/codeonblocks/CoinFlip.eth",
+    github: `${GITHUB_URL}/CoinFlip.eth`,
     demo: "https://coinflip-eth.vercel.app/"
   },
   {
@@ -122,8 +124,8 @@ export const projectsList = [
     ],
     img: "/myportfolio.webp",
     imgAlt: "My Portfolio Website",
-    github: "https://github.com/codeonblocks/MyPortfolio-Site",
-    demo: "https://adriandelgado.dev"
+    github: `${GITHUB_URL}/MyPortfolio-Site`,
+    demo: "https://www.adriandelgado.dev"
   },
   {
     name: "Vanilla Calculator",
@@ -132,7 +134,7 @@ export const projectsList = [
     tools: ["JavaScript", "CSS", "HTML"],
     img: "/Calculator.webp",
     imgAlt: "Vanilla Calculator",
-    github: "https://github.com/codeonblocks/Calculator",
-    demo: "https://codeonblocks.github.io/Calculator/"
+    github: `${GITHUB_URL}/Calculator`,
+    demo: "https://adriandelgg.github.io/Calculator/"
   }
 ];
