@@ -4,6 +4,10 @@ export const skills = [
     img: "/typescript.svg"
   },
   {
+    name: "Go",
+    img: "/goLogo.svg"
+  },
+  {
     name: "Solidity",
     img: "/solidity.svg"
   },
@@ -20,32 +24,20 @@ export const skills = [
     img: "/nodejs.svg"
   },
   {
-    name: "PostgreSQL",
-    img: "/postgresql.svg"
+    name: "Azure",
+    img: "/azure.svg"
   },
   {
-    name: "Express.js",
-    img: "/expressjs.svg"
+    name: "PostgreSQL",
+    img: "/postgresql.svg"
   },
   {
     name: "MongoDB",
     img: "/mongodb.svg"
   },
   {
-    name: "Next.js",
-    img: "/nextjs.webp"
-  },
-  {
-    name: "Hardhat",
-    img: "/hardhat.svg"
-  },
-  {
-    name: "GraphQL",
-    img: "/graphql.svg"
-  },
-  {
-    name: "Ethers.js",
-    img: "/ethers.svg"
+    name: "Express.js",
+    img: "/expressjs.svg"
   },
   {
     name: "Docker",
@@ -56,6 +48,14 @@ export const skills = [
     img: "/linux.svg"
   },
   {
+    name: "Hardhat",
+    img: "/hardhat.svg"
+  },
+  {
+    name: "GraphQL",
+    img: "/graphql.svg"
+  },
+  {
     name: "Bash",
     img: "/bash.svg"
   },
@@ -64,24 +64,12 @@ export const skills = [
     img: "/redux.svg"
   },
   {
-    name: "Azure",
-    img: "/azure.svg"
-  },
-  {
     name: "JavaScript",
     img: "/javascript.svg"
   },
   {
     name: "TailwindCSS",
     img: "/tailwindcss.svg"
-  },
-  {
-    name: "Jest",
-    img: "/jest.svg"
-  },
-  {
-    name: "Mocha",
-    img: "/mochajs.svg"
   },
   {
     name: "HTML",

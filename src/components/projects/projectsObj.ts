@@ -40,7 +40,7 @@ export const projectsList = [
     ],
     img: "/ecommerce.webp",
     imgAlt: "eCommerce Website",
-    github: `${GITHUB_URL}/eCommerce-Store`,
+    github: `/eCommerce-Store`,
     demo: "https://techecommerce.netlify.app/"
   },
   {
@@ -50,7 +50,7 @@ export const projectsList = [
     tools: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     img: "/luxury-only.png",
     imgAlt: "One of the Kings of the Cattery",
-    github: `${GITHUB_URL}/british-shorthair`,
+    github: `/british-shorthair`,
     demo: "https://www.luxuryonlykittens.com"
   },
   {
@@ -72,7 +72,7 @@ export const projectsList = [
     ],
     img: "/nft-staking-code.png",
     imgAlt: "CoinFlip Game",
-    github: `${GITHUB_URL}/nft-staking`,
+    github: `/nft-staking`,
     demo: `${GITHUB_URL}/nft-staking`
   },
   {
@@ -82,7 +82,7 @@ export const projectsList = [
     tools: ["JavaScript", "API", "CSS3", "HTML5", "Google Analytics"],
     img: "/xvscalculator.webp",
     imgAlt: "DeFi Liquidation Calculator",
-    github: `${GITHUB_URL}/DeFi-Calculator`,
+    github: `/DeFi-Calculator`,
     demo: "https://deficalculator.netlify.app/"
   },
   {
@@ -106,7 +106,7 @@ export const projectsList = [
     ],
     img: "/coinflip.webp",
     imgAlt: "CoinFlip Game",
-    github: `${GITHUB_URL}/CoinFlip.eth`,
+    github: `/CoinFlip.eth`,
     demo: "https://coinflip-eth.vercel.app/"
   },
   {
@@ -124,17 +124,17 @@ export const projectsList = [
     ],
     img: "/myportfolio.webp",
     imgAlt: "My Portfolio Website",
-    github: `${GITHUB_URL}/MyPortfolio-Site`,
+    github: `/MyPortfolio-Site`,
     demo: "https://www.adriandelgado.dev"
   },
   {
     name: "Vanilla Calculator",
     description:
-      "It's a colorful calculator built & designed from scratch that computes basic arithmetic. ",
+      "A colorful calculator built & designed from scratch that computes basic arithmetic using vanilla JavaScript.",
     tools: ["JavaScript", "CSS", "HTML"],
     img: "/Calculator.webp",
-    imgAlt: "Vanilla Calculator",
-    github: `${GITHUB_URL}/Calculator`,
+    imgAlt: "Colorful Calculator",
+    github: `/Calculator`,
     demo: "https://adriandelgg.github.io/Calculator/"
   }
 ];

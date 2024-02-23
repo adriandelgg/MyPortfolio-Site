@@ -1,6 +1,7 @@
 import { Card, CardMedia, CardContent, CardHeader, CardActions } from "@mui/material";
 import { projectsList } from "./projectsObj";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
+import { GITHUB_URL } from "@/config/constants";
 
 export const Projects = () => (
   <section id="projects">
@@ -39,7 +40,7 @@ export const Projects = () => (
               <a href={demo} target="_blank" rel="noreferrer noopener">
                 <FiExternalLink className="external-link" size="1.5em" color="white" />
               </a>
-              <a href={github} target="_blank" rel="noreferrer noopener">
+              <a href={GITHUB_URL + github} target="_blank" rel="noreferrer noopener">
                 <FiGithub className="github-link" size="1.5em" color="white" />
               </a>
             </CardActions>
