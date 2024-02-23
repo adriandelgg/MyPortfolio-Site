@@ -1,4 +1,6 @@
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Header } from "@/components/header/Header";
 import { Intro } from "@/components/intro/Intro";
 import { Projects } from "@/components/projects/Projects";
@@ -21,6 +23,8 @@ export default function Home() {
         {/* <AboutMe /> */}
         <Skills />
         <Projects />
+        <Analytics />
+        <SpeedInsights />
       </main>
       <Footer />
     </>
