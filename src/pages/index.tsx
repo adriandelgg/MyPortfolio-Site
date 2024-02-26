@@ -16,12 +16,10 @@ export default function Home() {
         <link rel="icon" href="/Logo.png" />
       </Head>
       <Header />
-      <main id="main">
-        <Intro />
-        {/* <AboutMe /> */}
-        <Skills />
-        <Projects />
-      </main>
+      <Intro />
+      {/* <AboutMe /> */}
+      <Skills />
+      <Projects />
       <Footer />
     </>
   );

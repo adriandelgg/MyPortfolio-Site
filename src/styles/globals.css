@@ -11,7 +11,6 @@ html {
 body {
 	background-color: #11142e;
 	color: #c8d3f0;
-	font-family: 'Roboto';
 }
 
 h1,
@@ -19,14 +18,11 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Roboto Mono', monospace;
-}
-
-h2 {
-	font-family: 'Roboto';
+	font-family: var(--font-jetbrains-mono), monospace;
 }
 
 p {
+	font-family: var(--font-lato), sans-serif;
 	max-width: 900px;
 }
 
@@ -46,7 +42,7 @@ li {
 	margin-bottom: 1.5em;
 	text-align: center;
 	color: #e4ebff;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .number {
@@ -86,8 +82,7 @@ nav {
 	padding: 2em;
 	font-size: 1rem;
 	font-weight: 600;
-	font-family: 'Roboto Mono', monospace;
-	color: var(--light-slate);
+	font-family: var(--font-jetbrains-mono), monospace;
 	cursor: pointer;
 }
 
@@ -117,7 +112,7 @@ nav {
 		right: 0;
 		top: 0;
 		background-color: #181c3a;
-		box-shadow: -10px 0px 30px -15px black;
+		box-shadow: -10px 0 30px -15px black;
 		z-index: 3;
 	}
 
@@ -131,8 +126,7 @@ nav {
 
 	.nav-link {
 		font-size: 1.3rem;
-		padding: 0;
-		padding-left: 0.5em;
+		padding: 0 0 0 0.5em;
 	}
 
 	.nav-links li::marker {
@@ -144,6 +138,7 @@ nav {
 		content: '';
 	}
 }
+
 @keyframes menuBar {
 	0% {
 		transform: translateX(300px);
@@ -186,6 +181,8 @@ nav {
 	padding: 0.2em 0;
 	animation: nameFade 0.8s 1s ease-out forwards;
 	opacity: 0;
+	font-family: var(--font-lato), sans-serif;
+
 }
 
 .intro-web-dev {
@@ -193,15 +190,15 @@ nav {
 	padding-bottom: 0.6em;
 	opacity: 0;
 	animation: nameFade 0.7s 1.75s ease-out forwards;
-	font-family: 'Roboto', sans-serif;
 }
 
 .web-dev {
-	font-family: 'Roboto Mono', monospace;
+	font-family: var(--font-jetbrains-mono), monospace;
 	letter-spacing: -2px;
 }
 
 .intro-paragraph {
+	font-weight: 400;
 	margin: 0.1em 0;
 	line-height: 1.4;
 	font-size: 1rem;
@@ -254,6 +251,7 @@ nav {
 #about-me {
 	margin-bottom: 7em;
 }
+
 .about-me-section {
 	display: flex;
 	flex-direction: column;
@@ -308,6 +306,7 @@ nav {
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	line-height: 1.7;
+	font-family: var(--font-lato), sans-serif;
 }
 
 .tech-tool {
@@ -336,13 +335,12 @@ nav {
 
 .skill {
 	width: 50%;
-	margin: 0 auto;
 	text-align: center;
-	margin-top: 3em;
+	margin: 3em auto 0;
 }
 
 .skill-name {
-	font-family: 'Roboto Mono', monospace;
+	font-family: var(--font-jetbrains-mono), monospace;
 	margin-top: 1em;
 	font-size: 1.25rem;
 	color: #e4ebff;
