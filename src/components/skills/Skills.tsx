@@ -2,7 +2,7 @@ import { skills } from "./skillsList";
 
 export const Skills = () => (
   <section id="skills" className="skills-section">
-    <h3 className="section-heading">My Skills</h3>
+    <h3 className="skills-heading section-heading">My Skills</h3>
     <div className="skills-container">
       {skills.map(({ name, img }) => (
         <figure className="skill" key={name}>

@@ -326,6 +326,10 @@ nav {
 	margin-bottom: 8em;
 }
 
+.skills-heading {
+	margin-bottom: 0;
+}
+
 .skills-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -338,11 +342,11 @@ nav {
 	align-items: center;
 	text-align: center;
 	width: 50%;
-	margin: 3em auto 0;
+	margin: 6em auto 0;
 }
 
 .skill-img {
-	height: 100px; /* Set the desired height for the image */
+	height: 60px;
 	width: auto;
 	object-fit: contain;
 }
@@ -374,7 +378,7 @@ nav {
 	}
 
 	.skill-img {
-		width: 4.6em;
+		height: 75px;
 	}
 }
 
