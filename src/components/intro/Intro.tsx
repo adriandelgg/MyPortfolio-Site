@@ -10,8 +10,9 @@ export const Intro = () => (
     </h3>
     <p className="intro-paragraph">Bringing ideas to life, one line at a time.</p>
     <p className="intro-paragraph">
-      I have a passion for building immersive full-stack applications from the ground up &
-      solving business problems through code.
+      I&apos;m a full-stack developer with a passion for writing clean code and applying
+      design patterns to create robust, scalable applications that make a meaningful
+      impact.
     </p>
     <div className="intro-socials">
       <Socials />

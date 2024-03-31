@@ -8,6 +8,10 @@ export const skills = [
     img: "/goLogo.svg"
   },
   {
+    name: "Rust",
+    img: "/rustLogo2.svg"
+  },
+  {
     name: "Solidity",
     img: "/solidity.svg"
   },
@@ -68,7 +72,7 @@ export const skills = [
     img: "/javascript.svg"
   },
   {
-    name: "TailwindCSS",
+    name: "Tailwind",
     img: "/tailwindcss.svg"
   },
   {

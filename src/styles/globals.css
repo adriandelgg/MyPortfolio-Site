@@ -330,13 +330,21 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
 }
 
 .skill {
-	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
+	width: 50%;
 	margin: 3em auto 0;
+}
+
+.skill-img {
+	height: 100px; /* Set the desired height for the image */
+	width: auto;
+	object-fit: contain;
 }
 
 .skill-name {
@@ -345,10 +353,6 @@ nav {
 	font-size: 1.25rem;
 	color: #e4ebff;
 	font-weight: 500;
-}
-
-.skill-img {
-	width: 4em;
 }
 
 .animation {
