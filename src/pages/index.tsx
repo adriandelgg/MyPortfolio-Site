@@ -10,16 +10,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Adrian Delgado&apos;s Website</title>
+        <title>Adrian&apos;s Website</title>
         <meta name="description" content="Adrian Delgado - Software Engineer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/Logo.png" />
       </Head>
       <Header />
-      <Intro />
-      {/* <AboutMe /> */}
-      <Skills />
-      <Projects />
+      <main id="main">
+        <Intro />
+        {/* <AboutMe /> */}
+        <Skills />
+        <Projects />
+      </main>
       <Footer />
     </>
   );

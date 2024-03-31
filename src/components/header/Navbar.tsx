@@ -1,5 +1,5 @@
 import { MenuMobile } from "./MenuMobile";
-import { useIsMobile } from "../../hooks/useIsMobile";
+import { useIsMobile } from "@/hooks/useIsMobile";
 import { NavItems } from "./NavItems";
 
 export const Navbar = () => {
