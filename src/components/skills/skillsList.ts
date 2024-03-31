@@ -9,7 +9,7 @@ export const skills = [
   },
   {
     name: "Rust",
-    img: "/rustLogo2.svg"
+    img: "/rustLogo.svg"
   },
   {
     name: "Solidity",
