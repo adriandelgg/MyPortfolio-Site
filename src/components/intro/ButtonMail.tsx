@@ -19,7 +19,8 @@ export const ButtonMail = () => {
           backgroundColor: "#181c3a",
           borderColor: "#f7bb50",
           color: "#f7bb50",
-          marginBottom: "2.5em"
+          marginBottom: "2.5em",
+          borderRadius: "0.6em"
         }}
         style={styles}
         className="resume-btn"

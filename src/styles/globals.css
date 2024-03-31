@@ -1,3 +1,9 @@
+/* Import JetBrains Mono font */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+/* Import Lato font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -18,11 +24,11 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--font-jetbrains-mono), monospace;
+	font-family: 'JetBrains Mono', monospace;
 }
 
 p {
-	font-family: var(--font-lato), sans-serif;
+	font-family: 'Lato', sans-serif;
 	max-width: 900px;
 }
 
@@ -82,7 +88,7 @@ nav {
 	padding: 2em;
 	font-size: 1rem;
 	font-weight: 600;
-	font-family: var(--font-jetbrains-mono), monospace;
+	font-family: 'JetBrains Mono', monospace;
 	cursor: pointer;
 }
 
@@ -181,7 +187,7 @@ nav {
 	padding: 0.2em 0;
 	animation: nameFade 0.8s 1s ease-out forwards;
 	opacity: 0;
-	font-family: var(--font-lato), sans-serif;
+	font-family: 'Lato', sans-serif;
 
 }
 
@@ -193,19 +199,23 @@ nav {
 }
 
 .web-dev {
-	font-family: var(--font-jetbrains-mono), monospace;
+	font-family: 'JetBrains Mono', monospace;
 	letter-spacing: -2px;
 }
 
 .intro-paragraph {
-	font-weight: 400;
+	font-weight: 500;
 	margin: 0.1em 0;
 	line-height: 1.4;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	color: #a6accd;
 	max-width: 25em;
 	animation: nameFade 0.7s 1.75s ease-out forwards;
 	opacity: 0;
+}
+
+.intro-statement {
+	margin-bottom: .3em;
 }
 
 .intro-socials {
@@ -262,7 +272,7 @@ nav {
 	margin: 0 auto; */
 }
 
-.myphoto {
+.my-photo {
 	height: 20em;
 	width: 20em;
 }
@@ -279,7 +289,7 @@ nav {
 		align-items: center;
 	}
 
-	.myphoto {
+	.my-photo {
 		margin-top: 0;
 	}
 }
@@ -306,7 +316,7 @@ nav {
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	line-height: 1.7;
-	font-family: var(--font-lato), sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .tech-tool {
@@ -352,7 +362,7 @@ nav {
 }
 
 .skill-name {
-	font-family: var(--font-jetbrains-mono), monospace;
+	font-family: 'JetBrains Mono', monospace;
 	margin-top: 1em;
 	font-size: 1.25rem;
 	color: #e4ebff;
