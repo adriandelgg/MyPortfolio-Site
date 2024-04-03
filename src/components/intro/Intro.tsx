@@ -12,9 +12,8 @@ export const Intro = () => (
       I bring ideas to life, one line at a time. 💡
     </p>
     <p className="intro-paragraph">
-      I&apos;m a full-stack developer with a passion for writing clean code by applying
-      design patterns to create robust, scalable applications that make a meaningful
-      impact.
+      I&apos;m a results-driven full-stack developer with a passion for writing code to
+      solve intricate business problems that make a meaningful impact on the world.
     </p>
     <div className="intro-socials">
       <Socials />
