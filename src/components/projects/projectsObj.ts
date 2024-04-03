@@ -46,7 +46,7 @@ export const projectsList = [
   {
     name: "Luxury Only Cattery",
     description:
-      "I built this site from scratch for a client to showcase their cat breeding business and attract new customers. It features a clean, modern design and is fully responsive on all devices. Using my front-end development skills, I created an engaging and user-friendly experience for visitors to learn about the cattery's services and see their adorable cats. In exchange for my work, the client gave me a kitten, making this project a truly special collaboration.",
+      "I built this site from scratch for a client to showcase their cat breeding business and attract new customers. It features a clean, modern design and is fully responsive on all devices. I created an engaging and user-friendly experience for visitors to learn about the cattery's services and see their adorable cats. In exchange for my work, my client gave me a kitten named Chloe, making this project one dear to my heart.",
     tools: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     img: "/luxury-only.png",
     imgAlt: "One of the Kings of the Cattery",
