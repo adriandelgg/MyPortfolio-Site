@@ -85,16 +85,16 @@ nav {
 
 .nav-link {
 	text-decoration: none;
-	padding: 2em;
-	font-size: 1rem;
+	padding: 2.5em;
+	font-size: 1.15rem;
 	font-weight: 600;
 	font-family: 'JetBrains Mono', monospace;
 	cursor: pointer;
+	transition: color 0.3s ease;
 }
 
 .nav-link:hover {
 	color: #f7bb50;
-	transition: color 0.3s;
 }
 
 .resume-btn:hover {
@@ -204,14 +204,14 @@ nav {
 }
 
 .intro-paragraph {
+	font-size: clamp(.8em, 4vw, 1.2rem);
 	font-weight: 500;
-	margin: 0.1em 0;
 	line-height: 1.4;
-	font-size: 1.1rem;
+	margin: 0.1em 0;
 	color: #a6accd;
 	max-width: 25em;
-	animation: nameFade 0.7s 1.75s ease-out forwards;
 	opacity: 0;
+	animation: nameFade 0.7s 1.75s ease-out forwards;
 }
 
 .intro-statement {
@@ -267,9 +267,6 @@ nav {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: space-between;
-	/* background-color: violet; */
-	/* width: 93%;
-	margin: 0 auto; */
 }
 
 .my-photo {
@@ -331,6 +328,7 @@ nav {
 	margin-left: 0.2em;
 }
 
+
 /* Skills */
 .skills-section {
 	margin-bottom: 8em;
@@ -370,16 +368,12 @@ nav {
 }
 
 .animation {
-	transform: translateZ(0);
-	transition-duration: 0.3s;
-	transition-property: transform;
-	transition-timing-function: ease-out;
+	transition: transform 0.3s ease;
 }
 
 .animation:hover,
-.animation:focus,
 .animation:active {
-	transform: translateY(-8px);
+	transform: translateY(-6px);
 }
 
 @media (min-width: 850px) {

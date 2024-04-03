@@ -9,10 +9,10 @@ export const Intro = () => (
       <span className="web-dev">&lt;Software Engineer/&gt;</span>
     </h3>
     <p className="intro-paragraph intro-statement">
-      Bringing ideas to life, one line at a time. 💡
+      I bring ideas to life, one line at a time. 💡
     </p>
     <p className="intro-paragraph">
-      I&apos;m a full-stack developer with a passion for writing clean code and applying
+      I&apos;m a full-stack developer with a passion for writing clean code by applying
       design patterns to create robust, scalable applications that make a meaningful
       impact.
     </p>
