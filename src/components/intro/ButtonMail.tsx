@@ -1,7 +1,7 @@
 import ChatIcon from "@mui/icons-material/Chat";
 import { animated, useSpring } from "@react-spring/web";
 import { Button } from "@mui/material";
-import { EMAIL_URL } from "@/config/constants";
+import { EMAIL_URL, GOLD_COLOR } from "@/config/constants";
 
 export const ButtonMail = () => {
   const styles = useSpring({
@@ -17,8 +17,8 @@ export const ButtonMail = () => {
       <AnimatedButton
         sx={{
           backgroundColor: "#181c3a",
-          borderColor: "#f7bb50",
-          color: "#f7bb50",
+          borderColor: GOLD_COLOR,
+          color: GOLD_COLOR,
           marginBottom: "2.5em",
           borderRadius: "0.6em"
         }}

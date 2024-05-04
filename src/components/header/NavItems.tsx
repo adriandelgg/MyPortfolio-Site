@@ -1,11 +1,11 @@
 import { animated, useTrail } from "@react-spring/web";
-// import { Button } from "@mui/material";
+import { ResumeButton } from "@/components/header/ResumeButton";
 
 export const NavItems = () => {
   const trails = useTrail(4, {
     from: { y: -30, opacity: 0 },
     to: { y: 0, opacity: 1 },
-    delay: 2200
+    delay: 2000
   });
 
   function handleClick(id: string) {
@@ -41,22 +41,9 @@ export const NavItems = () => {
           <span className="number">3.</span> Contact
         </a>
       </animated.li>
-      {/*<animated.li style={trails[3]}>*/}
-      {/*	<Button*/}
-      {/*		className="resume-btn"*/}
-      {/*		sx={{*/}
-      {/*			backgroundColor: '#181c3a',*/}
-      {/*			borderColor: '#f7bb50',*/}
-      {/*			color: '#f7bb50'*/}
-      {/*		}}*/}
-      {/*		variant="outlined"*/}
-      {/*		href=""*/}
-      {/*		target="_blank"*/}
-      {/*		rel="noopener noreferrer"*/}
-      {/*	>*/}
-      {/*		Resume*/}
-      {/*	</Button>*/}
-      {/*</animated.li>*/}
+      <animated.li style={trails[3]}>
+        <ResumeButton />
+      </animated.li>
     </ul>
   );
 };

@@ -1,5 +1,6 @@
 import { SocialsFooter } from "./SocialsFooter";
 import { HiArrowUp } from "react-icons/hi";
+import { GOLD_COLOR } from "@/config/constants";
 
 export const Footer = () => (
   <footer>
@@ -23,7 +24,7 @@ export const Footer = () => (
           })
         }
       >
-        <HiArrowUp size="3em" color="#fdfdfd" />
+        <HiArrowUp size="3em" color={GOLD_COLOR} />
       </a>
     </div>
   </footer>

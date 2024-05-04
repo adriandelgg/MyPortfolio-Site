@@ -1,10 +1,7 @@
 import type { Dispatch, SetStateAction } from "react";
-// import { Button } from "@mui/material";
-// import { RESUME_URL } from "@/config/constants";
+import { ResumeButton } from "@/components/header/ResumeButton";
 
-type Props = {
-  setOpen: Dispatch<SetStateAction<boolean>>;
-};
+type Props = { setOpen: Dispatch<SetStateAction<boolean>> };
 
 export const NavItemsMobile = ({ setOpen }: Props) => {
   function handleClick(id: string) {
@@ -26,22 +23,9 @@ export const NavItemsMobile = ({ setOpen }: Props) => {
       <li className="nav-link">
         <a onClick={() => handleClick("contact")}>Contact</a>
       </li>
-      {/*<li className="resume-btn">*/}
-      {/*  <Button*/}
-      {/*    sx={{*/}
-      {/*      backgroundColor: "#181c3a",*/}
-      {/*      borderColor: "#f7bb50",*/}
-      {/*      color: "#f7bb50"*/}
-      {/*    }}*/}
-      {/*    variant="outlined"*/}
-      {/*    href={RESUME_URL}*/}
-      {/*    target="_blank"*/}
-      {/*    rel="noopener noreferrer"*/}
-      {/*    onClick={() => setOpen(false)}*/}
-      {/*  >*/}
-      {/*    Resume*/}
-      {/*  </Button>*/}
-      {/*</li>*/}
+      <li className="resume-btn">
+        <ResumeButton isMobile setOpen={() => setOpen(false)} />
+      </li>
     </ul>
   );
 };
