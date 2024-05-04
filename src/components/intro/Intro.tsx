@@ -9,7 +9,7 @@ export const Intro = () => (
       <span className="web-dev">&lt;Software Engineer/&gt;</span>
     </h3>
     <p className="intro-paragraph intro-statement">
-      I bring ideas to life, one line at a time. 💡
+      I bring ideas to life, one line at a time.💡
     </p>
     <p className="intro-paragraph">
       I&apos;m a results-driven developer with a passion for building software that makes

@@ -20,6 +20,7 @@
 .env.test.local
 .env.production.local
 
+.idea
 *.pem
 
 # debug
@@ -37,3 +38,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
