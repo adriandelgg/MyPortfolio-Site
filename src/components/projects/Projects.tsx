@@ -1,5 +1,5 @@
 import { Card, CardMedia, CardContent, CardHeader, CardActions } from "@mui/material";
-import { projectsList } from "./projectsObj";
+import { projectsList } from "./projectsList";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { GITHUB_URL } from "@/config/constants";
 

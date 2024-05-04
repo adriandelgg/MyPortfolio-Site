@@ -1,6 +1,16 @@
 import { GITHUB_URL } from "@/config/constants";
 
-export const projectsList = [
+type ProjectsList = {
+  name: string;
+  description: string;
+  tools: string[];
+  img: string;
+  imgAlt: string;
+  github: string;
+  demo: string;
+}[];
+
+export const projectsList: ProjectsList = [
   // {
   //   name: "NFT Decentralized Exchange",
   //   description:
