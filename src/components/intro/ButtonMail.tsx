@@ -1,7 +1,7 @@
-import ChatIcon from "@mui/icons-material/Chat";
 import { animated, useSpring } from "@react-spring/web";
 import { Button } from "@mui/material";
 import { EMAIL_URL, GOLD_COLOR } from "@/config/constants";
+import EmailIcon from "@mui/icons-material/Email";
 
 export const ButtonMail = () => {
   const styles = useSpring({
@@ -25,9 +25,9 @@ export const ButtonMail = () => {
         style={styles}
         className="resume-btn"
         variant="outlined"
-        endIcon={<ChatIcon />}
+        endIcon={<EmailIcon />}
       >
-        Let&apos;s chat!
+        Contact me
       </AnimatedButton>
     </a>
   );

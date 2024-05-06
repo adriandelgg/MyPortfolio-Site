@@ -173,6 +173,10 @@ nav {
 	min-height: 100vh;
 }
 
+.intro-section-container {
+	margin-bottom: 7%;
+}
+
 .intro-greeting {
 	font-size: clamp(13px, 5vw, 19px);
 	color: #f7bb50;
