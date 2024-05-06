@@ -79,6 +79,10 @@ li {
 	color: var(--gold-color);
 }
 
+.btn-hover {
+	@apply hover:bg-[#fdcc77] hover:text-black;
+}
+
 @media (max-width: 710px) {
 	.hamburger-react {
 		z-index: 4;
@@ -117,7 +121,7 @@ li {
 		content: "▸";
 	}
 
-	.nav-links .resume-btn::marker {
+	.nav-links .btn-hover::marker {
 		content: "";
 	}
 }
@@ -152,12 +156,12 @@ li {
 
 .intro-name {
 	font-size: clamp(40px, 8vw, 70px);
-	color: var(--text-color);
 	font-weight: 700;
+	font-family: var(--lato-font);
+	color: var(--text-color);
 	padding: 0.2em 0;
 	animation: nameFade 0.8s 1s ease-out forwards;
 	opacity: 0;
-	font-family: var(--lato-font);
 }
 
 .intro-web-dev {

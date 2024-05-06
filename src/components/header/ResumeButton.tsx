@@ -14,7 +14,7 @@ export const ResumeButton = ({ isMobile, setOpen }: Props) => {
 
   return (
     <Button
-      className="hover:bg-[#fdcc77] hover:text-black"
+      className="btn-hover"
       variant={isMobile ? "contained" : "outlined"}
       sx={{ borderRadius: "0.6em", ...styles }}
       href={RESUME_URL}

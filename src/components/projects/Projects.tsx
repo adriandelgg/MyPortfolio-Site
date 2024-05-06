@@ -23,11 +23,11 @@ export const Projects = () => (
                 <img className="w-full" src={img} alt={imgAlt} />
               </a>
             </CardMedia>
-            <CardContent>
-              <p className="leading-6">{description}</p>
+            <CardContent component="p" sx={{ lineHeight: "1.5rem" }}>
+              {description}
             </CardContent>
             <CardContent>
-              <h5>Tools Used:</h5>
+              <h4 className="mb-1">Tools Used:</h4>
               <ul className="font-lato flex flex-wrap leading-8">
                 {tools.map(tool => (
                   <li className="mr-4" key={Math.random()}>

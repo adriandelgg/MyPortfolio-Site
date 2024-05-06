@@ -23,7 +23,7 @@ export const ButtonMail = () => {
           borderRadius: "0.6em"
         }}
         style={styles}
-        className="resume-btn"
+        className="btn-hover"
         variant="outlined"
         endIcon={<EmailIcon />}
       >

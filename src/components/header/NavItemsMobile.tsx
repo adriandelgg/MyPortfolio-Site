@@ -11,9 +11,6 @@ export const NavItemsMobile = ({ setOpen }: Props) => {
 
   return (
     <ul id="mobile-nav" className="nav-links animate-mobile animate-back-in">
-      {/* <li className="nav-link">
-				<a onClick={() => handleClick('about-me')}>About</a>
-			</li> */}
       <li className="nav-link">
         <a onClick={() => handleClick("skills")}>Skills</a>
       </li>
@@ -23,7 +20,7 @@ export const NavItemsMobile = ({ setOpen }: Props) => {
       <li className="nav-link">
         <a onClick={() => handleClick("contact")}>Contact</a>
       </li>
-      <li className="resume-btn">
+      <li className="btn-hover">
         <ResumeButton isMobile setOpen={() => setOpen(false)} />
       </li>
     </ul>
