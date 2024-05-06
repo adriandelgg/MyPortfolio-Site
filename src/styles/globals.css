@@ -4,6 +4,16 @@
 /* Import Lato font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--gold-color: #f7bb50;
+	--jetbrains-font: 'JetBrains Mono', monospace;
+	--lato-font: 'Lato', sans-serif;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -24,11 +34,11 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'JetBrains Mono', monospace;
+	font-family: var(--jetbrains-font);
 }
 
 p {
-	font-family: 'Lato', sans-serif;
+	font-family: var(--lato-font);
 	max-width: 900px;
 }
 
@@ -52,7 +62,7 @@ li {
 }
 
 .number {
-	color: #f7bb50;
+	color: var(--gold-color);
 }
 
 /* Header */
@@ -88,13 +98,13 @@ nav {
 	padding: 2.5em;
 	font-size: 1.15rem;
 	font-weight: 600;
-	font-family: 'JetBrains Mono', monospace;
+	font-family: var(--jetbrains-font);
 	cursor: pointer;
 	transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-	color: #f7bb50;
+	color: var(--gold-color);
 }
 
 .resume-btn:hover {
@@ -136,7 +146,7 @@ nav {
 	}
 
 	.nav-links li::marker {
-		color: #f7bb50;
+		color: var(--gold-color);
 		content: '▸';
 	}
 
@@ -179,7 +189,7 @@ nav {
 
 .intro-greeting {
 	font-size: clamp(13px, 5vw, 19px);
-	color: #f7bb50;
+	color: var(--gold-color);
 	opacity: 0;
 	animation: greetingFade 1s ease-out forwards;
 }
@@ -191,7 +201,7 @@ nav {
 	padding: 0.2em 0;
 	animation: nameFade 0.8s 1s ease-out forwards;
 	opacity: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: var(--lato-font);
 
 }
 
@@ -203,7 +213,7 @@ nav {
 }
 
 .web-dev {
-	font-family: 'JetBrains Mono', monospace;
+	font-family: var(--jetbrains-font);
 	letter-spacing: -2px;
 }
 
@@ -317,7 +327,7 @@ nav {
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	line-height: 1.7;
-	font-family: 'Lato', sans-serif;
+	font-family: var(--lato-font);
 }
 
 .tech-tool {
@@ -334,20 +344,6 @@ nav {
 
 
 /* Skills */
-.skills-section {
-	margin-bottom: 8em;
-}
-
-.skills-heading {
-	margin-bottom: 0;
-}
-
-.skills-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
 .skill {
 	display: flex;
 	flex-direction: column;
@@ -364,7 +360,7 @@ nav {
 }
 
 .skill-name {
-	font-family: 'JetBrains Mono', monospace;
+	font-family: var(--jetbrains-font);
 	margin-top: 1em;
 	font-size: 1.25rem;
 	color: #e4ebff;
