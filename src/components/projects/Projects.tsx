@@ -5,8 +5,8 @@ import { GITHUB_URL } from "@/config/constants";
 
 export const Projects = () => (
   <section id="projects">
-    <h3 className="section-heading project-heading">Projects I&apos;ve Created</h3>
-    <ul className="projects-list">
+    <h3 className="section-heading">Projects I&apos;ve Created</h3>
+    <ul>
       {projectsList.map(({ name, img, imgAlt, description, tools, github, demo }) => (
         <li key={name}>
           <Card
@@ -20,17 +20,17 @@ export const Projects = () => (
             <CardHeader component="h4" title={name} />
             <CardMedia>
               <a href={demo} target="_blank" rel="noreferrer noopener">
-                <img className="project-photo" src={img} alt={imgAlt} />
+                <img className="w-full" src={img} alt={imgAlt} />
               </a>
             </CardMedia>
             <CardContent>
-              <p className="project-description">{description}</p>
+              <p className="leading-6">{description}</p>
             </CardContent>
             <CardContent>
               <h5>Tools Used:</h5>
-              <ul className="tech-tools">
+              <ul className="font-lato flex flex-wrap leading-8">
                 {tools.map(tool => (
-                  <li className="tech-tool" key={Math.random()}>
+                  <li className="mr-4" key={Math.random()}>
                     {tool}
                   </li>
                 ))}
@@ -38,10 +38,10 @@ export const Projects = () => (
             </CardContent>
             <CardActions>
               <a href={demo} target="_blank" rel="noreferrer noopener">
-                <FiExternalLink className="external-link" size="1.5em" color="white" />
+                <FiExternalLink className="ml-2" size="1.5em" color="white" />
               </a>
               <a href={GITHUB_URL + github} target="_blank" rel="noreferrer noopener">
-                <FiGithub className="github-link" size="1.5em" color="white" />
+                <FiGithub className="ml-1" size="1.5em" color="white" />
               </a>
             </CardActions>
           </Card>

@@ -9,8 +9,14 @@ export const Skills = () => (
           className="mx-auto mt-[6em] flex w-1/2 flex-col items-center text-center md:w-1/3"
           key={name}
         >
-          <img className="animation skill-img" src={img} alt={name} />
-          <figcaption className="skill-name">{name}</figcaption>
+          <img
+            className="animation h-[60px] w-auto object-contain md:h-[75px]"
+            src={img}
+            alt={name}
+          />
+          <figcaption className="font-jetbrains text-ne mt-5 text-xl font-medium text-gray-200">
+            {name}
+          </figcaption>
         </figure>
       ))}
     </div>

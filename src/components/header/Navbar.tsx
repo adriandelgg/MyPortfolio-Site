@@ -5,5 +5,9 @@ import { NavItems } from "./NavItems";
 export const Navbar = () => {
   const isMobile = useIsMobile();
 
-  return <nav>{isMobile ? <MenuMobile /> : <NavItems />}</nav>;
+  return (
+    <nav className="flex items-center justify-between">
+      {isMobile ? <MenuMobile /> : <NavItems />}
+    </nav>
+  );
 };

@@ -20,7 +20,7 @@ export const NavItems = () => {
         onClick={() => handleClick("skills")}
       >
         <a>
-          <span className="number">1.</span> Skills
+          <span className="text-gold">1.</span> Skills
         </a>
       </animated.li>
       <animated.li
@@ -29,7 +29,7 @@ export const NavItems = () => {
         onClick={() => handleClick("projects")}
       >
         <a>
-          <span className="number">2.</span> Projects
+          <span className="text-gold">2.</span> Projects
         </a>
       </animated.li>
       <animated.li
@@ -38,7 +38,7 @@ export const NavItems = () => {
         onClick={() => handleClick("contact")}
       >
         <a>
-          <span className="number">3.</span> Contact
+          <span className="text-gold">3.</span> Contact
         </a>
       </animated.li>
       <animated.li style={trails[3]}>

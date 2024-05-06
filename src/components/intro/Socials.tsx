@@ -10,7 +10,7 @@ export const Socials = () => {
   });
 
   return (
-    <>
+    <div className="mx-0 my-8 flex">
       <a href={GITHUB_URL} target="_blank" rel="noreferrer noopener">
         <animated.li style={trails[0]}>
           <FiGithub className="social-img animation" size="1.5em" color="#c8d3f0" />
@@ -21,6 +21,6 @@ export const Socials = () => {
           <FiLinkedin className="social-img animation" size="1.5em" color="#c8d3f0" />
         </animated.li>
       </a>
-    </>
+    </div>
   );
 };
