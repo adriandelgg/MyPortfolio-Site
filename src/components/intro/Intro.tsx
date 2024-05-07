@@ -3,7 +3,7 @@ import { ButtonMail } from "./ButtonMail";
 
 export const Intro = () => (
   <section className="flex h-screen flex-col justify-center">
-    <div className="mb-14">
+    <div className="mb-20">
       <h1 className="intro-greeting">Hello, my name is</h1>
       <h2 className="intro-name">Adrian Delgado.</h2>
       <h3 className="intro-web-dev">

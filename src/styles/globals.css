@@ -93,7 +93,7 @@ li {
 		flex-direction: column;
 		justify-content: space-evenly;
 		width: min(75vw, 400px);
-		padding: 3em 0;
+		padding: 3rem 0 7rem;
 		height: 100vh;
 		position: fixed;
 		right: 0;
