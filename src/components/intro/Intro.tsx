@@ -7,7 +7,9 @@ export const Intro = () => (
       <h1 className="intro-greeting">Hello, my name is</h1>
       <h2 className="intro-name">Adrian Delgado.</h2>
       <h3 className="intro-web-dev">
-        <span className="font-jetbrains tracking-tight">&lt;Software Engineer/&gt;</span>
+        <span className="font-jetbrains tracking-tighter">
+          &lt;Software Engineer/&gt;
+        </span>
       </h3>
       <p className="intro-paragraph">I bring ideas to life, one line at a time.💡</p>
       <p className="intro-paragraph">

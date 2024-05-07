@@ -26,7 +26,7 @@ export const Footer = () => (
         })
       }
     >
-      <HiArrowUp size="3em" color={GOLD_COLOR} />
+      <HiArrowUp size="3rem" color={GOLD_COLOR} />
     </div>
   </footer>
 );
